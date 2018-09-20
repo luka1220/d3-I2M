@@ -3,6 +3,7 @@ import logo from './i2m_350.png';
 import './App.css';
 import Graph from "./components/idea_graph";
 
+
 class App extends Component {
   render() {
     return (

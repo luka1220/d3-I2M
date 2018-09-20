@@ -1,4 +1,3 @@
-text {
-	background-color: #009; 
-	width: 10px;
+circle:hover {
+	fill:#987;
 }

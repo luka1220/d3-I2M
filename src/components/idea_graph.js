@@ -143,6 +143,7 @@ class Graph extends React.Component {
 
 		d3.select("#r-link").remove(); //remove rect
 		d3.select("#t-link").remove();
+		d3.select(".iframe").remove();
 
 		const node = this.node
 		const { color } = this.state
@@ -169,6 +170,19 @@ class Graph extends React.Component {
 		.style("fill", color.text)
 		.text(uriLink);
 
+		d3.select('svg') 
+        .append('foreignObject')
+        .attr('class', "iframe")
+        .attr("x", d.x+200)
+		.attr("y",  d.y-20)
+		.attr("width", 200)
+		.attr("height", 200)
+		.append("iframe")
+        .attr("src", function(d) {
+            return uriLink;  //src for each frame
+        })
+        .attr("width", 50)
+        .attr("height", 50)
 
 	}
 	setInfoOnNodes(nodes, elemEnter){
@@ -250,8 +264,11 @@ class Graph extends React.Component {
 	      		<div>
 	      			<Navigation updateDataRange={this.updateDataRange}/>
 		      		<svg ref={node => this.node = node}
-					    width={window.innerWidth} height={900}>
+					    width={window.innerWidth/1.2} height={900}>
 					</svg>
+					<div className="float-right">
+						<iframe id="content" src="http://dbpedia.org/resource/Home"></iframe>
+					</div>
 				</div>
 				   )
 	}

@@ -4,9 +4,10 @@ import Navigation from "./navigation";
 import JSON_DATA from '../CHI19S1-ideas.json';
 import "./graph.css";
 import { textwrap } from 'd3-textwrap';
+import { wrap } from './textwraper'; 
 const React = require('react');
 var d3 = require("d3");
-
+var colorDictionary = new Map(); 
 
 
 class Graph extends React.Component {
@@ -14,9 +15,16 @@ class Graph extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			startPoint: {x:30, y:60},
+			startPoint: {x:120, y:200},
 			dataRange: {fromIndex: 0, toIndex:10},
-			circleRadius: "20px"
+			circleRadius: "30px",
+			nodeSpace: {x: 110, y:70},
+			color: {
+				back: "#73c487",
+				text: "#210000",
+				idea: "#35ba57",
+				conzept: "#ddb31a",
+				hover: "#91a596"}
 		}
 		this.setgraph = this.setgraph.bind(this)
 	}
@@ -31,6 +39,8 @@ class Graph extends React.Component {
 	componentDidUpdate(prevProps, prevState, snapshot){
 		if(prevState.dataRange !== this.state.dataRange){
 			d3.selectAll("g").remove(); 
+			d3.select("#r-link").remove(); //remove rect
+			d3.select("#t-link").remove(); //remove text link uri
 
 			var data = this.dataHandler(this.state.dataRange)
 			this.setgraph(data.nodes, data.links)
@@ -42,14 +52,19 @@ class Graph extends React.Component {
 		const data = JSON_DATA.slice(dataRange.fromIndex,dataRange.toIndex); 
 		console.log(data)
 		var processedData = []
-		const startPoint = this.state.startPoint
+		const {
+			startPoint,
+			color,
+			nodeSpace 
+			} = this.state
+
 		processedData = data.map((idea,i)=>{
 			var ideaObj = {
-				x: startPoint.x + (i*100),
+				x: startPoint.x + (i*nodeSpace.x),
 				y: startPoint.y,
 				description: idea.description,
 				label: idea.id,
-				color: "green"
+				color: color.idea
 			}
 
 			return ideaObj; 
@@ -61,48 +76,109 @@ class Graph extends React.Component {
 
 		var conzeptsData = []
 		data.forEach((idea, i)=>{
-			var conzepts = idea.validatedConcepts.map((conz,i2)=>{
+
+			var conzepts = idea
+				.validatedConcepts
+				.sort((a,b)=>{return (a.uri<b.uri)? -1: (a.uri>b.uri)? 1:0})
+				.map((conz,i2)=>{
+				var colorDic = this.getColorFromDic(conz.uri) 
 				return {
-					x: startPoint.x+(i*100),
-					y: startPoint.y+(i2*50)+60,
+					x: startPoint.x+(i*nodeSpace.x),
+					y: startPoint.y+(i2*nodeSpace.y)+nodeSpace.y,
 					label:conz.token,
-					color:"yellow"
+					uri: conz.uri,
+					color:colorDic
 				}
 			})
 			conzeptsData = conzeptsData.concat(conzepts)
 		})
-
 		return {nodes:processedData, links:links, conzeptNodes: conzeptsData}; 
 
+	}
+	getColorFromDic(uri){
+		if(colorDictionary.get(uri)){
+
+		} else{
+			let color = 'rgb(' + (Math.floor(Math.random() * 206)+50) + ',' + (Math.floor(Math.random() * 206)+50) + ',' + (Math.floor(Math.random() * 206)+50) + ')';
+			colorDictionary.set(uri, color)	//"#"+((1<<24)*Math.random()|0).toString(16)
+		} 
+		return colorDictionary.get(uri)
 	}
 
 	handleMouseOver = (d,i) => {
 		const node = this.node;
 		console.log(d,i)
 
+		const { color } =this.state; 
+
+		var rect = d3.select(node)
+		.append("rect")
+		.attr("x", d.x-100)
+		.attr("dy",  d.y-150)
+		.attr("width", 220)
+		.attr("height", 130)
+		.attr("fill", color.back)
+		.attr("id", "r" + i + "-" + d.x + "-" + d.y)
+
 		var textnode = d3.select(node)
 		.append("text")
-		.attr("dx", d.x)
-		.attr("dy",  d.y-30)
+		.attr("dx", d.x-90)
+		.attr("dy",  d.y-180)
 		.attr("id", "t" + i + "-" + d.x + "-" + d.y)
-		.attr("text-anchor","middle")
+		.attr("text-anchor","start")
 		.text(function() { return d.description; })
-		.style("fill","red");
+		.style("fill", color.text);
 
-		var wrap = textwrap()
-		.bounds({height: 480, width: 500})
-		.method('tspans');
-
-		//textnode.call(wrap)
+		//var wrap = textwrap()
+		//.bounds({height: 480, width: 500})
+		//.method('tspans');
+		wrap(textnode, 200)
 	}
 	handleMouseOut = (d, i) => {
-		d3.select("#t"+ i + "-" + d.x + "-" + d.y).remove(); 
+		d3.select("#t"+ i + "-" + d.x + "-" + d.y).remove(); //remove idea text
+		d3.select("#r"+ i + "-" + d.x + "-" + d.y).remove(); //remove rect
 	}
-	setIdeaNodes(nodes, elemEnter){
+
+	handleOnClickConzeptNode = (d, i) => {
+
+		d3.select("#r-link").remove(); //remove rect
+		d3.select("#t-link").remove();
+
+		const node = this.node
+		const { color } = this.state
+		var uriLink = d.uri
+		var width = uriLink.length; 
+
+		var rect = d3.select(node)
+		.append("rect")
+		.attr("x", d.x+20)
+		.attr("y",  d.y-20)
+		.attr("width", width * 10)
+		.attr("height", 30)
+		.attr("fill", color.back)
+		.attr("id", "r-link")
+
+		var textnode = d3.select(node)
+		.append("text")
+		.attr("dx", d.x+30)
+		.attr("dy",  d.y)
+		.attr("id", "t-link")
+		.attr("text-anchor","start")
+		.append("a")
+		.attr("xlink:href", uriLink)
+		.style("fill", color.text)
+		.text(uriLink);
+
+
+	}
+	setInfoOnNodes(nodes, elemEnter){
 		if(nodes[0].description){
 			elemEnter
 			.on("mouseover", this.handleMouseOver)
 			.on("mouseout", this.handleMouseOut)
+		} else {
+			elemEnter.
+			on("click", this.handleOnClickConzeptNode)
 		}
 	}
 
@@ -116,21 +192,22 @@ class Graph extends React.Component {
 		   
 		var elemEnter = elem.enter()
 			.append("g")
-        	//.attr("transform", function(d){return "translate("+d.x+",80)"})
-
+        	
 		var circle = elemEnter.append("svg:circle")
 		   .attr("cx", function(d) { return d.x; })
 		   .attr("cy", function(d) { return d.y; })
 		   .attr("r", circleRadius)
 		   .attr("fill", function(d) { return d.color; })
 
-		this.setIdeaNodes(nodes, elemEnter) 
+		this.setInfoOnNodes(nodes, elemEnter) 
 
 		var text = elemEnter.append("text")
 			.attr("dx", function(d){return d.x})
 			.attr("dy", function(d){return d.y})
 			.attr("text-anchor","middle")
         	.text(function(d){return d.label})
+
+        wrap(text, 120)
 	}
 
 	setLinks(links, place){
@@ -173,7 +250,7 @@ class Graph extends React.Component {
 	      		<div>
 	      			<Navigation updateDataRange={this.updateDataRange}/>
 		      		<svg ref={node => this.node = node}
-					    width={window.innerWidth} height={500}>
+					    width={window.innerWidth} height={900}>
 					</svg>
 				</div>
 				   )

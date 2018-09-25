@@ -15,10 +15,11 @@ class Graph extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			startPoint: {x:120, y:200},
+			startPoint: {x:parseInt(window.innerWidth*0.67/12, 10), y:200},
 			dataRange: {fromIndex: 0, toIndex:10},
-			circleRadius: "30px",
-			nodeSpace: {x: 110, y:70},
+			circleRadius: "3%",
+			nodeSpace: {x: parseInt(window.innerWidth*0.67/12, 10), y:70},
+			conzept: {uri: undefined},
 			color: {
 				back: "#73c487",
 				text: "#210000",
@@ -141,16 +142,24 @@ class Graph extends React.Component {
 
 	handleOnClickConzeptNode = (d, i) => {
 
-		d3.select("#r-link").remove(); //remove rect
-		d3.select("#t-link").remove();
-		d3.select(".iframe").remove();
+		//d3.select("#r-link").remove(); //remove rect
+		//d3.select("#t-link").remove();
+		//d3.select(".iframe").remove();
 
 		const node = this.node
-		const { color } = this.state
+		const { color,
+				circleRadius } = this.state
 		var uriLink = d.uri
 		var width = uriLink.length; 
 
-		var rect = d3.select(node)
+		console.log(this)
+		/*d3.select(this)
+		.attr({
+              fill: "orange",
+              r: circleRadius * 2
+            }); 
+            */
+		/*var rect = d3.select(node)
 		.append("rect")
 		.attr("x", d.x+20)
 		.attr("y",  d.y-20)
@@ -169,20 +178,11 @@ class Graph extends React.Component {
 		.attr("xlink:href", uriLink)
 		.style("fill", color.text)
 		.text(uriLink);
+		*/
 
-		d3.select('svg') 
-        .append('foreignObject')
-        .attr('class', "iframe")
-        .attr("x", d.x+200)
-		.attr("y",  d.y-20)
-		.attr("width", 200)
-		.attr("height", 200)
-		.append("iframe")
-        .attr("src", function(d) {
-            return uriLink;  //src for each frame
-        })
-        .attr("width", 50)
-        .attr("height", 50)
+		this.setState({
+			conzept: {uri: uriLink}
+		})
 
 	}
 	setInfoOnNodes(nodes, elemEnter){
@@ -260,17 +260,32 @@ class Graph extends React.Component {
 
 	render(){
 		console.log(this.state.dataRange)
+		const {conzept} = this.state; 
 	      	return (
-	      		<div>
-	      			<Navigation updateDataRange={this.updateDataRange}/>
-		      		<svg ref={node => this.node = node}
-					    width={window.innerWidth/1.2} height={900}>
-					</svg>
-					<div className="float-right">
-						<iframe id="content" src="http://dbpedia.org/resource/Home"></iframe>
+	      		<div className="">
+	      			<Navigation className="" updateDataRange={this.updateDataRange}/>
+	      			<div className="row">
+		      			<div className="col-8">
+			      			<svg ref={node => this.node = node}
+							    width="100%" height={900}>
+							</svg>
+		      			</div>
+					<div className="col-4">
+						<ConzeptIFrame uri = {conzept.uri}/>
+					</div>
 					</div>
 				</div>
 				   )
+	}
+}
+
+function ConzeptIFrame(props){
+	if(props.uri){
+		return(
+		<iframe width="100%" height="100%" id="ConzeptIFrame" src={props.uri}></iframe>
+		)
+	} else {
+		return null; 
 	}
 }
 

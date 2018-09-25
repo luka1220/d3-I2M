@@ -17,7 +17,7 @@ class Navigation extends Component {
 
 	render() {
     	return (
-    		<div className="float-right">
+    		<div className="">
     			<button type="button" className="btn btn-light" onClick={this.handleOnClickPrevIdeas} >Show previous 10 Ideas</button>
     			<button type="button" className="btn btn-dark" onClick={this.handleOnClickNextIdeas} >Show next 10 Ideas</button>
     		</div>

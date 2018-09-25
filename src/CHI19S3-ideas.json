@@ -1,0 +1,5433 @@
+[
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coffee",
+        "token": "coffe"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "al features in your house"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Smart_TV",
+        "token": "al smart features"
+      }
+    ],
+    "description": "You could create a smart coffe table where you could aaccess al the smart features in your house and also have a key board too",
+    "id": 10602
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Credit_(finance)",
+        "token": "credit"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Debit_card",
+        "token": "card"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "size"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wallet",
+        "token": "your wallet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coin_purse",
+        "token": "purse"
+      }
+    ],
+    "description": "You could create credit card size tablets that you could carry in your wallet or purse ",
+    "id": 10604
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Inch",
+        "token": "inch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "house"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/It_(pronoun)",
+        "token": "it"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Custom_(law)",
+        "token": "custom"
+      }
+    ],
+    "description": "You could coat every inch of you walls and have a house that changes looks when even you want it to. A custom house everyday if you wanted",
+    "id": 10608
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Aerosol_spray",
+        "token": "spray"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "size"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fish",
+        "token": "fish"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Water_tank",
+        "token": "tank"
+      }
+    ],
+    "description": "spray on the walls and have a full size digital fish tank ",
+    "id": 10609
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Severe_weather",
+        "token": "bad weather"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Change_(philosophy)",
+        "token": "change"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sun",
+        "token": "sun"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "your home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Spring_(season)",
+        "token": "spring"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Autumn",
+        "token": "fall"
+      }
+    ],
+    "description": "Smart windows. You could block out bad weather or change when the sun rises or sets inside your home. Also, you could have spring or fall scenes whenever you wanted",
+    "id": 10616
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Telephone",
+        "token": "phone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/System",
+        "token": "system"
+      }
+    ],
+    "description": "create a digital phone system anywhere you would want. ",
+    "id": 10617
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_size",
+        "token": "screen display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room_temperature",
+        "token": "temperature in house"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/End_user",
+        "token": "user"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Input_device",
+        "token": "input"
+      }
+    ],
+    "description": "On any wall in a house, you could use this coating to turn the wall into a touch screen display to control the temperature in the house. The wall would bring up the current temperature, options to lower and raise the temperature, as well as automatic settings that can controlled based on the user's input.",
+    "id": 10603
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Refrigerator",
+        "token": "On refrigerator could placed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/User_(system)",
+        "token": "user"
+      }
+    ],
+    "description": "On a refrigerator, this coating could be placed in order to control the temperature of the refrigerator as well as provide the user with a list of what's inside.",
+    "id": 10606
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Lock_(security_device)",
+        "token": "lock"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Number",
+        "token": "number"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "could typed on car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Person",
+        "token": "person"
+      }
+    ],
+    "description": "A digital lock for a car. A number could be typed into the touch display on the car allowing a person to unlock their car without their keys.",
+    "id": 10607
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Electronic_visual_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Restaurant",
+        "token": "table at restaurant"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Customer",
+        "token": "Customers"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Menu",
+        "token": "menu"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Food",
+        "token": "food"
+      }
+    ],
+    "description": "A touch screen display on the table at a restaurant. Customers would be able to bring up the menu on the table's display to order their food and pay their bill. ",
+    "id": 10610
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Electronic_visual_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cabinetry",
+        "token": "cabinet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Basic_needs",
+        "token": "basic necessities"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Toilet",
+        "token": "toilet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Paper",
+        "token": "paper"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tooth",
+        "token": "tooth"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "other house"
+      }
+    ],
+    "description": "A display on your cabinet that allows you to order the basic necessities such as toilet paper, tooth paste, and other house hold needs.",
+    "id": 10611
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Electronic_tuner",
+        "token": "tuner"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/String_instrument",
+        "token": "instrument"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Guitar",
+        "token": "guitar"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Relative_direction",
+        "token": "directions"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "screen"
+      }
+    ],
+    "description": "A tuner for an instrument. A guitar could benefit from this by having the display act as a tuner for the guitar. Different tunes for the guitar could be options and directions would display on the touch screen.",
+    "id": 10615
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wallet",
+        "token": "wallet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/User_(system)",
+        "token": "user"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Currency",
+        "token": "currency"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Debits_and_credits",
+        "token": "debit"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Credit_(finance)",
+        "token": "credit"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/ATM_card",
+        "token": "card"
+      }
+    ],
+    "description": "A display for a wallet. The display would allow a user to view their digital currency such as debit and credit card balances without opening their wallet.",
+    "id": 10621
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Floor",
+        "token": "floor"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Dance",
+        "token": "dance"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Guide",
+        "token": "guide"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Foot",
+        "token": "your feet"
+      }
+    ],
+    "description": "turn the floor into an interactive dance guide to tell you where to place your feet and practice your timing.",
+    "id": 10605
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Electronic_visual_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bookcase",
+        "token": "bookshelves"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Library",
+        "token": "library"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Book",
+        "token": "books"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Shelf_(storage)",
+        "token": "shelf"
+      }
+    ],
+    "description": "create a display on bookshelves either at home or in a library to show a list of the books on the shelf to make it easier to find what you are looking for.",
+    "id": 10613
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Electronic_visual_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Windshield",
+        "token": "windshield"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Global_Positioning_System",
+        "token": "gps"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Eye",
+        "token": "your eyes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Road",
+        "token": "road"
+      }
+    ],
+    "description": "create a display on the car windshield to show a gps map so you can keep your eyes forward and on the road and navigate more safely.",
+    "id": 10620
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "panels"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Food",
+        "token": "food"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Et_cetera",
+        "token": "etc."
+      }
+    ],
+    "description": "Interactive panels on devices used for food preparation - you can use your hands to check items off a list as you accomplish them, etc.",
+    "id": 10612
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Child",
+        "token": "Children"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Toy",
+        "token": "toys"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Video",
+        "token": "videos"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Periodization",
+        "token": "periods"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Time",
+        "token": "time"
+      }
+    ],
+    "description": "Children's toys could have instructional videos on how to use them or creative ways to use them so children will find them engaging for greater periods of time.",
+    "id": 10614
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Recording",
+        "token": "recordings"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Video",
+        "token": "video"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Medicine",
+        "token": "medicine"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Interaction",
+        "token": "interactions"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Adverse_effect",
+        "token": "effects"
+      }
+    ],
+    "description": "Add touch screens to prescriptions to have them play audio recordings (screen might be too small for video recordings) about how to use the medicine inside, interactions, side effects, etc.",
+    "id": 10618
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Animal",
+        "token": "animal"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Toy",
+        "token": "toys"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Stimulus_(physiology)",
+        "token": "stimuli"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pet",
+        "token": "pets engaged"
+      }
+    ],
+    "description": "Put cheaper/cruder touch screens (as they could be damaged) on animal toys so they can play audio stimuli to keep pets engaged and active.",
+    "id": 10619
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pattern",
+        "token": "pattern"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mobile_phone",
+        "token": "cell phone"
+      }
+    ],
+    "description": "Put one on the outside of your home so that you could unlock your home with a physical pattern, much like you do with a cell phone.",
+    "id": 10622
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pressure",
+        "token": "pressure"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Location_(geography)",
+        "token": "place"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Telephone",
+        "token": "phone"
+      }
+    ],
+    "description": "If they are pressure sensitive, put one in a place where something is supposed to be, so that it can alert you if the item is not there - i.e. if you put your phone somewhere, place a pressure pad there so that it can let you know you put your phone in a place where you don't want it to be.",
+    "id": 10623
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Foot",
+        "token": "feet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Light",
+        "token": "light"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Hand",
+        "token": "hands"
+      }
+    ],
+    "description": "Place them on the ground so that you can control simple actions with your feet - turning a light on and off, opening a door, etc., while keeping your hands free for whatever you are doing.",
+    "id": 10624
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Digital_data",
+        "token": "Digital"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Number",
+        "token": "number"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Intention",
+        "token": "purposes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Light",
+        "token": "light"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Dimension",
+        "token": "dimension"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Brightness",
+        "token": "brightness"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Hue",
+        "token": "hue"
+      }
+    ],
+    "description": "Digital two dimensional sliders could be used for a number of purposes and would be better than conventional sliders because they would allow for a much greater range of motion. Imagine a slider you use for your light - if the slider had to be made so that it could reach any given point in a square instead of just being able to move in one dimension, that might be very expensive and inconvenient. Perhaps the slider could control light brightness, on one axis, and light hue (white, blue, etc.) on the other.",
+    "id": 10626
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Remote_control",
+        "token": "TV remote"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Smart_TV",
+        "token": "smart TV"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Degrees_of_freedom",
+        "token": "greater degree of freedom"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Image",
+        "token": "picture"
+      }
+    ],
+    "description": "TV remote with a touchscreen so that you could add/move/change different screen elements of a smart TV with a greater degree of freedom - you could shrink the main picture if you wanted to check something on the guide screen or something similar.",
+    "id": 10627
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Whiteboard",
+        "token": "whiteboard"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Idea",
+        "token": "ideas"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Drag_and_drop",
+        "token": "drag items help"
+      }
+    ],
+    "description": "Turn any table into a whiteboard for ideas by coating a table with it. You can write on the table, scribble down notes, drag and drop items to help with organization, etc.",
+    "id": 10628
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Toolbox",
+        "token": "toolboxes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Box",
+        "token": "boxes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tool",
+        "token": "your tools"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Toolbox",
+        "token": "one toolbox"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wrench",
+        "token": "wrenches"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Screwdriver",
+        "token": "screwdrivers"
+      }
+    ],
+    "description": "Coat toolboxes so that you can label what the boxes contain and organize your tools in an efficient manner. For instance, one toolbox will hold wrenches and screwdrivers while another holds handheld tools.",
+    "id": 10629
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "doors"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Business",
+        "token": "business"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Solicitor",
+        "token": "solicitors"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "house"
+      }
+    ],
+    "description": "Apply the coating to doors to serve as indicators for whether or not you are home, whether a business is open or closed, whether or not visitors or solicitors are welcome. You can also use it the write down reminders for when you are leaving the house, such as \"Don't forget your keys,\" etc.",
+    "id": 10630
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Privacy",
+        "token": "privacy"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Business",
+        "token": "Businesses"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Billboard",
+        "token": "billboard"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Civilian",
+        "token": "Civilians"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/People",
+        "token": "people"
+      }
+    ],
+    "description": "Apply the coating to windows which allow you to create privacy screens or advertising space. Businesses can use the coating to turn any large window into a billboard. Civilians can use the coating to increase personal privacy by displaying black screens or other images to prevent people from peeping.",
+    "id": 10631
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Farmer",
+        "token": "farmer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Silo",
+        "token": "silo"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/He",
+        "token": "he"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Grain",
+        "token": "grain"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Silo",
+        "token": "silo"
+      }
+    ],
+    "description": "Coat storage tanks to create informative indicators for how much space or product remains in the tanks. For example, a farmer might have a silo that he fills with grain. Coating the silo with this to turn it into a display would allow him to see how much space remains in the silo, or how much grain is contained within the silo.",
+    "id": 10632
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Refrigerator",
+        "token": "refrigerator"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Refrigerator",
+        "token": "freezer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Food",
+        "token": "food"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Calendar_date",
+        "token": "dates"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Person",
+        "token": "person"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Grocery_store",
+        "token": "shop for during future grocery trips"
+      }
+    ],
+    "description": "Touch screen refrigerator and freezer to indicate the temperature of the unit, show the food contained within, and indicate expiration dates of various food stuffs. The door can also provide a list of things that the person needs to shop for during future grocery trips.",
+    "id": 10634
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Road_surface",
+        "token": "road surface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Condition-based_maintenance",
+        "token": "maintenance"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Government",
+        "token": "government"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Road",
+        "token": "roads"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Need",
+        "token": "need"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Maintenance,_repair,_and_operations",
+        "token": "repair"
+      }
+    ],
+    "description": "Coat a road surface with it to show how much and when maintenance might be required. This makes it easier for government agencies to determine which roads are in need of repair.",
+    "id": 10636
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Shower",
+        "token": "shower"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Thought",
+        "token": "thoughts"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Idea",
+        "token": "ideas"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Self-care",
+        "token": "self-care"
+      }
+    ],
+    "description": "Turn a shower door into a note pad for jotting down shower thoughts or and random ideas you may have while undergoing your daily grooming or self-care routine.",
+    "id": 10638
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/HVAC",
+        "token": "heater"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Thermostat",
+        "token": "thermostat"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/End_user",
+        "token": "user"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Heat",
+        "token": "heat"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Person",
+        "token": "person"
+      }
+    ],
+    "description": "Turn any heater into an individual thermostat by allowing the user to see how much heat is being produced by the heater. The person can then adjust the heater as needed and save on utility costs.",
+    "id": 10641
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Idea",
+        "token": "One idea"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Multi-touch",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Liquid-crystal_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Program_(machine)",
+        "token": "program"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mereology",
+        "token": "parts"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Color",
+        "token": "color"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Television",
+        "token": "TV"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer",
+        "token": "computer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Liquid-crystal_display",
+        "token": "screens"
+      }
+    ],
+    "description": "One idea would be to make a paint that when dry will turn your walls or whatever you paint with it into a touch sensitive display. You would be able to program which parts do what when you touch them, and be able to change the color of the paint at will and you wouldn't ever need a TV or computer screens as you could just make them on your walls.",
+    "id": 10633
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Visor",
+        "token": "visor"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Motorcycle",
+        "token": "motorcycle"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Helmet",
+        "token": "helmet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Electromagnetically_induced_transparency",
+        "token": "transparent"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Weather",
+        "token": "weather"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Speed",
+        "token": "speed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Message",
+        "token": "messages"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/People",
+        "token": "people"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "screen"
+      }
+    ],
+    "description": "You could apply the coating to the visor of a motorcycle helmet, assuming it's transparent you could use it to tell you things like the weather, your speed, messages from people, and so on, without having to stop or look at another screen and be distracted.",
+    "id": 10637
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wrist",
+        "token": "wrist"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Hand",
+        "token": "hand"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Watch",
+        "token": "watch"
+      }
+    ],
+    "description": "You could apply the coating to your wrist or the back of your hand to have a watch that you would never need to take off.",
+    "id": 10639
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Building",
+        "token": "building"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer_program",
+        "token": "program"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fingerprint",
+        "token": "fingerprint"
+      }
+    ],
+    "description": "You could apply the coating to all the door handles in your home or building and program them to only open when someone with the right fingerprint tries to open them.",
+    "id": 10642
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bottle",
+        "token": "bottle"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fluid",
+        "token": "fluid"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      }
+    ],
+    "description": "You could apply the coating onto a bottle and when you touch it, have it tell you how much fluid is left in it and what exactly the fluid is, as well as the temperature of the fluid.",
+    "id": 10644
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Interactivity",
+        "token": "interactivity"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tablet_computer",
+        "token": "tablet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer",
+        "token": "computers"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "size"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_device",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Liquid-crystal_display",
+        "token": "definition"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Television",
+        "token": "televisions"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Television",
+        "token": "tv"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Application_software",
+        "token": "applications"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Channel_(broadcasting)",
+        "token": "channel"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Video",
+        "token": "video"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "games"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Finger",
+        "token": "fingers"
+      }
+    ],
+    "description": "Combining the power and interactivity of tablet computers and the size and display of high definition televisions. Being able to touch tv's to select applications, channel guides, and even play video games with the tips of your fingers.",
+    "id": 10635
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/I",
+        "token": "I"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Use_case",
+        "token": "use"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Security",
+        "token": "security"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "cars"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "your car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Key_code",
+        "token": "key codes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Application_software",
+        "token": "apps"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Telephone",
+        "token": "your phone fobs"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Nothing",
+        "token": "nothing"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fingerprint",
+        "token": "your fingerprint"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Vehicle",
+        "token": "your vehicle"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Theft",
+        "token": "theft"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Vehicle",
+        "token": "vehicles"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Quantity",
+        "token": "amount"
+      }
+    ],
+    "description": "I'd like to use that coating to improve security for cars. Nowadays, you're able to enter your car with key codes, apps on your phone, fobs, etc. But nothing is more secure than being able to use your fingerprint to unlock or lock your vehicle. Or being able to use all those methods at once would reduce theft of vehicles by a large amount.",
+    "id": 10640
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Refrigerator",
+        "token": "refrigerator"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Food",
+        "token": "food"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Refrigerator",
+        "token": "temperature of fridge items"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Delivery_(commerce)",
+        "token": "delivery"
+      }
+    ],
+    "description": "Touch screen refrigerator that can list the food items contained within it. Also, it can adjust the temperature of the fridge and order items when you run out from delivery services. ",
+    "id": 10643
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "tables"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Restaurant",
+        "token": "restaurants"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Distraction",
+        "token": "great distraction"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Child",
+        "token": "children"
+      }
+    ],
+    "description": "Put the coating on tables in restaurants. Kids like to make a mess when eating out. Having something like a virtual display on the table would make a great distraction by allowing children to doodle drawings while they wait.",
+    "id": 10645
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Furniture",
+        "token": "furniture"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pattern",
+        "token": "patterns"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Design",
+        "token": "designs"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Stain",
+        "token": "stains"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Couch",
+        "token": "couch"
+      }
+    ],
+    "description": "Use it on furniture to draw and design different patterns that match the rest of your living room. Also, the coating could be used to make such designs that cover over past spills and stains on the couch.",
+    "id": 10646
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bed",
+        "token": "bed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_device",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sleep",
+        "token": "sleep"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pattern",
+        "token": "patterns"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Heart",
+        "token": "heart"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Rhythm",
+        "token": "rhythms"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Human_body",
+        "token": "body"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Function_(biology)",
+        "token": "functions"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sleep",
+        "token": "you sleep"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Synchronization",
+        "token": "sync"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Application_software",
+        "token": "application"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(information)",
+        "token": "table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Information",
+        "token": "information"
+      }
+    ],
+    "description": "Put the coating on a bed. That layer of a touch display could record sleep patterns, heart beat and rhythms, and other body functions while you sleep. You could sync it up to an application to have a table of information to review.",
+    "id": 10649
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Technology",
+        "token": "technology"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Building",
+        "token": "building"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Facade",
+        "token": "facades"
+      }
+    ],
+    "description": "We could use the technology to skin the exterior of building facades to make interactive walls.",
+    "id": 10647
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Liquid-crystal_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Furniture",
+        "token": "furniture surfaces"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Morgan_D._Peoples",
+        "token": "people"
+      }
+    ],
+    "description": "The display incorporated into furniture surfaces so that people could change their aesthetic on a whim.",
+    "id": 10648
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Technology",
+        "token": "technology"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Drink",
+        "token": "type of beverage"
+      }
+    ],
+    "description": "Using the technology on cups so that they display the type of beverage contained within.",
+    "id": 10650
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Technology",
+        "token": "technology"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Windshield",
+        "token": "windsheilds"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Map",
+        "token": "map directions"
+      }
+    ],
+    "description": "Incorporate the technology onto automotive windsheilds so they can display map directions.",
+    "id": 10651
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Floor",
+        "token": "floors"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sidewalk",
+        "token": "sidewalks"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Morgan_D._Peoples",
+        "token": "people"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Relative_direction",
+        "token": "directions"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      }
+    ],
+    "description": "Applied to floors and sidewalks so that people can use it for directions where they want to go.",
+    "id": 10652
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Tattoo",
+        "token": "tattoos"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Human_body",
+        "token": "body"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Art",
+        "token": "art"
+      }
+    ],
+    "description": "Used in lieu of tattoos as a form of body art.",
+    "id": 10653
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Sunglasses",
+        "token": "could used over iris as replacement for sunglasses"
+      }
+    ],
+    "description": "It could be used over the iris as a replacement for sunglasses",
+    "id": 10654
+  },
+  {
+    "validatedConcepts": [],
+    "description": "Applied to windows to produce a dimmed or frosted effect.",
+    "id": 10655
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Building",
+        "token": "buildings"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Billboard",
+        "token": "billboards"
+      }
+    ],
+    "description": "Add it to buildings to serve as billboards.",
+    "id": 10656
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "Coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clothing",
+        "token": "clothing"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Interactive_media",
+        "token": "it interactive"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pattern",
+        "token": "pattern"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Color",
+        "token": "color"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Plain_text",
+        "token": "text"
+      }
+    ],
+    "description": "Coating clothing to make it interactive and harness it's ability to change pattern, color, and text.",
+    "id": 10657
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coffee",
+        "token": "coffee"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "tables"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Multimedia",
+        "token": "media"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Automatic_control",
+        "token": "control"
+      }
+    ],
+    "description": "Use the coating on coffee tables to serve as a media control center.",
+    "id": 10658
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Button_(computing)",
+        "token": "button"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Floor",
+        "token": "floor"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Activity_diagram",
+        "token": "activity guide"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/User_(system)",
+        "token": "user"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Human_body",
+        "token": "body"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fun",
+        "token": "fun"
+      }
+    ],
+    "description": "A touch of a button could transform the floor into an aerobic activity guide. The floor would light up in a way that instructed the user to move their body to create a fun and challenging work out that could be easily customized.",
+    "id": 10659
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touch screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_device",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Area",
+        "token": "area"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/User_(computing)",
+        "token": "user"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Terrain",
+        "token": "terrain"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Train",
+        "token": "train"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Metro_station",
+        "token": "station"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      }
+    ],
+    "description": "A touch screen could transform a window of the home into a beautiful and live display of a specified area. The user could choose to look at mountainous terrain or a nearby train station, whatever it is that they are curious to see at the moment.",
+    "id": 10660
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "special touch screen device"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "device"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Specification_(technical_standard)",
+        "token": "specifications"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Scenario_planning",
+        "token": "different scenarios prepare"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/User_(computing)",
+        "token": "user"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Choice",
+        "token": "choices"
+      }
+    ],
+    "description": "A special touch screen device could help users to rehearse for a social event. The device could be programmed to the user's specifications and then give the user different scenarios to prepare for using the screen to display the imaginary event to go along with the user's choices.",
+    "id": 10661
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touch screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/User_(computing)",
+        "token": "user"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clothing",
+        "token": "clothing"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Hand_washing",
+        "token": "last instances washing"
+      }
+    ],
+    "description": "A touch screen could be placed in conjunction with a large wardrobe. The touch screen would allow the user to mix and match outfits visually. The device would keep track of all items of clothing and would display the last instances of washing and wearing.",
+    "id": 10662
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Bracelet",
+        "token": "bracelet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Projector",
+        "token": "projector"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Forearm",
+        "token": "forearm"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Android_(operating_system)",
+        "token": "android properties"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_(topology)",
+        "token": "surface"
+      }
+    ],
+    "description": "a bracelet that emits projector like thing on your forearm in which you can use android properties even in bath or wet  surface.",
+    "id": 10680
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Refrigerator",
+        "token": "refrigerator"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Note-taking",
+        "token": "note"
+      }
+    ],
+    "description": "a digital memo pad that is placed on the refrigerator that serves as a reminder note.",
+    "id": 10683
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Display_advertising",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Glasses",
+        "token": "eyeglass"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Information",
+        "token": "information"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Weather",
+        "token": "weather conditions"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Person",
+        "token": "person"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/X-ray",
+        "token": "x-ray"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Vision_(spirituality)",
+        "token": "vision"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Capability_(systems_engineering)",
+        "token": "capabilities"
+      }
+    ],
+    "description": "a touchable display eyeglass that shows information like weather conditions, vital signs of person with x-ray vision capabilities.",
+    "id": 10687
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Mirror",
+        "token": "mirror"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/News",
+        "token": "news"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Weather",
+        "token": "weather"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      }
+    ],
+    "description": "A mirror with a touch display on it so that it displays the latest news or weather on one side of it while you get ready on the other.",
+    "id": 10679
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer_desk",
+        "token": "computer desk"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/End_user",
+        "token": "users"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer_speaker",
+        "token": "speakers"
+      }
+    ],
+    "description": "A touch screen on a computer desk. This would help users with control settings that affects the volume of the speakers.",
+    "id": 10681
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "house"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room_temperature",
+        "token": "house including temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Electronics",
+        "token": "electronics"
+      }
+    ],
+    "description": "Touch screen on the wall in a house. It can adjust virtually everything in the house including temperature and other electronics.",
+    "id": 10682
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Dumbbell",
+        "token": "dumbbells"
+      }
+    ],
+    "description": "Touch screen on dumbbells that tells you how many reps you have done.",
+    "id": 10684
+  },
+  {
+    "validatedConcepts": [],
+    "description": "Touch screen on arm rest of couch. This will allow you to change the channel without needing a remote.",
+    "id": 10685
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "house"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature on it"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sunlight",
+        "token": "sunlight"
+      }
+    ],
+    "description": "Screen on the window of a house. This window can tell you the temperature on it and with a press of a button, can darken the window so that no sunlight passes through.",
+    "id": 10686
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Scarf",
+        "token": "scarf"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_device",
+        "token": "display"
+      }
+    ],
+    "description": "turn a scarf into a portable display",
+    "id": 10688
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Public_space",
+        "token": "public apace"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Graffiti",
+        "token": "graffitti"
+      }
+    ],
+    "description": "a public apace can turn into a place for interactive graffitti",
+    "id": 10690
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wrist",
+        "token": "wrist"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Smartphone",
+        "token": "smartphone"
+      }
+    ],
+    "description": "put a touchscreen around your wrist to use like a smartphone",
+    "id": 10692
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      }
+    ],
+    "description": "touch wall to change temperature",
+    "id": 10694
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/YouTube",
+        "token": "youtube"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Shower",
+        "token": "shower"
+      }
+    ],
+    "description": "watch youtube in shower",
+    "id": 10695
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Input/output",
+        "token": "input"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      }
+    ],
+    "description": "input a keycode onto a car door",
+    "id": 10696
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Closet",
+        "token": "closet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clothing",
+        "token": "outfits"
+      }
+    ],
+    "description": "touchscreen on closet helps you make outfits",
+    "id": 10697
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mirror",
+        "token": "mirror"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cosmetics",
+        "token": "makeup"
+      }
+    ],
+    "description": "touchscreen on mirror tries on outfits or makeup",
+    "id": 10698
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Umbrella",
+        "token": "umbrella"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Day",
+        "token": "day"
+      }
+    ],
+    "description": "add it to your umbrella so it shows a sunny day",
+    "id": 10699
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Projection_screen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Infant",
+        "token": "baby"
+      }
+    ],
+    "description": "touch screen on baby so it shows what is making the baby fussy",
+    "id": 10700
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Weather",
+        "token": "weather"
+      }
+    ],
+    "description": "touchscreen on window to show weather",
+    "id": 10701
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cup",
+        "token": "cup"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Message",
+        "token": "messages"
+      }
+    ],
+    "description": "touchscreen on a cup to show short messages",
+    "id": 10702
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tennis",
+        "token": "tennis"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Ball",
+        "token": "ball"
+      }
+    ],
+    "description": "touchscreen on tennis ball counts hits and power",
+    "id": 10703
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Office",
+        "token": "office"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Desk",
+        "token": "desk"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Calendar",
+        "token": "calendar"
+      }
+    ],
+    "description": "touchscreen on office desk shows calendar",
+    "id": 10704
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "There could coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_advertising",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fingerprint",
+        "token": "fingerprint"
+      }
+    ],
+    "description": "There could be coating applied to a door and you can unlock it when you touch the display, but it will only recognize your fingerprint.",
+    "id": 10689
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Laptop",
+        "token": "back of laptop"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Laptop",
+        "token": "laptop"
+      }
+    ],
+    "description": "You can put in on the back of a laptop, and with a touch the laptop would open.",
+    "id": 10691
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "would applied to window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      }
+    ],
+    "description": "The coating would be applied to a window, so that with a touch you can make the window transparent or matted.",
+    "id": 10693
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Input_(computer_science)",
+        "token": "input"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/List_of_Viz_comic_strips",
+        "token": "things"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Social_group",
+        "token": "group"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Meeting",
+        "token": "meetings"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Audience",
+        "token": "audience member"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Chair",
+        "token": "chairs"
+      }
+    ],
+    "description": "You could vote on and give input on things in group meetings, like audience member's chairs.",
+    "id": 10705
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Multimedia",
+        "token": "media"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_device",
+        "token": "displays"
+      }
+    ],
+    "description": "You could display media on the table and not require dedicated items like visual displays.  Perhaps holographs.",
+    "id": 10706
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "game"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/System",
+        "token": "system"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Purchasing",
+        "token": "purchase"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "games"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Subscription_business_model",
+        "token": "subscription"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Web_service",
+        "token": "service"
+      }
+    ],
+    "description": "A game system that doesn't require individual purchase of games, but through a subscription service.",
+    "id": 10707
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/IBM_PC_keyboard",
+        "token": "keyboard"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Electronics",
+        "token": "electronics"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pathogen",
+        "token": "germs"
+      }
+    ],
+    "description": "A personal keyboard that interfaces with common public electronics so you don't have to get germs while interacting with them. ",
+    "id": 10709
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Application_software",
+        "token": "app"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cat",
+        "token": "cat"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Litter_box",
+        "token": "litter"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Box",
+        "token": "box"
+      }
+    ],
+    "description": "An app to remind you how long your cat litter has been in the litter box.",
+    "id": 10710
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cage_(enclosure)",
+        "token": "cage"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cat",
+        "token": "cat"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Atmosphere_of_Earth",
+        "token": "air"
+      }
+    ],
+    "description": "An attachment to your window, like a cage, which will allow your cat to sit outside in the open air.",
+    "id": 10712
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wallet",
+        "token": "wallet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Global_Positioning_System",
+        "token": "gps"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Application_software",
+        "token": "app"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      }
+    ],
+    "description": "A wallet that has a gps and app to track where it is if you've lost it or had it stolen",
+    "id": 10715
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Information",
+        "token": "information"
+      }
+    ],
+    "description": "Windows that are capable of dimming or displaying information.",
+    "id": 10716
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Molecule",
+        "token": "molecules"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Atmosphere_of_Earth",
+        "token": "air"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Recipe",
+        "token": "recipe"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Food",
+        "token": "foods"
+      }
+    ],
+    "description": "A device that is capable of smelling, by detecting molecules in the air and giving the recipe of foods",
+    "id": 10718
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Brush",
+        "token": "brush"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Hair",
+        "token": "hair"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Length",
+        "token": "length"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/People",
+        "token": "people"
+      }
+    ],
+    "description": "A brush capable of cutting hair to a preset length for people who like short hair.",
+    "id": 10719
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window_blind",
+        "token": "blinds"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Curtain",
+        "token": "curtains"
+      }
+    ],
+    "description": "A touchscreen window that could control all of your window blinds and curtains.",
+    "id": 10708
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Alloy_wheel",
+        "token": "wheel"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tire",
+        "token": "tire"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pressure",
+        "token": "pressure"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Brake",
+        "token": "brake"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wear",
+        "token": "wear"
+      }
+    ],
+    "description": "A touch display car wheel which could adjust tire pressure, show brake status, and tire wear.",
+    "id": 10711
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Shower",
+        "token": "shower"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Lighting",
+        "token": "lighting"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Water",
+        "token": "water"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      }
+    ],
+    "description": "A touchscreen shower door that controls lighting, water temperature and flow.",
+    "id": 10713
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Nightstand",
+        "token": "nightstand"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Lighting",
+        "token": "lighting"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      }
+    ],
+    "description": "A touchscreen nightstand that controls lighting, room temperature, and alarms.",
+    "id": 10714
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Lighting",
+        "token": "lighting"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Security",
+        "token": "security"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/System",
+        "token": "systems"
+      }
+    ],
+    "description": "A touchscreen door that controls locks, lighting, and security systems.",
+    "id": 10717
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Closet",
+        "token": "closet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clothing",
+        "token": "different outfits"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clothing",
+        "token": "clothing"
+      }
+    ],
+    "description": "A touchscreen closet door that allows you to view different outfits and clothing options in your wardrobe.",
+    "id": 10720
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Shopping",
+        "token": "shopping"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cart",
+        "token": "cart"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Smartphone",
+        "token": "phone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Grocery_store",
+        "token": "grocery"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sales",
+        "token": "coupons"
+      }
+    ],
+    "description": "A touchscreen shopping cart that could sync with your phone to show your grocery list as well as sale items and coupons.",
+    "id": 10722
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Playpen",
+        "token": "playpen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "games"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Film",
+        "token": "movies"
+      }
+    ],
+    "description": "A touchscreen playpen in which the child could choose games, movies, or communication.",
+    "id": 10723
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bed",
+        "token": "bed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      }
+    ],
+    "description": "A touchscreen bed that could adjust firmness and temperature.",
+    "id": 10725
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Attic",
+        "token": "attic"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      }
+    ],
+    "description": "A touchscreen attic door that can show you the location of what you have in storage.",
+    "id": 10727
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pantry",
+        "token": "pantry"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Food",
+        "token": "food"
+      }
+    ],
+    "description": "A touchscreen pantry that shows you what food you have and can order more when you're running low.",
+    "id": 10730
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Couch",
+        "token": "couch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Television",
+        "token": "tv"
+      }
+    ],
+    "description": "A touchscreen couch that can change tv channels.",
+    "id": 10731
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Map",
+        "token": "maps"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Galaxy",
+        "token": "galaxy"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Outer_space",
+        "token": "space"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Meteorite",
+        "token": "meteorites"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Planet",
+        "token": "planets"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Star",
+        "token": "stars"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fact",
+        "token": "facts"
+      }
+    ],
+    "description": "Interactive maps of the galaxy, it will allow us to explore what we currently know about space. Let us zoom in, click meteorites, planets, and stars for facts.",
+    "id": 10721
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Text_(literary_theory)",
+        "token": "text"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Book",
+        "token": "books"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Reference",
+        "token": "reference"
+      }
+    ],
+    "description": "Spray it in text books to select important parts and separate them from the main text to reference later, taking the hassle out of highlighting and bookmarking which is more permanent and hard to sift through. ",
+    "id": 10724
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Fact",
+        "token": "facts"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Number",
+        "token": "numbers"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "size"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Outcomes_theory",
+        "token": "outcome"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Diet_(nutrition)",
+        "token": "diet"
+      }
+    ],
+    "description": "Spray it on the nutritional facts of items you're eating or thinking of buying so you can interact with the numbers. See how serving size effects the outcome and whether you can fit it into your diet. ",
+    "id": 10728
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Debit_card",
+        "token": "cards"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Debits_and_credits",
+        "token": "debit"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Credit_(finance)",
+        "token": "credit"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Debit_card",
+        "token": "card"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Money",
+        "token": "money"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Merchant",
+        "token": "merchants"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Budget",
+        "token": "budgeting"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cash",
+        "token": "cash"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Consumer_protection",
+        "token": "protection"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bank",
+        "token": "bank"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Account_(accountancy)",
+        "token": "account"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Retail",
+        "token": "store"
+      }
+    ],
+    "description": "Spray it on cards to replace debit and credit cards. When you spray an electronic card you can load it with money to use with merchants. It allows for the budgeting of cash, and the protection of using a card that is not linked to your bank account, but can also be used over and over and conveniently. Spray a card, load $10 on it, and send your kid to the store for whatever it is you need. ",
+    "id": 10732
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/GNU_Screen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Electric_stove",
+        "token": "stove"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Recipe",
+        "token": "recipes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cooking",
+        "token": "track of your past cooking experiences"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Rate_function",
+        "token": "rate"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tableware",
+        "token": "dishes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Feature_(computer_vision)",
+        "token": "could example one feature"
+      }
+    ],
+    "description": "touch screen stove that has recipes and keeps track of your past cooking experiences. The  ability to rate past cooking dishes could be an example one feature.",
+    "id": 10726
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Intention",
+        "token": "purpose"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Film",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Photograph",
+        "token": "photos"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Task_(computing)",
+        "token": "tasks"
+      }
+    ],
+    "description": "A dual purpose screen that hangs on wall. It displays uploaded photos and also be used to map out daily tasks.",
+    "id": 10729
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Cosmetics",
+        "token": "makeup"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mirror",
+        "token": "mirror"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Skin",
+        "token": "tones for your skin type"
+      }
+    ],
+    "description": "A makeup mirror that can help you decide the best tones for your skin type",
+    "id": 10733
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Video_game",
+        "token": "game"
+      }
+    ],
+    "description": "An interactive game for kids.",
+    "id": 10734
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "panel"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Heat",
+        "token": "heat"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Light",
+        "token": "light"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Air_conditioning",
+        "token": "A/C"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      }
+    ],
+    "description": "A master panel to control heat, light and A/C in a home",
+    "id": 10735
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Desk",
+        "token": "desk"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Notebook",
+        "token": "notebook"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/App_store",
+        "token": "store"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Microsoft_OneNote",
+        "token": "notes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer",
+        "token": "your computer"
+      }
+    ],
+    "description": "A built-in desk notebook that you can write on and store notes to your computer.",
+    "id": 10736
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Weight_training",
+        "token": "weights"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Data",
+        "token": "data"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Physical_exercise",
+        "token": "workouts"
+      }
+    ],
+    "description": "A display screen on weights to analyze data from workouts.",
+    "id": 10737
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Electric_stove",
+        "token": "Stove"
+      }
+    ],
+    "description": "Stove",
+    "id": 10738
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      }
+    ],
+    "description": "A window display where you can control the light in the room",
+    "id": 10739
+  },
+  {
+    "validatedConcepts": [],
+    "description": "A doorway with an access code built into it",
+    "id": 10740
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Water",
+        "token": "water"
+      }
+    ],
+    "description": "An essential oil diffuser so you can control how much water vs oil is in it and when to stop it.",
+    "id": 10742
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coffeemaker",
+        "token": "coffeemaker"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Water",
+        "token": "water"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coffee",
+        "token": "coffee"
+      }
+    ],
+    "description": "A coffeemaker that you can control how much water and coffee goes through the machine",
+    "id": 10745
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Color",
+        "token": "color"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/People",
+        "token": "people"
+      }
+    ],
+    "description": "A frame that when you put a color in front of it, it tells you the exact color you are using, designed for colorblind people.",
+    "id": 10747
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Holiday",
+        "token": "holiday decor"
+      }
+    ],
+    "description": "A board that when you touch the screen can turn any holiday decor over to the next. ",
+    "id": 10749
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Theme_(arts)",
+        "token": "themes"
+      }
+    ],
+    "description": "Changing wall hangings to new themes",
+    "id": 10750
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touch display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pantry",
+        "token": "pantry"
+      }
+    ],
+    "description": "A touch display would be great to keep track of pantry items with a scanner bar to add or subtract what is in your pantry.",
+    "id": 10752
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Calendar",
+        "token": "calendar"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Birthday",
+        "token": "birthdays"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Holiday",
+        "token": "holiday"
+      }
+    ],
+    "description": "A calendar that you can add birthdays and holiday's to and it changes as the days progress.",
+    "id": 10757
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      }
+    ],
+    "description": "A temperature guage on a window or door to tell how hot/cold it is indoors as well as outdoors.",
+    "id": 10763
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Multimedia",
+        "token": "multimedia"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      }
+    ],
+    "description": "Turn any room into a multimedia room by painting the wall",
+    "id": 10741
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Ceiling",
+        "token": "ceiling"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Application_software",
+        "token": "app"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sky",
+        "token": "sky"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Night",
+        "token": "night"
+      }
+    ],
+    "description": "Paint a ceiling and run an app to make the ceiling look like the sky or a starry night",
+    "id": 10743
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car_seat",
+        "token": "back of seats in car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Film",
+        "token": "movies"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "games"
+      }
+    ],
+    "description": "you could use this on the back of the seats in the car so kids could watch movies or play games",
+    "id": 10744
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Shopping_cart",
+        "token": "grocery carts"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Grocery_store",
+        "token": "groceries"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Advertising",
+        "token": "ad"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Baggage_cart",
+        "token": "cart"
+      }
+    ],
+    "description": "grocery carts could display ads and you could scan groceries as you ad them to your cart. ",
+    "id": 10746
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "restaurant tables"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Interactive_media",
+        "token": "could interactive"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "game"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Play_from_scrimmage",
+        "token": "play"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Menu",
+        "token": "menu"
+      }
+    ],
+    "description": "restaurant tables could be interactive for game play and ordering from the menu",
+    "id": 10748
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Kitchen",
+        "token": "kitchen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Recipe",
+        "token": "recipes"
+      }
+    ],
+    "description": "use it on your kitchen island to look up recipes while you cook",
+    "id": 10753
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Shower",
+        "token": "shower"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/News",
+        "token": "news"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Music",
+        "token": "pandora videos"
+      }
+    ],
+    "description": "Use it in the shower to display the news or play pandora and music videos",
+    "id": 10761
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Garage_(residential)",
+        "token": "garage"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Do_it_yourself",
+        "token": "DIY"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Video",
+        "token": "videos"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Maintenance,_repair,_and_operations",
+        "token": "repair"
+      }
+    ],
+    "description": "on a garage wall to show DIY videos on home repair",
+    "id": 10764
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Backpack",
+        "token": "backpack"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Homework",
+        "token": "homework"
+      }
+    ],
+    "description": "on a backpack to keep track of homework",
+    "id": 10769
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Computer",
+        "token": "computer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Desk",
+        "token": "desk"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_(topology)",
+        "token": "surface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/LCD_television",
+        "token": "display"
+      }
+    ],
+    "description": "A computer desk where the entire surface is a touch display",
+    "id": 10751
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Mat",
+        "token": "mat"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Musical_keyboard",
+        "token": "keyboard"
+      }
+    ],
+    "description": "A flexible mat that becomes a touch keyboard",
+    "id": 10755
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Packaging_and_labeling",
+        "token": "packaging"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Zale_Corporation",
+        "token": "people"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Information",
+        "token": "information"
+      }
+    ],
+    "description": "Interactive product packaging that allows people to tap on parts of the packaging to display more information",
+    "id": 10759
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tampering_(crime)",
+        "token": "tampering"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Display_device",
+        "token": "display"
+      }
+    ],
+    "description": "The coating could be used to indicate tampering. If an object has been touched, the display will change.",
+    "id": 10766
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "sizes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Do_it_yourself",
+        "token": "DIY"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Customer",
+        "token": "customers"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Projection_screen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Need",
+        "token": "needs"
+      }
+    ],
+    "description": "It can be sold in panels of varying sizes as a highly customizable DIY kit for customers to make the ideal touch screen for their needs.",
+    "id": 10771
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wallet",
+        "token": "wallet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Person",
+        "token": "person"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Credit_(finance)",
+        "token": "credit"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Debit_MasterCard",
+        "token": "debit"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bounty_(reward)",
+        "token": "rewards"
+      }
+    ],
+    "description": "A digital wallet that stores all of a person's credit, debit, and ID, and rewards cards on one compact card",
+    "id": 10775
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Calendar",
+        "token": "calendar"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Calendar_date",
+        "token": "date"
+      }
+    ],
+    "description": "An interactive internet-connected wall calendar that automatically updates the date and can be modified through touch.",
+    "id": 10778
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Glass",
+        "token": "glass"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Child",
+        "token": "children"
+      }
+    ],
+    "description": "Put this coating on a table glass so that the children can learn to paint anywhere",
+    "id": 10754
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Toaster",
+        "token": "toaster"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bread",
+        "token": "crust"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bread",
+        "token": "bread"
+      }
+    ],
+    "description": "a touch display toaster that you can adjust the temperature and how you want the crust to be on the bread.",
+    "id": 10758
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Education",
+        "token": "teaching"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Classroom",
+        "token": "classroom"
+      }
+    ],
+    "description": "turn a wall for teaching. This touchscreen can be written and draw on it and suitable for a classroom.",
+    "id": 10765
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wallet",
+        "token": "wallet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Finance",
+        "token": "finances"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bank",
+        "token": "banking"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Debit_card",
+        "token": "cards"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cash",
+        "token": "cash"
+      }
+    ],
+    "description": "Turn it to a wallet to manage finances, online banking, cards and cash.",
+    "id": 10768
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Drawer_(furniture)",
+        "token": "drawers"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cabinetry",
+        "token": "cabinetry"
+      }
+    ],
+    "description": "A touchscreen for drawers and cabinetry where you can find your things",
+    "id": 10773
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Bathroom",
+        "token": "bathroom"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mirror",
+        "token": "mirror"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Light",
+        "token": "light"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Selfie",
+        "token": "selfie"
+      }
+    ],
+    "description": "a bathroom mirror that adjust the room light for selfie",
+    "id": 10776
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Dance",
+        "token": "dance"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Floor",
+        "token": "floor"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Multi-touch",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Dance",
+        "token": "dancer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Dance_move",
+        "token": "step"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Health",
+        "token": "health bar"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Art_movement",
+        "token": "movements"
+      }
+    ],
+    "description": "a dance floor touch screen where the dancer step on it and display the health bar and how accurate the dance movements are",
+    "id": 10779
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Mirror",
+        "token": "mirror"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cosmetics",
+        "token": "makeup"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Face",
+        "token": "face"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Eye",
+        "token": "eye"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Eye_liner",
+        "token": "liner"
+      }
+    ],
+    "description": "You could turn your mirror into a touch display when you are doing your makeup that would superimpose different makeup styles on your face so you can see what style you go want to go with that day (smokey eye, natural, winged liner, etc. )",
+    "id": 10784
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Baby_monitor",
+        "token": "your baby monitor"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Input_device",
+        "token": "different inputs"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Video",
+        "token": "video"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sound",
+        "token": "sound"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pressure",
+        "token": "pressure"
+      }
+    ],
+    "description": "Turn your baby monitor into a touch screen so that you can pan around the room or get different inputs (video, sound, pressure)",
+    "id": 10789
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Book",
+        "token": "book"
+      }
+    ],
+    "description": "Put the coating on a book to help kids learn to read",
+    "id": 10792
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Dominant_portion",
+        "token": "portion"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "sizes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Food",
+        "token": "food"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Weight",
+        "token": "weight"
+      }
+    ],
+    "description": "Put the coating on your plates to help keep you on track with portion sizes, macros and food weight",
+    "id": 10797
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Calendar",
+        "token": "calendar"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Editing",
+        "token": "editing"
+      }
+    ],
+    "description": "You can turn any calendar into a touchscreen for easy editing",
+    "id": 10799
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Notebook",
+        "token": "notebooks"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Paper",
+        "token": "papers"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Editing",
+        "token": "editing"
+      }
+    ],
+    "description": "Use the coating on notebooks and other papers for easy editing",
+    "id": 10802
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home_appliance",
+        "token": "appliance"
+      }
+    ],
+    "description": "Use the coating on any home appliance to turn it into a smart appliance",
+    "id": 10804
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Freight_transport",
+        "token": "shipments"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mail",
+        "token": "mail"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mail",
+        "token": "postage"
+      }
+    ],
+    "description": "Use the coating on your mailbox to arrange shipments, track mail, and add postage",
+    "id": 10805
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Dashboard",
+        "token": "dashboard"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Autogas",
+        "token": "gas"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Speed",
+        "token": "speed"
+      }
+    ],
+    "description": "Turn the dashboard of your car into a touchscreen for easy monitoring of gas levels, temperature, speed, etc. ",
+    "id": 10809
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Whiteboard",
+        "token": "whiteboard"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Meeting",
+        "token": "Meet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Working_group",
+        "token": "your work group"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Conference_hall",
+        "token": "conference room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Office",
+        "token": "office"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Brainstorming",
+        "token": "brainstorm"
+      }
+    ],
+    "description": "You could turn any wall into a whiteboard. Meet with your work group in a conference room or a small office and just turn the wall into a sketchpad to take notes and brainstorm.",
+    "id": 10782
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Labelling",
+        "token": "labeling"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Label",
+        "token": "Label"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Cabinet_(government)",
+        "token": "cabinets"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Drawer_(furniture)",
+        "token": "drawers"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touch display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Name",
+        "token": "name"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Time",
+        "token": "time"
+      }
+    ],
+    "description": "Use it as a labeling device. Label cabinets and drawers and also include a list of the contents inside. With a touch display, you can edit the name and update its contents at any time.",
+    "id": 10786
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/It_(pronoun)",
+        "token": "it"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bed",
+        "token": "bed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Alarm_clock",
+        "token": "alarm clock"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Alarm_device",
+        "token": "alarm"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/News",
+        "token": "news"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Weather",
+        "token": "weather"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Video",
+        "token": "videos"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Comfort",
+        "token": "comfort"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Projection_screen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Smartphone",
+        "token": "smartphone"
+      }
+    ],
+    "description": "Apply it to the wall next to your bed and basically have an advanced alarm clock. Set an alarm, look at the local news and weather or just watch videos from the comfort of your bed with a larger screen than your smartphone.",
+    "id": 10791
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Merchant",
+        "token": "merchant"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_(topology)",
+        "token": "surface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/E-commerce_payment_system",
+        "token": "online payment service"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/PayPal",
+        "token": "PayPal"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Financial_transaction",
+        "token": "transaction"
+      }
+    ],
+    "description": "Become a merchant anywhere you want. If someone wants to buy from you or sell to you, Apply some coating to a surface and use an online payment service such as PayPal to make the transaction secure and easy. ",
+    "id": 10795
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Reality",
+        "token": "reality"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "games"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Degree_(angle)",
+        "token": "degree"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Freedom_of_choice",
+        "token": "freedom"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/World_view",
+        "token": "world"
+      }
+    ],
+    "description": "Create a whole room of virtual reality. Cover a whole room with the coating and you could play a variety of games with 360 degree vision and the freedom to move around in that world.",
+    "id": 10801
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Projection_screen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "house"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Smartphone",
+        "token": "smartphone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer",
+        "token": "computer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Control_flow",
+        "token": "control"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Control_panel_(engineering)",
+        "token": "panel"
+      }
+    ],
+    "description": "Have a coating screen on a wall in the house that links to all your smart devices. Instead of having to use your smartphone or computer to manage your home, have a control panel that's easy to use and can include all your settings on one screen.",
+    "id": 10806
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Surface_(topology)",
+        "token": "surface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Synthesizer",
+        "token": "synthesizer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Musical_note",
+        "token": "note"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Musical_instrument",
+        "token": "instrument"
+      }
+    ],
+    "description": "Turn any surface into a synthesizer. Create any musical note with any kind of instrument with the control of your fingertips.",
+    "id": 10808
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Smartphone",
+        "token": "smartphone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Paper",
+        "token": "paper"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/It_(pronoun)",
+        "token": "it"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "size"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      }
+    ],
+    "description": "Turn any handheld object into your smartphone. For example, fold a sheet of paper until it's the size of a smartphone and apply the coating to it. ",
+    "id": 10811
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Lock_(security_device)",
+        "token": "lock"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Password",
+        "token": "passcode"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fingerprint",
+        "token": "fingerprint"
+      }
+    ],
+    "description": "Use it as a lock for a door. Require a passcode or fingerprint access to unlock it.",
+    "id": 10812
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Relative_direction",
+        "token": "directions"
+      }
+    ],
+    "description": "able to put it on a wall outside for checking directions to your intended location",
+    "id": 10783
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Eating",
+        "token": "dining"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Table_(furniture)",
+        "token": "table"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Game",
+        "token": "games"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "they"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Dinner",
+        "token": "dinner"
+      }
+    ],
+    "description": "put on the dining room table for kids to play games on as they wait for their dinner",
+    "id": 10785
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Machine",
+        "token": "machine"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Function_(engineering)",
+        "token": "functions"
+      }
+    ],
+    "description": "if you don't know how a machine works, put the coating on that to show the functions available for using that machine",
+    "id": 10787
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Kitchen",
+        "token": "kitchen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Grocery_store",
+        "token": "grocery"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Retail",
+        "token": "store"
+      }
+    ],
+    "description": "put in the kitchen somewhere to jot down what you need to buy at the grocery store\n",
+    "id": 10788
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wrist",
+        "token": "wrist"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Smartwatch",
+        "token": "smartwatch"
+      }
+    ],
+    "description": "wrap it around your wrist to use as an advanced smartwatch that you can easily customize",
+    "id": 10790
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Coating",
+        "token": "coating"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer",
+        "token": "computer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_(topology)",
+        "token": "surface"
+      }
+    ],
+    "description": "the coating can be used as a laptop computer to be used on any surface wherever you go",
+    "id": 10793
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Restaurant",
+        "token": "could used at restaurants"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Waiting_staff",
+        "token": "waiter"
+      }
+    ],
+    "description": "it could be used at restaurants to easily choose what to order without waiting for a waiter",
+    "id": 10794
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Physical_security",
+        "token": "security"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Office",
+        "token": "office"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Camera",
+        "token": "cameras"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Building",
+        "token": "wherever building"
+      }
+    ],
+    "description": "security at an office building can use it to check their cameras and open/lock locks wherever they are in the building",
+    "id": 10796
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/It_(pronoun)",
+        "token": "it"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clothing",
+        "token": "clothing"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "your size"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Color",
+        "token": "color"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Preference",
+        "token": "preference"
+      }
+    ],
+    "description": "you can apply it to clothing so that clothing is automatically configured to your size and color preference",
+    "id": 10798
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Computer",
+        "token": "computer"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/IBM_PC_keyboard",
+        "token": "keyboard"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_(topology)",
+        "token": "surface"
+      }
+    ],
+    "description": "create a computer keyboard for your computer on any surface",
+    "id": 10800
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Aerosol_spray",
+        "token": "spray"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Graffiti",
+        "token": "graffiti"
+      }
+    ],
+    "description": "spray it on a wall to create digital graffiti ",
+    "id": 10803
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Use_case",
+        "token": "use"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Desk_and_bench",
+        "token": "school on desk jot"
+      }
+    ],
+    "description": "use in school on desk to jot down notes",
+    "id": 10814
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "Home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Automation",
+        "token": "automation"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/People",
+        "token": "people"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/They",
+        "token": "They"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Button",
+        "token": "button get"
+      }
+    ],
+    "description": "Home automation for seniors and/or disabled people. They could simply tap a button to get what they need to exert as little effort. ",
+    "id": 10807
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Graphical_user_interface",
+        "token": "interface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Building",
+        "token": "buildings"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Curtain",
+        "token": "curtains"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window_blind",
+        "token": "blinds"
+      }
+    ],
+    "description": "A touch interface for windows on buildings. You can tint the windows and close/open curtains or blinds. ",
+    "id": 10810
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Somatosensory_system",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Kitchen_stove",
+        "token": "stove/oven"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Flame",
+        "token": "flame"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Size",
+        "token": "size"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Oven",
+        "token": "oven"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Et_cetera",
+        "token": "etc."
+      }
+    ],
+    "description": "Fully touch display stove/oven. You could use it for adjusting temperature, flame size, cleaning the oven, etc.",
+    "id": 10813
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "Panel"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "rooms"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clothing",
+        "token": "clothes"
+      }
+    ],
+    "description": "Panel in dressing rooms to try on clothes to see if you like the style on you. ",
+    "id": 10815
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "doors"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "homes"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Security",
+        "token": "security"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Graphical_user_interface",
+        "token": "interfaces"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Electric_light",
+        "token": "lights"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home_appliance",
+        "token": "appliances"
+      }
+    ],
+    "description": "Turn main doors of homes into security interfaces where you can turn off all lights, lock doors and windows, and double check appliances. ",
+    "id": 10816
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Blackboard",
+        "token": "board"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/School",
+        "token": "schools"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Video",
+        "token": "video drawing"
+      }
+    ],
+    "description": "Full wall smart board for schools with video, drawing, and interactive play. ",
+    "id": 10820
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Graphical_user_interface",
+        "token": "interface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Closet",
+        "token": "closets"
+      }
+    ],
+    "description": "Smart interface on closets to keep track of contents. ",
+    "id": 10823
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Window",
+        "token": "window"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      }
+    ],
+    "description": "A window that you could swipe up and down to make it dimmer or open completely",
+    "id": 10817
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Mirror",
+        "token": "mirror"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Color",
+        "token": "colors"
+      }
+    ],
+    "description": "You could look into a mirror and then draw different hairstyles with various colors.",
+    "id": 10818
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Refrigerator",
+        "token": "refrigerator"
+      }
+    ],
+    "description": "You could write notes and lists on the refrigerator that you could easily erase.",
+    "id": 10819
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Color",
+        "token": "colors"
+      }
+    ],
+    "description": "You could paint a section of a wall to see what it would look like then just change colors until you find one you like.",
+    "id": 10821
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Desk",
+        "token": "your desk"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchpad",
+        "token": "touchpad"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer_mouse",
+        "token": "mouse"
+      }
+    ],
+    "description": "On your desk you could use a touchscreen like a touchpad and just get rid of your mouse.",
+    "id": 10822
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Program_(machine)",
+        "token": "Program"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Alarm_device",
+        "token": "alarm"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall next your bed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/It_(pronoun)",
+        "token": "It"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Betterment",
+        "token": "better"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Telephone",
+        "token": "phone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Clock",
+        "token": "clock"
+      }
+    ],
+    "description": "Program an alarm in the wall next to your bed.  It would be easier and look better than a phone or an alarm clock.",
+    "id": 10824
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Car",
+        "token": "car"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Business",
+        "token": "business"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Telephone",
+        "token": "phone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Telephone_number",
+        "token": "number"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Address_(geography)",
+        "token": "address"
+      }
+    ],
+    "description": "Make the whole outside of your car a touchscreen and advertise your business with a phone number or address.",
+    "id": 10825
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bed",
+        "token": "bed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sound",
+        "token": "sounds"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sleep",
+        "token": "sleep"
+      }
+    ],
+    "description": "A touchscreen on the side of your bed that would have buttons to play different sounds to help you go to sleep.",
+    "id": 10826
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Golf",
+        "token": "golf"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bag",
+        "token": "bag"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      }
+    ],
+    "description": "A touchscreen on the side of a golf bag that you could zoom in and out and see how far you are from the hole.",
+    "id": 10827
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touchscreen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Fuel_gas",
+        "token": "gas"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Pump",
+        "token": "pump"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Gallon",
+        "token": "many gallons"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      }
+    ],
+    "description": "A touchscreen at a gas pump to slide up and down how many gallons you want.",
+    "id": 10828
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Watch",
+        "token": "watch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Projection_screen",
+        "token": "screen"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_area",
+        "token": "surface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Multi-touch",
+        "token": "touch"
+      }
+    ],
+    "description": "Think about having a smart watch that could project a devices screen onto any surface AND allow that surface to be a touch screen.",
+    "id": 10829
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Vacuum_flask",
+        "token": "thermos"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Drink",
+        "token": "your drink"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Charging_station",
+        "token": "station"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wire",
+        "token": "wire"
+      }
+    ],
+    "description": "What about a chargeable thermos that you could set to constantly keep your drink hot or cold. It has a charging station rather than a wire. ",
+    "id": 10830
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Smartphone",
+        "token": "phone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Language",
+        "token": "language"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Time",
+        "token": "time"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Application_software",
+        "token": "app"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Synchronization",
+        "token": "could synced"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Person",
+        "token": "persons"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Liquid-crystal_display",
+        "token": "text"
+      }
+    ],
+    "description": "A smart phone app that could accurately translate any known language in real time. The app could be synced to another persons smart phone and display text or respond verbally. ",
+    "id": 10831
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Ordered_pair",
+        "token": "pair"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Glasses",
+        "token": "glasses"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Information",
+        "token": "information"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/CAN_bus",
+        "token": "could controlled"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Image",
+        "token": "image"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_area",
+        "token": "surface"
+      }
+    ],
+    "description": "A pair of smart glasses that would take in information about what you were viewing or listening to and display relevant information. It could also be controlled verbally to pull up specific information you were looking for and have the ability to project an image onto a surface as well.",
+    "id": 10833
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Computer_monitor",
+        "token": "monitor"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bed_sheet",
+        "token": "sheet"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Material",
+        "token": "material"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/HDMI",
+        "token": "HDMI port"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Dongle",
+        "token": "wireless dongle"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Lag",
+        "token": "lag"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/HDMI",
+        "token": "wire"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_area",
+        "token": "surfaces"
+      }
+    ],
+    "description": "A monitor on the go. A 144hz monitor that would actually be a very thin and flexible sheet of material. It could be folded or rolled and connect to an HDMI port with a wireless dongle, or if lag was a concern a secondary wire that could be attached. It would have a back that would stick to surfaces but easily come loose when you need it to.",
+    "id": 10839
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Home",
+        "token": "home"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Multi-touch",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touch display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Temperature",
+        "token": "temperature"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Window_blind",
+        "token": "blinds"
+      }
+    ],
+    "description": "turn your wall in your home into a touch display, this touch display will allow you to control the room temperature and even blinds control, allowing you to open or close all blinds in that room where the touch screen wall is located.",
+    "id": 10832
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Multi-touch",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Surface_area",
+        "token": "surface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Experience_point",
+        "token": "level"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Comfort",
+        "token": "comfort"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Angle",
+        "token": "angle"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Bed",
+        "token": "bed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "very own touch display"
+      }
+    ],
+    "description": "turn your own bed into a touch display by allowing the surface to change the level of comfort, and the angle of the bed by switching the settings on the bed itself, in the bed's very own touch display.",
+    "id": 10834
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Bathtub",
+        "token": "bathtub"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Multi-touch",
+        "token": "touch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Flat_panel_display",
+        "token": "display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Touchscreen",
+        "token": "touch display"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Speed",
+        "token": "speed"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Water",
+        "token": "water"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Shower",
+        "token": "shower"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Head_(vessel)",
+        "token": "head"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Tap_(valve)",
+        "token": "faucet"
+      }
+    ],
+    "description": "turn your bathtub into a touch display. allow the touch display to control the water warmth, from hot to cold. Also, allow the touch display to control the speed the water is released from the shower head or faucet.",
+    "id": 10837
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Necklace",
+        "token": "necklace"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Heart",
+        "token": "heart"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Birth_rate",
+        "token": "rate"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Physical_exercise",
+        "token": "your exercise"
+      }
+    ],
+    "description": "a device which you can wear as a necklace that helps you control your heart rate and slow down with your exercise when it is too fast or too low",
+    "id": 10842
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Door",
+        "token": "your front door"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Graphical_user_interface",
+        "token": "interface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Typing",
+        "token": "you can type"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Password",
+        "token": "password"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Need",
+        "token": "need"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Keypad",
+        "token": "keypad"
+      }
+    ],
+    "description": "It could turn your front door into an interface where you can type in a password to unlock it.  No need for a physical keypad.",
+    "id": 10835
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Watch",
+        "token": "watch"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Graphical_user_interface",
+        "token": "interface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      }
+    ],
+    "description": "A smart watch that allows you to beam the interface on any wall.",
+    "id": 10836
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Grocery_store",
+        "token": "grocery"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Retail",
+        "token": "store"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "you"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Sales",
+        "token": "sale ad even"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Place_(United_States_Census_Bureau)",
+        "token": "outside"
+      }
+    ],
+    "description": "At the grocery store you browse the sale ad and even place special orders on the wall outside.",
+    "id": 10838
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Room",
+        "token": "room"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Television",
+        "token": "tv"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Projection_screen",
+        "token": "screen"
+      }
+    ],
+    "description": "Turn the wall of any room into a tv screen.",
+    "id": 10840
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/House",
+        "token": "your house"
+      }
+    ],
+    "description": "Control all your smart devices from any wall in your house.",
+    "id": 10841
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Telephone",
+        "token": "phone"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Graphical_user_interface",
+        "token": "interface"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      }
+    ],
+    "description": "project your phone interface onto any wall.",
+    "id": 10843
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Global_Positioning_System",
+        "token": "GPS"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Windshield",
+        "token": "your entire windshield"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Road_map",
+        "token": "detailed maps"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Direction_(geometry)",
+        "token": "directions"
+      }
+    ],
+    "description": "expand your GPS to your entire windshield with detailed maps and directions.",
+    "id": 10844
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Office",
+        "token": "office"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Calendar",
+        "token": "calendar"
+      }
+    ],
+    "description": "Turn the wall of your office into an interactive calendar.",
+    "id": 10845
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/School",
+        "token": "schools"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Desk",
+        "token": "desks"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Computer_hardware",
+        "token": "interactive computers with hardware"
+      }
+    ],
+    "description": "schools could turn the desks into interactive computers with hardware.",
+    "id": 10846
+  },
+  {
+    "validatedConcepts": [
+      {
+        "uri": "http://dbpedia.org/resource/You",
+        "token": "You"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Film",
+        "token": "movie"
+      },
+      {
+        "uri": "http://dbpedia.org/resource/Wall",
+        "token": "wall outside movie theaters"
+      }
+    ],
+    "description": "You could buy movie tickets on the wall outside movie theaters",
+    "id": 10847
+  }
+]

@@ -1,0 +1,2853 @@
+[
+  {
+    "assignmentId": "37M28K1J0RKP5PMSMANDKTWN2G2AJM",
+    "events": [
+      {
+        "idea": {
+          "validatedConcepts": [
+            {
+              "uri": "http://dbpedia.org/resource/Coffee",
+              "token": "coffe"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Table_(furniture)",
+              "token": "table"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/You",
+              "token": "you"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/House",
+              "token": "al features in your house"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Smart_TV",
+              "token": "al smart features"
+            }
+          ],
+          "description": "You could create a smart coffe table where you could aaccess al the smart features in your house and also have a key board too",
+          "id": 10602
+        },
+        "type": "idea-submit",
+        "timerValue": 1266
+      },
+      {
+        "idea": {
+          "validatedConcepts": [
+            {
+              "uri": "http://dbpedia.org/resource/Credit_(finance)",
+              "token": "credit"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Debit_card",
+              "token": "card"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Size",
+              "token": "size"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/You",
+              "token": "you"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Wallet",
+              "token": "your wallet"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Coin_purse",
+              "token": "purse"
+            }
+          ],
+          "description": "You could create credit card size tablets that you could carry in your wallet or purse ",
+          "id": 10604
+        },
+        "type": "idea-submit",
+        "timerValue": 1053
+      },
+      {
+        "ideas": [
+          {
+            "description": "You could coat every inch of your walls with it in your house and with a smart camera following your physical movements and eye movement you could have a display in front of them at all times that they could interact with.",
+            "conceptMentions": [
+              {
+                "id": 696,
+                "validationStatus": "validated",
+                "token": "inch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Inch"
+              },
+              {
+                "id": 697,
+                "validationStatus": "validated",
+                "token": "walls",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wall"
+              },
+              {
+                "id": 698,
+                "validationStatus": "validated",
+                "token": "house",
+                "selectedConceptURI": "http://dbpedia.org/resource/House"
+              },
+              {
+                "id": 699,
+                "validationStatus": "validated",
+                "token": "smart camera following your physical movements",
+                "selectedConceptURI": "http://dbpedia.org/resource/Camera"
+              },
+              {
+                "id": 700,
+                "validationStatus": "validated",
+                "token": "eye",
+                "selectedConceptURI": "http://dbpedia.org/resource/Eye"
+              },
+              {
+                "id": 701,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 188
+          },
+          {
+            "description": "a floor touch screen where you spray on the floor and it tells you how many foot steps there has been in that room on that day along with the weather and the amount of cleaning needed for the day on that floor.\n",
+            "conceptMentions": [
+              {
+                "id": 1092,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              },
+              {
+                "id": 1093,
+                "validationStatus": "validated",
+                "token": "screen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Film"
+              },
+              {
+                "id": 1094,
+                "validationStatus": "validated",
+                "token": "spray",
+                "selectedConceptURI": "http://dbpedia.org/resource/Aerosol_spray"
+              },
+              {
+                "id": 1095,
+                "validationStatus": "validated",
+                "token": "floor",
+                "selectedConceptURI": "http://dbpedia.org/resource/Floor"
+              },
+              {
+                "id": 1096,
+                "validationStatus": "validated",
+                "token": "it",
+                "selectedConceptURI": "http://dbpedia.org/resource/.it"
+              },
+              {
+                "id": 1097,
+                "validationStatus": "validated",
+                "token": "foot",
+                "selectedConceptURI": "http://dbpedia.org/resource/Foot"
+              },
+              {
+                "id": 1098,
+                "validationStatus": "validated",
+                "token": "steps",
+                "selectedConceptURI": "http://dbpedia.org/resource/Edward_Step"
+              },
+              {
+                "id": 1099,
+                "validationStatus": "validated",
+                "token": "room",
+                "selectedConceptURI": "http://dbpedia.org/resource/Room"
+              },
+              {
+                "id": 1100,
+                "validationStatus": "validated",
+                "token": "day",
+                "selectedConceptURI": "http://dbpedia.org/resource/Day"
+              },
+              {
+                "id": 1101,
+                "validationStatus": "validated",
+                "token": "weather",
+                "selectedConceptURI": "http://dbpedia.org/resource/Weather"
+              },
+              {
+                "id": 1102,
+                "validationStatus": "validated",
+                "token": "amount",
+                "selectedConceptURI": "http://dbpedia.org/resource/Quantity"
+              }
+            ],
+            "id": 426
+          },
+          {
+            "description": "Touchscreen food machine that will personalize food options to create.",
+            "conceptMentions": [
+              {
+                "id": 417,
+                "validationStatus": "validated",
+                "token": "Touchscreen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Touchscreen"
+              },
+              {
+                "id": 418,
+                "validationStatus": "validated",
+                "token": "food",
+                "selectedConceptURI": "http://dbpedia.org/resource/Food"
+              },
+              {
+                "id": 419,
+                "validationStatus": "validated",
+                "token": "machine",
+                "selectedConceptURI": "http://dbpedia.org/resource/Machine"
+              }
+            ],
+            "id": 81
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 992
+      },
+      {
+        "idea": {
+          "validatedConcepts": [
+            {
+              "uri": "http://dbpedia.org/resource/Inch",
+              "token": "inch"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/House",
+              "token": "house"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/You",
+              "token": "you"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/It_(pronoun)",
+              "token": "it"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Custom_(law)",
+              "token": "custom"
+            }
+          ],
+          "description": "You could coat every inch of you walls and have a house that changes looks when even you want it to. A custom house everyday if you wanted",
+          "id": 10608
+        },
+        "type": "idea-submit",
+        "timerValue": 728
+      },
+      {
+        "idea": {
+          "validatedConcepts": [
+            {
+              "uri": "http://dbpedia.org/resource/Aerosol_spray",
+              "token": "spray"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Size",
+              "token": "size"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Fish",
+              "token": "fish"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Water_tank",
+              "token": "tank"
+            }
+          ],
+          "description": "spray on the walls and have a full size digital fish tank ",
+          "id": 10609
+        },
+        "type": "idea-submit",
+        "timerValue": 600
+      },
+      {
+        "ideas": [
+          {
+            "description": "sync any device with analog controls to the screens input. ",
+            "conceptMentions": [
+              {
+                "id": 664,
+                "validationStatus": "validated",
+                "token": "sync",
+                "selectedConceptURI": "http://dbpedia.org/resource/Synchronization"
+              },
+              {
+                "id": 665,
+                "validationStatus": "validated",
+                "token": "analog",
+                "selectedConceptURI": "http://dbpedia.org/resource/Analog_Devices"
+              },
+              {
+                "id": 666,
+                "validationStatus": "validated",
+                "token": "input",
+                "selectedConceptURI": "http://dbpedia.org/resource/Input/output"
+              }
+            ],
+            "id": 199
+          },
+          {
+            "description": "sleeve on your arm that allows you to control your phone or music",
+            "conceptMentions": [
+              {
+                "id": 63,
+                "validationStatus": "validated",
+                "token": "sleeve",
+                "selectedConceptURI": "http://dbpedia.org/resource/Sleeve"
+              },
+              {
+                "id": 64,
+                "validationStatus": "validated",
+                "token": "arm",
+                "selectedConceptURI": "http://dbpedia.org/resource/Arm"
+              },
+              {
+                "id": 65,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 66,
+                "validationStatus": "validated",
+                "token": "phone",
+                "selectedConceptURI": "http://dbpedia.org/resource/Telephone"
+              },
+              {
+                "id": 67,
+                "validationStatus": "validated",
+                "token": "music",
+                "selectedConceptURI": "http://dbpedia.org/resource/Music"
+              }
+            ],
+            "id": 9
+          },
+          {
+            "description": "A fridge with a touchscreen that tells you what groceries you currently have, along with allowing you to make a list for shopping. ",
+            "conceptMentions": [
+              {
+                "id": 87,
+                "validationStatus": "validated",
+                "token": "fridge",
+                "selectedConceptURI": "http://dbpedia.org/resource/Refrigerator"
+              },
+              {
+                "id": 88,
+                "validationStatus": "validated",
+                "token": "touchscreen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Touchscreen"
+              },
+              {
+                "id": 89,
+                "validationStatus": "validated",
+                "token": "shopping",
+                "selectedConceptURI": "http://dbpedia.org/resource/Shopping"
+              }
+            ],
+            "id": 13
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 590
+      },
+      {
+        "ideas": [
+          {
+            "description": "Automatic toothpaste dispenser. Holds your toothpaste, and keeps track of how much toothpaste is in the tube and you can set how much toothpaste to dispense.",
+            "conceptMentions": [
+              {
+                "id": 550,
+                "validationStatus": "validated",
+                "token": "toothpaste",
+                "selectedConceptURI": "http://dbpedia.org/resource/Toothpaste"
+              },
+              {
+                "id": 551,
+                "validationStatus": "validated",
+                "token": "dispenser",
+                "selectedConceptURI": "http://dbpedia.org/resource/Toothpaste_dispenser"
+              }
+            ],
+            "id": 324
+          },
+          {
+            "description": "A television that can change channels by using touch display",
+            "conceptMentions": [
+              {
+                "id": 1066,
+                "validationStatus": "validated",
+                "token": "television",
+                "selectedConceptURI": "http://dbpedia.org/resource/Television"
+              },
+              {
+                "id": 1067,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              }
+            ],
+            "id": 362
+          },
+          {
+            "description": "Be able to write on the wall and turn it into a window that can see everything in your town.",
+            "conceptMentions": [
+              {
+                "id": 280,
+                "validationStatus": "validated",
+                "token": "wall",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wall"
+              },
+              {
+                "id": 281,
+                "validationStatus": "validated",
+                "token": "window",
+                "selectedConceptURI": "http://dbpedia.org/resource/Window"
+              },
+              {
+                "id": 282,
+                "validationStatus": "validated",
+                "token": "everything",
+                "selectedConceptURI": "http://dbpedia.org/resource/Everything"
+              },
+              {
+                "id": 283,
+                "validationStatus": "validated",
+                "token": "town",
+                "selectedConceptURI": "http://dbpedia.org/resource/Town"
+              }
+            ],
+            "id": 110
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 577
+      },
+      {
+        "ideas": [
+          {
+            "description": "your desktop could be a touchpad for your computer",
+            "conceptMentions": [
+              {
+                "id": 1531,
+                "validationStatus": "validated",
+                "token": "your desktop",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desktop_metaphor"
+              },
+              {
+                "id": 1532,
+                "validationStatus": "validated",
+                "token": "computer",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desktop_computer"
+              }
+            ],
+            "id": 335
+          },
+          {
+            "description": "Coat is to the tips of your fingers and be able to interact in virtual reality",
+            "conceptMentions": [
+              {
+                "id": 277,
+                "validationStatus": "validated",
+                "token": "tips",
+                "selectedConceptURI": "http://dbpedia.org/resource/Spoil_tip"
+              },
+              {
+                "id": 278,
+                "validationStatus": "validated",
+                "token": "fingers",
+                "selectedConceptURI": "http://dbpedia.org/resource/Finger"
+              },
+              {
+                "id": 279,
+                "validationStatus": "validated",
+                "token": "reality",
+                "selectedConceptURI": "http://dbpedia.org/resource/Reality"
+              }
+            ],
+            "id": 108
+          },
+          {
+            "description": "Cpat the tops of a table and it could be used for different games. Like board games or pen and paper RPGs.",
+            "conceptMentions": [
+              {
+                "id": 656,
+                "validationStatus": "validated",
+                "token": "table",
+                "selectedConceptURI": "http://dbpedia.org/resource/Table_(furniture)"
+              },
+              {
+                "id": 657,
+                "validationStatus": "validated",
+                "token": "could used for different games",
+                "selectedConceptURI": "http://dbpedia.org/resource/Game"
+              },
+              {
+                "id": 658,
+                "validationStatus": "validated",
+                "token": "pen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Pen"
+              },
+              {
+                "id": 659,
+                "validationStatus": "validated",
+                "token": "paper",
+                "selectedConceptURI": "http://dbpedia.org/resource/Paper"
+              },
+              {
+                "id": 660,
+                "validationStatus": "validated",
+                "token": "RPGs",
+                "selectedConceptURI": "http://dbpedia.org/resource/Role-playing_game"
+              }
+            ],
+            "id": 193
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 563
+      },
+      {
+        "ideas": [
+          {
+            "description": "You could use the coating to put on your desk and use that instead of a keyboard.",
+            "conceptMentions": [
+              {
+                "id": 215,
+                "validationStatus": "validated",
+                "token": "coating",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coating"
+              },
+              {
+                "id": 216,
+                "validationStatus": "validated",
+                "token": "desk",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desk"
+              },
+              {
+                "id": 217,
+                "validationStatus": "validated",
+                "token": "keyboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/IBM_PC_keyboard"
+              }
+            ],
+            "id": 86
+          },
+          {
+            "description": "Some of the systems can turn the displays from that into touch display.",
+            "conceptMentions": [
+              {
+                "id": 1352,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Multi-touch"
+              },
+              {
+                "id": 1353,
+                "validationStatus": "validated",
+                "token": "display",
+                "selectedConceptURI": "http://dbpedia.org/resource/Display_case"
+              }
+            ],
+            "id": 434
+          },
+          {
+            "description": "coffee table that allows you to control your TV, music, home automation, etc",
+            "conceptMentions": [
+              {
+                "id": 50,
+                "validationStatus": "validated",
+                "token": "coffee",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coffee"
+              },
+              {
+                "id": 51,
+                "validationStatus": "validated",
+                "token": "table",
+                "selectedConceptURI": "http://dbpedia.org/resource/Calligra_Sheets"
+              },
+              {
+                "id": 52,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 53,
+                "validationStatus": "validated",
+                "token": "your",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 54,
+                "validationStatus": "validated",
+                "token": "home",
+                "selectedConceptURI": "http://dbpedia.org/resource/Home"
+              },
+              {
+                "id": 55,
+                "validationStatus": "validated",
+                "token": "automation",
+                "selectedConceptURI": "http://dbpedia.org/resource/Automation"
+              }
+            ],
+            "id": 7
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 552
+      },
+      {
+        "ideas": [
+          {
+            "description": "Tables can have smart home functionality for taking actions from a couch or other sitting position. ",
+            "conceptMentions": [
+              {
+                "id": 206,
+                "validationStatus": "validated",
+                "token": "home",
+                "selectedConceptURI": "http://dbpedia.org/resource/Home"
+              },
+              {
+                "id": 207,
+                "validationStatus": "validated",
+                "token": "functionality",
+                "selectedConceptURI": "http://dbpedia.org/resource/Function_(engineering)"
+              },
+              {
+                "id": 208,
+                "validationStatus": "validated",
+                "token": "couch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Couch"
+              },
+              {
+                "id": 209,
+                "validationStatus": "validated",
+                "token": "position",
+                "selectedConceptURI": "http://dbpedia.org/resource/List_of_human_positions"
+              }
+            ],
+            "id": 74
+          },
+          {
+            "description": "A tablet to go. Instead of carrying around a physical tablet, the coating could be carried instead to turn any surface into a touch tablet, like a liquid. It could even use microprocessor and RAM technology within the coating, as well as data storage. The coating would be in a small container.",
+            "conceptMentions": [
+              {
+                "id": 1158,
+                "validationStatus": "validated",
+                "token": "tablet",
+                "selectedConceptURI": "http://dbpedia.org/resource/Graphics_tablet"
+              },
+              {
+                "id": 1159,
+                "validationStatus": "validated",
+                "token": "surface",
+                "selectedConceptURI": "http://dbpedia.org/resource/Surface_(topology)"
+              },
+              {
+                "id": 1160,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Multi-touch"
+              },
+              {
+                "id": 1161,
+                "validationStatus": "validated",
+                "token": "liquid",
+                "selectedConceptURI": "http://dbpedia.org/resource/Liquid"
+              },
+              {
+                "id": 1162,
+                "validationStatus": "validated",
+                "token": "microprocessor technology",
+                "selectedConceptURI": "http://dbpedia.org/resource/Microprocessor"
+              },
+              {
+                "id": 1163,
+                "validationStatus": "validated",
+                "token": "data",
+                "selectedConceptURI": "http://dbpedia.org/resource/Microprocessor"
+              },
+              {
+                "id": 1164,
+                "validationStatus": "validated",
+                "token": "storage",
+                "selectedConceptURI": "http://dbpedia.org/resource/Data_storage_device"
+              },
+              {
+                "id": 1165,
+                "validationStatus": "validated",
+                "token": "container",
+                "selectedConceptURI": "http://dbpedia.org/resource/Container"
+              }
+            ],
+            "id": 454
+          },
+          {
+            "description": "Place coating on student desks for study and notes.",
+            "conceptMentions": [
+              {
+                "id": 1597,
+                "validationStatus": "validated",
+                "token": "student",
+                "selectedConceptURI": "http://dbpedia.org/resource/Student"
+              },
+              {
+                "id": 1598,
+                "validationStatus": "validated",
+                "token": "desks",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desk"
+              },
+              {
+                "id": 1599,
+                "validationStatus": "validated",
+                "token": "study",
+                "selectedConceptURI": "http://dbpedia.org/resource/Study_(room)"
+              },
+              {
+                "id": 1600,
+                "validationStatus": "validated",
+                "token": "notes",
+                "selectedConceptURI": "http://dbpedia.org/resource/Microsoft_OneNote"
+              }
+            ],
+            "id": 355
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 545
+      },
+      {
+        "ideas": [
+          {
+            "description": "put this coating on fridge door so that whenever touching I can see what is inside the fridge without opening it",
+            "conceptMentions": [
+              {
+                "id": 308,
+                "validationStatus": "validated",
+                "token": "coating",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coating"
+              },
+              {
+                "id": 309,
+                "validationStatus": "validated",
+                "token": "fridge",
+                "selectedConceptURI": "http://dbpedia.org/resource/Refrigerator"
+              },
+              {
+                "id": 310,
+                "validationStatus": "validated",
+                "token": "door",
+                "selectedConceptURI": "http://dbpedia.org/resource/Door"
+              }
+            ],
+            "id": 117
+          },
+          {
+            "description": "sync any device with analog controls to the screens input. ",
+            "conceptMentions": [
+              {
+                "id": 664,
+                "validationStatus": "validated",
+                "token": "sync",
+                "selectedConceptURI": "http://dbpedia.org/resource/Synchronization"
+              },
+              {
+                "id": 665,
+                "validationStatus": "validated",
+                "token": "analog",
+                "selectedConceptURI": "http://dbpedia.org/resource/Analog_Devices"
+              },
+              {
+                "id": 666,
+                "validationStatus": "validated",
+                "token": "input",
+                "selectedConceptURI": "http://dbpedia.org/resource/Input/output"
+              }
+            ],
+            "id": 199
+          },
+          {
+            "description": "Apply on a desk and use its surface as a keyboard / input device",
+            "conceptMentions": [
+              {
+                "id": 1166,
+                "validationStatus": "validated",
+                "token": "desk",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desk"
+              },
+              {
+                "id": 1167,
+                "validationStatus": "validated",
+                "token": "surface",
+                "selectedConceptURI": "http://dbpedia.org/resource/Surface_(topology)"
+              },
+              {
+                "id": 1168,
+                "validationStatus": "validated",
+                "token": "keyboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/Apple_Keyboard"
+              },
+              {
+                "id": 1169,
+                "validationStatus": "validated",
+                "token": "input",
+                "selectedConceptURI": "http://dbpedia.org/resource/Input_device"
+              }
+            ],
+            "id": 411
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 531
+      },
+      {
+        "ideas": [
+          {
+            "description": "A panel for your pantry door to keep track of the contents of your pantry.",
+            "conceptMentions": [
+              {
+                "id": 547,
+                "validationStatus": "validated",
+                "token": "panel",
+                "selectedConceptURI": "http://dbpedia.org/resource/Flat_panel_display"
+              },
+              {
+                "id": 548,
+                "validationStatus": "validated",
+                "token": "pantry",
+                "selectedConceptURI": "http://dbpedia.org/resource/Pantry"
+              },
+              {
+                "id": 549,
+                "validationStatus": "validated",
+                "token": "door",
+                "selectedConceptURI": "http://dbpedia.org/resource/Door"
+              }
+            ],
+            "id": 323
+          },
+          {
+            "description": "clothes can interact with your phone and computer",
+            "conceptMentions": [
+              {
+                "id": 1441,
+                "validationStatus": "validated",
+                "token": "clothes",
+                "selectedConceptURI": "http://dbpedia.org/resource/Clothing"
+              },
+              {
+                "id": 1442,
+                "validationStatus": "validated",
+                "token": "your phone",
+                "selectedConceptURI": "http://dbpedia.org/resource/Mobile_phone"
+              },
+              {
+                "id": 1443,
+                "validationStatus": "validated",
+                "token": "computer",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer"
+              }
+            ],
+            "id": 399
+          },
+          {
+            "description": "You could put a touch screen on the arm of a chair and be able to use your computer without getting up. ",
+            "conceptMentions": [
+              {
+                "id": 1047,
+                "validationStatus": "validated",
+                "token": "You",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 1048,
+                "validationStatus": "validated",
+                "token": "arm of chair",
+                "selectedConceptURI": "http://dbpedia.org/resource/Chair"
+              },
+              {
+                "id": 1049,
+                "validationStatus": "validated",
+                "token": "computer",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer"
+              }
+            ],
+            "id": 305
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 526
+      },
+      {
+        "ideas": [
+          {
+            "description": "You could put a touch screen on the arm of a chair and be able to use your computer without getting up. ",
+            "conceptMentions": [
+              {
+                "id": 1047,
+                "validationStatus": "validated",
+                "token": "You",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 1048,
+                "validationStatus": "validated",
+                "token": "arm of chair",
+                "selectedConceptURI": "http://dbpedia.org/resource/Chair"
+              },
+              {
+                "id": 1049,
+                "validationStatus": "validated",
+                "token": "computer",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer"
+              }
+            ],
+            "id": 305
+          },
+          {
+            "description": "You could add it to your steering wheel so that you can control various parts of your car.",
+            "conceptMentions": [
+              {
+                "id": 9,
+                "validationStatus": "validated",
+                "token": "wheel",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wheel"
+              },
+              {
+                "id": 10,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 11,
+                "validationStatus": "validated",
+                "token": "various parts of your car",
+                "selectedConceptURI": "http://dbpedia.org/resource/List_of_auto_parts"
+              }
+            ],
+            "id": 34
+          },
+          {
+            "description": "a drop-down menu I can apply to any program at any time. The menu would contain frequently typed items missed or misunderstood by auto-fill",
+            "conceptMentions": [
+              {
+                "id": 606,
+                "validationStatus": "validated",
+                "token": "drop-down menu",
+                "selectedConceptURI": "http://dbpedia.org/resource/Drop-down_list"
+              },
+              {
+                "id": 607,
+                "validationStatus": "validated",
+                "token": "time",
+                "selectedConceptURI": "http://dbpedia.org/resource/Time"
+              },
+              {
+                "id": 608,
+                "validationStatus": "validated",
+                "token": "items",
+                "selectedConceptURI": "http://dbpedia.org/resource/Digital_Item"
+              },
+              {
+                "id": 609,
+                "validationStatus": "validated",
+                "token": "auto-fill",
+                "selectedConceptURI": "http://dbpedia.org/resource/Autofill"
+              }
+            ],
+            "id": 167
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 517
+      },
+      {
+        "ideas": [
+          {
+            "description": "Sports bars tables could become individual televisions. ",
+            "conceptMentions": [
+              {
+                "id": 552,
+                "validationStatus": "validated",
+                "token": "Sports bars tables",
+                "selectedConceptURI": "http://dbpedia.org/resource/Bar"
+              },
+              {
+                "id": 553,
+                "validationStatus": "validated",
+                "token": "televisions",
+                "selectedConceptURI": "http://dbpedia.org/resource/Television"
+              }
+            ],
+            "id": 138
+          },
+          {
+            "description": "Apply to baby strollers so you can browse while working out. ",
+            "conceptMentions": [
+              {
+                "id": 1058,
+                "validationStatus": "validated",
+                "token": "baby",
+                "selectedConceptURI": "http://dbpedia.org/resource/Infant"
+              },
+              {
+                "id": 1059,
+                "validationStatus": "validated",
+                "token": "strollers",
+                "selectedConceptURI": "http://dbpedia.org/resource/Baby_transport"
+              }
+            ],
+            "id": 301
+          },
+          {
+            "description": "Glasses you could touch to adjust light blocking abilities.",
+            "conceptMentions": [
+              {
+                "id": 826,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 242
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 510
+      },
+      {
+        "ideas": [
+          {
+            "description": "You can have a touch screen mirror that gives you recommended fashion styles ",
+            "conceptMentions": [
+              {
+                "id": 76,
+                "validationStatus": "validated",
+                "token": "mirror",
+                "selectedConceptURI": "http://dbpedia.org/resource/Mirror"
+              },
+              {
+                "id": 77,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 78,
+                "validationStatus": "validated",
+                "token": "fashion styles",
+                "selectedConceptURI": "http://dbpedia.org/resource/Fashion"
+              }
+            ],
+            "id": 18
+          },
+          {
+            "description": "your desktop could be a touchpad for your computer",
+            "conceptMentions": [
+              {
+                "id": 1531,
+                "validationStatus": "validated",
+                "token": "your desktop",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desktop_metaphor"
+              },
+              {
+                "id": 1532,
+                "validationStatus": "validated",
+                "token": "computer",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desktop_computer"
+              }
+            ],
+            "id": 335
+          },
+          {
+            "description": "You could add it to a box to keep try of the contents.",
+            "conceptMentions": [
+              {
+                "id": 19,
+                "validationStatus": "validated",
+                "token": "You",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 20,
+                "validationStatus": "validated",
+                "token": "it",
+                "selectedConceptURI": "http://dbpedia.org/resource/It_(pronoun)"
+              },
+              {
+                "id": 21,
+                "validationStatus": "validated",
+                "token": "box",
+                "selectedConceptURI": "http://dbpedia.org/resource/Box"
+              }
+            ],
+            "id": 37
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 500
+      },
+      {
+        "idea": {
+          "validatedConcepts": [
+            {
+              "uri": "http://dbpedia.org/resource/You",
+              "token": "You"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Severe_weather",
+              "token": "bad weather"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Change_(philosophy)",
+              "token": "change"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Sun",
+              "token": "sun"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Home",
+              "token": "your home"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Spring_(season)",
+              "token": "spring"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/Autumn",
+              "token": "fall"
+            }
+          ],
+          "description": "Smart windows. You could block out bad weather or change when the sun rises or sets inside your home. Also, you could have spring or fall scenes whenever you wanted",
+          "id": 10616
+        },
+        "type": "idea-submit",
+        "timerValue": 169
+      },
+      {
+        "idea": {
+          "validatedConcepts": [
+            {
+              "uri": "http://dbpedia.org/resource/Telephone",
+              "token": "phone"
+            },
+            {
+              "uri": "http://dbpedia.org/resource/System",
+              "token": "system"
+            }
+          ],
+          "description": "create a digital phone system anywhere you would want. ",
+          "id": 10617
+        },
+        "type": "idea-submit",
+        "timerValue": 118
+      },
+      {
+        "ideas": [
+          {
+            "description": "You can have an athletic shirt sleeve that gives you feedback on your heart rate, perspiration amounts, breathing rate, etc.",
+            "conceptMentions": [
+              {
+                "id": 338,
+                "validationStatus": "validated",
+                "token": "shirt",
+                "selectedConceptURI": "http://dbpedia.org/resource/Shirt"
+              },
+              {
+                "id": 339,
+                "validationStatus": "validated",
+                "token": "sleeve",
+                "selectedConceptURI": "http://dbpedia.org/resource/Sleeve"
+              },
+              {
+                "id": 340,
+                "validationStatus": "validated",
+                "token": "feedback",
+                "selectedConceptURI": "http://dbpedia.org/resource/Feedback"
+              },
+              {
+                "id": 341,
+                "validationStatus": "validated",
+                "token": "your",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 342,
+                "validationStatus": "validated",
+                "token": "heart",
+                "selectedConceptURI": "http://dbpedia.org/resource/Heart"
+              },
+              {
+                "id": 343,
+                "validationStatus": "validated",
+                "token": "perspiration amounts",
+                "selectedConceptURI": "http://dbpedia.org/resource/Perspiration"
+              },
+              {
+                "id": 344,
+                "validationStatus": "validated",
+                "token": "breathing",
+                "selectedConceptURI": "http://dbpedia.org/resource/Breathing"
+              }
+            ],
+            "id": 133
+          },
+          {
+            "description": "refrigerator door could have keyboard for adding items to a grocery list",
+            "conceptMentions": [
+              {
+                "id": 1533,
+                "validationStatus": "validated",
+                "token": "refrigerator",
+                "selectedConceptURI": "http://dbpedia.org/resource/Refrigerator"
+              },
+              {
+                "id": 1534,
+                "validationStatus": "validated",
+                "token": "keyboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer_keyboard"
+              }
+            ],
+            "id": 336
+          },
+          {
+            "description": "Use it on a car to make an easily changeable paint job",
+            "conceptMentions": [
+              {
+                "id": 363,
+                "validationStatus": "validated",
+                "token": "car",
+                "selectedConceptURI": "http://dbpedia.org/resource/Car"
+              },
+              {
+                "id": 364,
+                "validationStatus": "validated",
+                "token": "paint",
+                "selectedConceptURI": "http://dbpedia.org/resource/Paint"
+              },
+              {
+                "id": 365,
+                "validationStatus": "validated",
+                "token": "job",
+                "selectedConceptURI": "http://dbpedia.org/resource/Job"
+              }
+            ],
+            "id": 53
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 115
+      },
+      {
+        "ideas": [
+          {
+            "description": "A door handle that turns on your lights when you open the door at night. ",
+            "conceptMentions": [
+              {
+                "id": 333,
+                "validationStatus": "validated",
+                "token": "door",
+                "selectedConceptURI": "http://dbpedia.org/resource/Door"
+              },
+              {
+                "id": 334,
+                "validationStatus": "validated",
+                "token": "lights",
+                "selectedConceptURI": "http://dbpedia.org/resource/Light"
+              },
+              {
+                "id": 335,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 126
+          },
+          {
+            "description": "This could be applied to a floor. This would allow certain types of apps that could be operated with one's foot. Games, exercise programs, and things of that nature could be applied. ",
+            "conceptMentions": [
+              {
+                "id": 1570,
+                "validationStatus": "validated",
+                "token": "floor",
+                "selectedConceptURI": "http://dbpedia.org/resource/Floor"
+              },
+              {
+                "id": 1571,
+                "validationStatus": "validated",
+                "token": "one",
+                "selectedConceptURI": "http://dbpedia.org/resource/1_(number)"
+              },
+              {
+                "id": 1572,
+                "validationStatus": "validated",
+                "token": "foot",
+                "selectedConceptURI": "http://dbpedia.org/resource/Foot"
+              },
+              {
+                "id": 1573,
+                "validationStatus": "validated",
+                "token": "Games",
+                "selectedConceptURI": "http://dbpedia.org/resource/Game"
+              },
+              {
+                "id": 1574,
+                "validationStatus": "validated",
+                "token": "exercise",
+                "selectedConceptURI": "http://dbpedia.org/resource/Physical_exercise"
+              },
+              {
+                "id": 1575,
+                "validationStatus": "validated",
+                "token": "programs",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer_program"
+              },
+              {
+                "id": 1576,
+                "validationStatus": "validated",
+                "token": "nature",
+                "selectedConceptURI": "http://dbpedia.org/resource/Nature"
+              },
+              {
+                "id": 1577,
+                "validationStatus": "validated",
+                "token": "could applied",
+                "selectedConceptURI": "http://dbpedia.org/resource/Applied_science"
+              }
+            ],
+            "id": 348
+          },
+          {
+            "description": "Turn the entrances of sports stadiums into fingerprint required areas.",
+            "conceptMentions": [
+              {
+                "id": 690,
+                "validationStatus": "validated",
+                "token": "sports",
+                "selectedConceptURI": "http://dbpedia.org/resource/Sport"
+              },
+              {
+                "id": 691,
+                "validationStatus": "validated",
+                "token": "stadiums",
+                "selectedConceptURI": "http://dbpedia.org/resource/Stadium"
+              },
+              {
+                "id": 692,
+                "validationStatus": "validated",
+                "token": "fingerprint",
+                "selectedConceptURI": "http://dbpedia.org/resource/Fingerprint"
+              }
+            ],
+            "id": 200
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 113
+      },
+      {
+        "ideas": [
+          {
+            "description": "A fish tank with a coating on it that shows the touch display of the temperature so you can adjust it right on the tank.",
+            "conceptMentions": [
+              {
+                "id": 1024,
+                "validationStatus": "validated",
+                "token": "fish tank",
+                "selectedConceptURI": "http://dbpedia.org/resource/Aquarium"
+              },
+              {
+                "id": 1025,
+                "validationStatus": "validated",
+                "token": "coating on it",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coating"
+              },
+              {
+                "id": 1026,
+                "validationStatus": "validated",
+                "token": "temperature",
+                "selectedConceptURI": "http://dbpedia.org/resource/Temperature"
+              },
+              {
+                "id": 1027,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 274
+          },
+          {
+            "description": "To curb the amount of graffiti in cities, turn the facade of buildings into virtual art galleries.",
+            "conceptMentions": [
+              {
+                "id": 679,
+                "validationStatus": "validated",
+                "token": "amount",
+                "selectedConceptURI": "http://dbpedia.org/resource/Quantity"
+              },
+              {
+                "id": 680,
+                "validationStatus": "validated",
+                "token": "graffiti",
+                "selectedConceptURI": "http://dbpedia.org/resource/Graffiti"
+              },
+              {
+                "id": 681,
+                "validationStatus": "validated",
+                "token": "cities",
+                "selectedConceptURI": "http://dbpedia.org/resource/City"
+              },
+              {
+                "id": 682,
+                "validationStatus": "validated",
+                "token": "facade",
+                "selectedConceptURI": "http://dbpedia.org/resource/Facade"
+              },
+              {
+                "id": 683,
+                "validationStatus": "validated",
+                "token": "buildings",
+                "selectedConceptURI": "http://dbpedia.org/resource/Building"
+              },
+              {
+                "id": 684,
+                "validationStatus": "validated",
+                "token": "art",
+                "selectedConceptURI": "http://dbpedia.org/resource/Art"
+              }
+            ],
+            "id": 195
+          },
+          {
+            "description": "A touch display briefcase or backpack would be multifunctional.",
+            "conceptMentions": [
+              {
+                "id": 1512,
+                "validationStatus": "validated",
+                "token": "touch display briefcase",
+                "selectedConceptURI": "http://dbpedia.org/resource/Briefcase"
+              },
+              {
+                "id": 1513,
+                "validationStatus": "validated",
+                "token": "backpack",
+                "selectedConceptURI": "http://dbpedia.org/resource/Backpack"
+              }
+            ],
+            "id": 409
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 109
+      },
+      {
+        "ideas": [
+          {
+            "description": "A kid's drawing board like on a wall so they can paint and play with it.",
+            "conceptMentions": [
+              {
+                "id": 589,
+                "validationStatus": "validated",
+                "token": "drawing board",
+                "selectedConceptURI": "http://dbpedia.org/resource/Drawing_board"
+              },
+              {
+                "id": 590,
+                "validationStatus": "validated",
+                "token": "wall",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wall"
+              },
+              {
+                "id": 591,
+                "validationStatus": "validated",
+                "token": "they",
+                "selectedConceptURI": "http://dbpedia.org/resource/They"
+              }
+            ],
+            "id": 153
+          },
+          {
+            "description": "Put it on walls in schools to replace chalk boards and make learning more interactive.",
+            "conceptMentions": [
+              {
+                "id": 490,
+                "validationStatus": "validated",
+                "token": "walls",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wall"
+              },
+              {
+                "id": 491,
+                "validationStatus": "validated",
+                "token": "schools",
+                "selectedConceptURI": "http://dbpedia.org/resource/School"
+              },
+              {
+                "id": 492,
+                "validationStatus": "validated",
+                "token": "chalk",
+                "selectedConceptURI": "http://dbpedia.org/resource/Chalk"
+              }
+            ],
+            "id": 131
+          },
+          {
+            "description": "A touch display in the restroom on the wall near the toilet so when you are using the toilet, you can browse the internet,",
+            "conceptMentions": [
+              {
+                "id": 151,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              },
+              {
+                "id": 152,
+                "validationStatus": "validated",
+                "token": "display",
+                "selectedConceptURI": "http://dbpedia.org/resource/Flat_panel_display"
+              },
+              {
+                "id": 153,
+                "validationStatus": "validated",
+                "token": "restroom",
+                "selectedConceptURI": "http://dbpedia.org/resource/Public_toilet"
+              },
+              {
+                "id": 154,
+                "validationStatus": "validated",
+                "token": "wall",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wall"
+              },
+              {
+                "id": 155,
+                "validationStatus": "validated",
+                "token": "toilet",
+                "selectedConceptURI": "http://dbpedia.org/resource/Toilet"
+              },
+              {
+                "id": 156,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 157,
+                "validationStatus": "validated",
+                "token": "internet",
+                "selectedConceptURI": "http://dbpedia.org/resource/Internet"
+              }
+            ],
+            "id": 62
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 102
+      },
+      {
+        "ideas": [
+          {
+            "description": "vanity or bathroom mirror that shows news, time, weather, sports",
+            "conceptMentions": [
+              {
+                "id": 56,
+                "validationStatus": "validated",
+                "token": "vanity",
+                "selectedConceptURI": "http://dbpedia.org/resource/Vanity"
+              },
+              {
+                "id": 57,
+                "validationStatus": "validated",
+                "token": "bathroom",
+                "selectedConceptURI": "http://dbpedia.org/resource/Bathroom"
+              },
+              {
+                "id": 58,
+                "validationStatus": "validated",
+                "token": "mirror",
+                "selectedConceptURI": "http://dbpedia.org/resource/Mirror"
+              },
+              {
+                "id": 59,
+                "validationStatus": "validated",
+                "token": "news",
+                "selectedConceptURI": "http://dbpedia.org/resource/News"
+              },
+              {
+                "id": 60,
+                "validationStatus": "validated",
+                "token": "time",
+                "selectedConceptURI": "http://dbpedia.org/resource/Time"
+              },
+              {
+                "id": 61,
+                "validationStatus": "validated",
+                "token": "weather",
+                "selectedConceptURI": "http://dbpedia.org/resource/Weather"
+              },
+              {
+                "id": 62,
+                "validationStatus": "validated",
+                "token": "sports",
+                "selectedConceptURI": "http://dbpedia.org/resource/Sport"
+              }
+            ],
+            "id": 8
+          },
+          {
+            "description": "Turn the handle in the shower into a tablet for water settings based on your body temperature.",
+            "conceptMentions": [
+              {
+                "id": 674,
+                "validationStatus": "validated",
+                "token": "shower",
+                "selectedConceptURI": "http://dbpedia.org/resource/Shower"
+              },
+              {
+                "id": 675,
+                "validationStatus": "validated",
+                "token": "tablet",
+                "selectedConceptURI": "http://dbpedia.org/resource/Tablet_computer"
+              },
+              {
+                "id": 676,
+                "validationStatus": "validated",
+                "token": "water",
+                "selectedConceptURI": "http://dbpedia.org/resource/Water"
+              },
+              {
+                "id": 677,
+                "validationStatus": "validated",
+                "token": "body",
+                "selectedConceptURI": "http://dbpedia.org/resource/Human_body"
+              },
+              {
+                "id": 678,
+                "validationStatus": "validated",
+                "token": "temperature",
+                "selectedConceptURI": "http://dbpedia.org/resource/Temperature"
+              }
+            ],
+            "id": 191
+          },
+          {
+            "description": "A touch display mattress that could control firmness.",
+            "conceptMentions": [
+              {
+                "id": 815,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              },
+              {
+                "id": 816,
+                "validationStatus": "validated",
+                "token": "mattress",
+                "selectedConceptURI": "http://dbpedia.org/resource/Mattress"
+              }
+            ],
+            "id": 237
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 92
+      },
+      {
+        "ideas": [
+          {
+            "description": "Putting one on a treadmill so you can have something to do when exercising.",
+            "conceptMentions": [
+              {
+                "id": 594,
+                "validationStatus": "validated",
+                "token": "treadmill",
+                "selectedConceptURI": "http://dbpedia.org/resource/Treadmill"
+              },
+              {
+                "id": 595,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 156
+          },
+          {
+            "description": "You could use it on all the windows in your home making every window in your home have a different scenery ",
+            "conceptMentions": [
+              {
+                "id": 30,
+                "validationStatus": "validated",
+                "token": "You",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 31,
+                "validationStatus": "validated",
+                "token": "windows",
+                "selectedConceptURI": "http://dbpedia.org/resource/Window"
+              },
+              {
+                "id": 32,
+                "validationStatus": "validated",
+                "token": "home",
+                "selectedConceptURI": "http://dbpedia.org/resource/Home"
+              },
+              {
+                "id": 33,
+                "validationStatus": "validated",
+                "token": "window",
+                "selectedConceptURI": "http://dbpedia.org/resource/Window"
+              },
+              {
+                "id": 34,
+                "validationStatus": "validated",
+                "token": "scenery",
+                "selectedConceptURI": "http://dbpedia.org/resource/Theatrical_scenery"
+              }
+            ],
+            "id": 41
+          },
+          {
+            "description": "I feel like it would be very useful to have all of you car buttons to be coated on to the dashboard.",
+            "conceptMentions": [
+              {
+                "id": 214,
+                "validationStatus": "validated",
+                "token": "dashboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/Dashboard"
+              }
+            ],
+            "id": 85
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 85
+      },
+      {
+        "ideas": [
+          {
+            "description": "a device where you can spray in side a car dashboard. the dashboard then tells you the mph you are going and other car related information such as temperature\n",
+            "conceptMentions": [
+              {
+                "id": 965,
+                "validationStatus": "validated",
+                "token": "device",
+                "selectedConceptURI": "http://dbpedia.org/resource/Device_(metal_band)"
+              },
+              {
+                "id": 966,
+                "validationStatus": "validated",
+                "token": "you can spray",
+                "selectedConceptURI": "http://dbpedia.org/resource/Blood_squirt"
+              },
+              {
+                "id": 967,
+                "validationStatus": "validated",
+                "token": "car",
+                "selectedConceptURI": "http://dbpedia.org/resource/Heap_spraying"
+              },
+              {
+                "id": 968,
+                "validationStatus": "validated",
+                "token": "dashboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/Aerosol_spray"
+              },
+              {
+                "id": 969,
+                "validationStatus": "validated",
+                "token": "mph",
+                "selectedConceptURI": "http://dbpedia.org/resource/Aerosol_spray"
+              },
+              {
+                "id": 970,
+                "validationStatus": "validated",
+                "token": "car related information",
+                "selectedConceptURI": "http://dbpedia.org/resource/Blood_squirt"
+              },
+              {
+                "id": 971,
+                "validationStatus": "validated",
+                "token": "temperature",
+                "selectedConceptURI": "http://dbpedia.org/resource/Temperature"
+              }
+            ],
+            "id": 286
+          },
+          {
+            "description": "A touch display shower door, where one could turn on and adjust the water, change lighting, and even control music.",
+            "conceptMentions": [
+              {
+                "id": 805,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              },
+              {
+                "id": 806,
+                "validationStatus": "validated",
+                "token": "shower",
+                "selectedConceptURI": "http://dbpedia.org/resource/Shower"
+              },
+              {
+                "id": 807,
+                "validationStatus": "validated",
+                "token": "door",
+                "selectedConceptURI": "http://dbpedia.org/resource/Door"
+              },
+              {
+                "id": 808,
+                "validationStatus": "validated",
+                "token": "water",
+                "selectedConceptURI": "http://dbpedia.org/resource/Water"
+              },
+              {
+                "id": 809,
+                "validationStatus": "validated",
+                "token": "lighting",
+                "selectedConceptURI": "http://dbpedia.org/resource/Lighting"
+              },
+              {
+                "id": 810,
+                "validationStatus": "validated",
+                "token": "music",
+                "selectedConceptURI": "http://dbpedia.org/resource/Music"
+              }
+            ],
+            "id": 229
+          },
+          {
+            "description": "On the steering wheel face, for things like song changing, gps",
+            "conceptMentions": [
+              {
+                "id": 752,
+                "validationStatus": "validated",
+                "token": "song",
+                "selectedConceptURI": "http://dbpedia.org/resource/Song"
+              }
+            ],
+            "id": 219
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 79
+      },
+      {
+        "ideas": [
+          {
+            "description": "A mirror that can display information like time, date, weather, and calendar events while still showing your reflection.",
+            "conceptMentions": [
+              {
+                "id": 1035,
+                "validationStatus": "validated",
+                "token": "mirror",
+                "selectedConceptURI": "http://dbpedia.org/resource/Mirror"
+              },
+              {
+                "id": 1036,
+                "validationStatus": "validated",
+                "token": "information",
+                "selectedConceptURI": "http://dbpedia.org/resource/Information"
+              },
+              {
+                "id": 1037,
+                "validationStatus": "validated",
+                "token": "time",
+                "selectedConceptURI": "http://dbpedia.org/resource/Time"
+              },
+              {
+                "id": 1038,
+                "validationStatus": "validated",
+                "token": "date",
+                "selectedConceptURI": "http://dbpedia.org/resource/Calendar_date"
+              },
+              {
+                "id": 1039,
+                "validationStatus": "validated",
+                "token": "weather",
+                "selectedConceptURI": "http://dbpedia.org/resource/Weather"
+              },
+              {
+                "id": 1040,
+                "validationStatus": "validated",
+                "token": "calendar",
+                "selectedConceptURI": "http://dbpedia.org/resource/Calendar"
+              }
+            ],
+            "id": 296
+          },
+          {
+            "description": "A touch screen restaurant where you can order without having to interact with workers.",
+            "conceptMentions": [
+              {
+                "id": 397,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              },
+              {
+                "id": 398,
+                "validationStatus": "validated",
+                "token": "restaurant",
+                "selectedConceptURI": "http://dbpedia.org/resource/Restaurant"
+              },
+              {
+                "id": 399,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 400,
+                "validationStatus": "validated",
+                "token": "workers",
+                "selectedConceptURI": "http://dbpedia.org/resource/Workforce"
+              }
+            ],
+            "id": 71
+          },
+          {
+            "description": "A microwave or fridge that will make what ever food you want by simply touching it.",
+            "conceptMentions": [
+              {
+                "id": 731,
+                "validationStatus": "validated",
+                "token": "microwave",
+                "selectedConceptURI": "http://dbpedia.org/resource/Microwave"
+              },
+              {
+                "id": 732,
+                "validationStatus": "validated",
+                "token": "fridge",
+                "selectedConceptURI": "http://dbpedia.org/resource/Refrigerator"
+              },
+              {
+                "id": 733,
+                "validationStatus": "validated",
+                "token": "food",
+                "selectedConceptURI": "http://dbpedia.org/resource/Food"
+              },
+              {
+                "id": 734,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 204
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 74
+      },
+      {
+        "ideas": [
+          {
+            "description": "Can turn a blackboard or a map into touch objects controlling them.",
+            "conceptMentions": [
+              {
+                "id": 885,
+                "validationStatus": "validated",
+                "token": "blackboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/Blackboard"
+              },
+              {
+                "id": 886,
+                "validationStatus": "validated",
+                "token": "map",
+                "selectedConceptURI": "http://dbpedia.org/resource/Map"
+              },
+              {
+                "id": 887,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              }
+            ],
+            "id": 159
+          },
+          {
+            "description": "You can people turn the floor in your workout spot into a display that foresees all the activities you are doing and calculate calories.",
+            "conceptMentions": [
+              {
+                "id": 638,
+                "validationStatus": "validated",
+                "token": "You",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 639,
+                "validationStatus": "validated",
+                "token": "people",
+                "selectedConceptURI": "http://dbpedia.org/resource/People"
+              },
+              {
+                "id": 640,
+                "validationStatus": "validated",
+                "token": "floor",
+                "selectedConceptURI": "http://dbpedia.org/resource/Floor"
+              },
+              {
+                "id": 641,
+                "validationStatus": "validated",
+                "token": "workout",
+                "selectedConceptURI": "http://dbpedia.org/resource/Physical_exercise"
+              },
+              {
+                "id": 642,
+                "validationStatus": "validated",
+                "token": "display",
+                "selectedConceptURI": "http://dbpedia.org/resource/Electronic_visual_display"
+              },
+              {
+                "id": 643,
+                "validationStatus": "validated",
+                "token": "calories",
+                "selectedConceptURI": "http://dbpedia.org/resource/Calorie"
+              }
+            ],
+            "id": 220
+          },
+          {
+            "description": "Touch screen tables in a restaurant where you can order your food and pay.",
+            "conceptMentions": [
+              {
+                "id": 1031,
+                "validationStatus": "validated",
+                "token": "tables",
+                "selectedConceptURI": "http://dbpedia.org/resource/Table_(furniture)"
+              },
+              {
+                "id": 1032,
+                "validationStatus": "validated",
+                "token": "restaurant",
+                "selectedConceptURI": "http://dbpedia.org/resource/Restaurant"
+              },
+              {
+                "id": 1033,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 1034,
+                "validationStatus": "validated",
+                "token": "food",
+                "selectedConceptURI": "http://dbpedia.org/resource/Food"
+              }
+            ],
+            "id": 287
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 63
+      },
+      {
+        "ideas": [
+          {
+            "description": "Toilet paper dispenser can have a touch screen alerting a robot to bring you more if the dispenser is empty. ",
+            "conceptMentions": [
+              {
+                "id": 210,
+                "validationStatus": "validated",
+                "token": "Toilet paper dispenser",
+                "selectedConceptURI": "http://dbpedia.org/resource/Toilet_roll_holder"
+              },
+              {
+                "id": 211,
+                "validationStatus": "validated",
+                "token": "touch screen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Touchscreen"
+              },
+              {
+                "id": 212,
+                "validationStatus": "validated",
+                "token": "robot",
+                "selectedConceptURI": "http://dbpedia.org/resource/Robot"
+              },
+              {
+                "id": 213,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 76
+          },
+          {
+            "description": "Spray the coating on the bathroom wall to adjust the water temperature and water pressure and to put music, podcast, news, or audiobooks to listen while you shower.",
+            "conceptMentions": [
+              {
+                "id": 717,
+                "validationStatus": "validated",
+                "token": "coating",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coating"
+              },
+              {
+                "id": 718,
+                "validationStatus": "validated",
+                "token": "bathroom",
+                "selectedConceptURI": "http://dbpedia.org/resource/Bathroom"
+              },
+              {
+                "id": 719,
+                "validationStatus": "validated",
+                "token": "wall",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wall"
+              },
+              {
+                "id": 720,
+                "validationStatus": "validated",
+                "token": "water",
+                "selectedConceptURI": "http://dbpedia.org/resource/Water"
+              },
+              {
+                "id": 721,
+                "validationStatus": "validated",
+                "token": "temperature",
+                "selectedConceptURI": "http://dbpedia.org/resource/Temperature"
+              },
+              {
+                "id": 722,
+                "validationStatus": "validated",
+                "token": "water pressure",
+                "selectedConceptURI": "http://dbpedia.org/resource/Pressure"
+              },
+              {
+                "id": 723,
+                "validationStatus": "validated",
+                "token": "music",
+                "selectedConceptURI": "http://dbpedia.org/resource/Music"
+              },
+              {
+                "id": 724,
+                "validationStatus": "validated",
+                "token": "podcast",
+                "selectedConceptURI": "http://dbpedia.org/resource/Podcast"
+              },
+              {
+                "id": 725,
+                "validationStatus": "validated",
+                "token": "news",
+                "selectedConceptURI": "http://dbpedia.org/resource/News"
+              },
+              {
+                "id": 726,
+                "validationStatus": "validated",
+                "token": "audiobooks",
+                "selectedConceptURI": "http://dbpedia.org/resource/Audiobook"
+              }
+            ],
+            "id": 207
+          },
+          {
+            "description": "Can turn a blackboard or a map into touch objects controlling them.",
+            "conceptMentions": [
+              {
+                "id": 885,
+                "validationStatus": "validated",
+                "token": "blackboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/Blackboard"
+              },
+              {
+                "id": 886,
+                "validationStatus": "validated",
+                "token": "map",
+                "selectedConceptURI": "http://dbpedia.org/resource/Map"
+              },
+              {
+                "id": 887,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              }
+            ],
+            "id": 159
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 59
+      },
+      {
+        "ideas": [
+          {
+            "description": "Wardrobe that tells you how much space is left inside after putting in clothes.",
+            "conceptMentions": [
+              {
+                "id": 544,
+                "validationStatus": "validated",
+                "token": "Wardrobe",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wardrobe"
+              },
+              {
+                "id": 545,
+                "validationStatus": "validated",
+                "token": "much space",
+                "selectedConceptURI": "http://dbpedia.org/resource/Space"
+              },
+              {
+                "id": 546,
+                "validationStatus": "validated",
+                "token": "clothes",
+                "selectedConceptURI": "http://dbpedia.org/resource/Clothing"
+              }
+            ],
+            "id": 322
+          },
+          {
+            "description": "You could use the coating to put on your desk and use that instead of a keyboard.",
+            "conceptMentions": [
+              {
+                "id": 215,
+                "validationStatus": "validated",
+                "token": "coating",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coating"
+              },
+              {
+                "id": 216,
+                "validationStatus": "validated",
+                "token": "desk",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desk"
+              },
+              {
+                "id": 217,
+                "validationStatus": "validated",
+                "token": "keyboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/IBM_PC_keyboard"
+              }
+            ],
+            "id": 86
+          },
+          {
+            "description": "School books with a touchscreen built in, for notes and homework. ",
+            "conceptMentions": [
+              {
+                "id": 95,
+                "validationStatus": "validated",
+                "token": "School books",
+                "selectedConceptURI": "http://dbpedia.org/resource/Textbook"
+              },
+              {
+                "id": 96,
+                "validationStatus": "validated",
+                "token": "touchscreen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Touchscreen"
+              },
+              {
+                "id": 97,
+                "validationStatus": "validated",
+                "token": "homework",
+                "selectedConceptURI": "http://dbpedia.org/resource/Homework"
+              }
+            ],
+            "id": 16
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 44
+      },
+      {
+        "ideas": [
+          {
+            "description": "A touchscreen on my cabinet. I could use it to pull up recipes or search for ideas for dinner.",
+            "conceptMentions": [
+              {
+                "id": 261,
+                "validationStatus": "validated",
+                "token": "touchscreen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Touchscreen"
+              },
+              {
+                "id": 262,
+                "validationStatus": "validated",
+                "token": "I",
+                "selectedConceptURI": "http://dbpedia.org/resource/I"
+              },
+              {
+                "id": 263,
+                "validationStatus": "validated",
+                "token": "recipes",
+                "selectedConceptURI": "http://dbpedia.org/resource/Recipe"
+              },
+              {
+                "id": 264,
+                "validationStatus": "validated",
+                "token": "ideas",
+                "selectedConceptURI": "http://dbpedia.org/resource/Idea"
+              },
+              {
+                "id": 265,
+                "validationStatus": "validated",
+                "token": "dinner",
+                "selectedConceptURI": "http://dbpedia.org/resource/Dinner"
+              }
+            ],
+            "id": 109
+          },
+          {
+            "description": "Touch screen tables in a restaurant where you can order your food and pay.",
+            "conceptMentions": [
+              {
+                "id": 1031,
+                "validationStatus": "validated",
+                "token": "tables",
+                "selectedConceptURI": "http://dbpedia.org/resource/Table_(furniture)"
+              },
+              {
+                "id": 1032,
+                "validationStatus": "validated",
+                "token": "restaurant",
+                "selectedConceptURI": "http://dbpedia.org/resource/Restaurant"
+              },
+              {
+                "id": 1033,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 1034,
+                "validationStatus": "validated",
+                "token": "food",
+                "selectedConceptURI": "http://dbpedia.org/resource/Food"
+              }
+            ],
+            "id": 287
+          },
+          {
+            "description": "A desk with a coating on top with turns the desktop into a keyboard touch display.",
+            "conceptMentions": [
+              {
+                "id": 1020,
+                "validationStatus": "validated",
+                "token": "desk",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desk"
+              },
+              {
+                "id": 1021,
+                "validationStatus": "validated",
+                "token": "coating",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coating"
+              },
+              {
+                "id": 1022,
+                "validationStatus": "validated",
+                "token": "desktop",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desktop_computer"
+              },
+              {
+                "id": 1023,
+                "validationStatus": "validated",
+                "token": "keyboard touch display",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer_keyboard"
+              }
+            ],
+            "id": 273
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 39
+      },
+      {
+        "ideas": [
+          {
+            "description": "Touch display on a desk so the mouse and keyboard would be directly on the desk. ",
+            "conceptMentions": [
+              {
+                "id": 242,
+                "validationStatus": "validated",
+                "token": "display",
+                "selectedConceptURI": "http://dbpedia.org/resource/Display_device"
+              },
+              {
+                "id": 243,
+                "validationStatus": "validated",
+                "token": "desk",
+                "selectedConceptURI": "http://dbpedia.org/resource/Desk"
+              },
+              {
+                "id": 244,
+                "validationStatus": "validated",
+                "token": "mouse",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer_mouse"
+              },
+              {
+                "id": 245,
+                "validationStatus": "validated",
+                "token": "keyboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/IBM_PC_keyboard"
+              }
+            ],
+            "id": 101
+          },
+          {
+            "description": "Can turn a blackboard or a map into touch objects controlling them.",
+            "conceptMentions": [
+              {
+                "id": 885,
+                "validationStatus": "validated",
+                "token": "blackboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/Blackboard"
+              },
+              {
+                "id": 886,
+                "validationStatus": "validated",
+                "token": "map",
+                "selectedConceptURI": "http://dbpedia.org/resource/Map"
+              },
+              {
+                "id": 887,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              }
+            ],
+            "id": 159
+          },
+          {
+            "description": "A bathroom mirror would be great with a touch display, because as you're getting ready for work, you can catch up on the morning news or get a jumpstart on reading and returning emails.",
+            "conceptMentions": [
+              {
+                "id": 420,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 82
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 32
+      },
+      {
+        "ideas": [
+          {
+            "description": "an expandable keyboard so i can adjust the spacing of the keys to fit my own hands",
+            "conceptMentions": [
+              {
+                "id": 612,
+                "validationStatus": "validated",
+                "token": "keyboard",
+                "selectedConceptURI": "http://dbpedia.org/resource/IBM_PC_keyboard"
+              },
+              {
+                "id": 613,
+                "validationStatus": "validated",
+                "token": "i",
+                "selectedConceptURI": "http://dbpedia.org/resource/I"
+              },
+              {
+                "id": 614,
+                "validationStatus": "validated",
+                "token": "keys",
+                "selectedConceptURI": "http://dbpedia.org/resource/Computer_keyboard"
+              },
+              {
+                "id": 615,
+                "validationStatus": "validated",
+                "token": "my hands",
+                "selectedConceptURI": "http://dbpedia.org/resource/Hand"
+              }
+            ],
+            "id": 171
+          },
+          {
+            "description": "You could make clothing that can react to touch.",
+            "conceptMentions": [
+              {
+                "id": 562,
+                "validationStatus": "validated",
+                "token": "clothing",
+                "selectedConceptURI": "http://dbpedia.org/resource/Clothing"
+              }
+            ],
+            "id": 141
+          },
+          {
+            "description": "I have a new idea about designing a foldable smartphone with qled display and infinity edge to edge screen",
+            "conceptMentions": [
+              {
+                "id": 1188,
+                "validationStatus": "validated",
+                "token": "idea",
+                "selectedConceptURI": "http://dbpedia.org/resource/IdeaPad"
+              },
+              {
+                "id": 1189,
+                "validationStatus": "validated",
+                "token": "smartphone",
+                "selectedConceptURI": "http://dbpedia.org/resource/Smartphone"
+              },
+              {
+                "id": 1190,
+                "validationStatus": "validated",
+                "token": "display",
+                "selectedConceptURI": "http://dbpedia.org/resource/Flat_panel_display"
+              },
+              {
+                "id": 1191,
+                "validationStatus": "validated",
+                "token": "infinity",
+                "selectedConceptURI": "http://dbpedia.org/resource/Infinity"
+              },
+              {
+                "id": 1192,
+                "validationStatus": "validated",
+                "token": "edge",
+                "selectedConceptURI": "http://dbpedia.org/resource/Edge_(video_game)"
+              },
+              {
+                "id": 1193,
+                "validationStatus": "validated",
+                "token": "screen",
+                "selectedConceptURI": "http://dbpedia.org/resource/GNU_Screen"
+              }
+            ],
+            "id": 423
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 30
+      },
+      {
+        "ideas": [
+          {
+            "description": "you could have a section of the countertop in the kitchen where you could just use your finger to write a grocery list\n",
+            "conceptMentions": [
+              {
+                "id": 988,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 989,
+                "validationStatus": "validated",
+                "token": "section",
+                "selectedConceptURI": "http://dbpedia.org/resource/Forest_range"
+              },
+              {
+                "id": 990,
+                "validationStatus": "validated",
+                "token": "countertop",
+                "selectedConceptURI": "http://dbpedia.org/resource/Countertop"
+              },
+              {
+                "id": 991,
+                "validationStatus": "validated",
+                "token": "kitchen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Kitchen"
+              },
+              {
+                "id": 992,
+                "validationStatus": "validated",
+                "token": "finger",
+                "selectedConceptURI": "http://dbpedia.org/resource/Finger"
+              },
+              {
+                "id": 993,
+                "validationStatus": "validated",
+                "token": "grocery",
+                "selectedConceptURI": "http://dbpedia.org/resource/Grocery_store"
+              },
+              {
+                "id": 994,
+                "validationStatus": "validated",
+                "token": "list",
+                "selectedConceptURI": "http://dbpedia.org/resource/List_of_lists_of_lists"
+              }
+            ],
+            "id": 290
+          },
+          {
+            "description": "A white board that can be reset with a touch right off the surface.",
+            "conceptMentions": [
+              {
+                "id": 592,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              },
+              {
+                "id": 593,
+                "validationStatus": "validated",
+                "token": "surface",
+                "selectedConceptURI": "http://dbpedia.org/resource/Surface_area"
+              }
+            ],
+            "id": 155
+          },
+          {
+            "description": "Touch displays can be added to the side of headphones in order to get more fine tuned selection of options as opposed to either physical buttons or being forced to use the host device. ",
+            "conceptMentions": [
+              {
+                "id": 1411,
+                "validationStatus": "validated",
+                "token": "side of headphones",
+                "selectedConceptURI": "http://dbpedia.org/resource/Headphones"
+              }
+            ],
+            "id": 374
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 28
+      },
+      {
+        "ideas": [
+          {
+            "description": "Use it on magazines to make article information clickable.",
+            "conceptMentions": [
+              {
+                "id": 1145,
+                "validationStatus": "validated",
+                "token": "magazines",
+                "selectedConceptURI": "http://dbpedia.org/resource/Magazine"
+              }
+            ],
+            "id": 380
+          },
+          {
+            "description": "A television that can change channels by using touch display",
+            "conceptMentions": [
+              {
+                "id": 1066,
+                "validationStatus": "validated",
+                "token": "television",
+                "selectedConceptURI": "http://dbpedia.org/resource/Television"
+              },
+              {
+                "id": 1067,
+                "validationStatus": "validated",
+                "token": "touch",
+                "selectedConceptURI": "http://dbpedia.org/resource/Somatosensory_system"
+              }
+            ],
+            "id": 362
+          },
+          {
+            "description": "Put is on a turtle and be able to have it clean the house",
+            "conceptMentions": [
+              {
+                "id": 275,
+                "validationStatus": "validated",
+                "token": "turtle",
+                "selectedConceptURI": "http://dbpedia.org/resource/Turtle"
+              },
+              {
+                "id": 276,
+                "validationStatus": "validated",
+                "token": "house",
+                "selectedConceptURI": "http://dbpedia.org/resource/House"
+              }
+            ],
+            "id": 106
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 23
+      },
+      {
+        "ideas": [
+          {
+            "description": "You could make clothing that can react to touch.",
+            "conceptMentions": [
+              {
+                "id": 562,
+                "validationStatus": "validated",
+                "token": "clothing",
+                "selectedConceptURI": "http://dbpedia.org/resource/Clothing"
+              }
+            ],
+            "id": 141
+          },
+          {
+            "description": "A kitchen counter that could display cooking recipes. You could flip through pages etc and add recipes of your own\n",
+            "conceptMentions": [
+              {
+                "id": 948,
+                "validationStatus": "validated",
+                "token": "kitchen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Kitchen"
+              },
+              {
+                "id": 949,
+                "validationStatus": "validated",
+                "token": "counter",
+                "selectedConceptURI": "http://dbpedia.org/resource/Counter_(digital)"
+              },
+              {
+                "id": 950,
+                "validationStatus": "validated",
+                "token": "recipes",
+                "selectedConceptURI": "http://dbpedia.org/resource/Recipe"
+              },
+              {
+                "id": 951,
+                "validationStatus": "validated",
+                "token": "You",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 952,
+                "validationStatus": "validated",
+                "token": "pages etc",
+                "selectedConceptURI": "http://dbpedia.org/resource/ETC_(Chilean_TV_channel)"
+              }
+            ],
+            "id": 283
+          },
+          {
+            "description": "A fish tank with a coating on it that shows the touch display of the temperature so you can adjust it right on the tank.",
+            "conceptMentions": [
+              {
+                "id": 1024,
+                "validationStatus": "validated",
+                "token": "fish tank",
+                "selectedConceptURI": "http://dbpedia.org/resource/Aquarium"
+              },
+              {
+                "id": 1025,
+                "validationStatus": "validated",
+                "token": "coating on it",
+                "selectedConceptURI": "http://dbpedia.org/resource/Coating"
+              },
+              {
+                "id": 1026,
+                "validationStatus": "validated",
+                "token": "temperature",
+                "selectedConceptURI": "http://dbpedia.org/resource/Temperature"
+              },
+              {
+                "id": 1027,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              }
+            ],
+            "id": 274
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 13
+      },
+      {
+        "ideas": [
+          {
+            "description": "you could have a section of the countertop in the kitchen where you could just use your finger to write a grocery list\n",
+            "conceptMentions": [
+              {
+                "id": 1013,
+                "validationStatus": "validated",
+                "token": "you",
+                "selectedConceptURI": "http://dbpedia.org/resource/You"
+              },
+              {
+                "id": 1014,
+                "validationStatus": "validated",
+                "token": "section",
+                "selectedConceptURI": "http://dbpedia.org/resource/Forest_range"
+              },
+              {
+                "id": 1015,
+                "validationStatus": "validated",
+                "token": "countertop",
+                "selectedConceptURI": "http://dbpedia.org/resource/Countertop"
+              },
+              {
+                "id": 1016,
+                "validationStatus": "validated",
+                "token": "kitchen",
+                "selectedConceptURI": "http://dbpedia.org/resource/Kitchen"
+              },
+              {
+                "id": 1017,
+                "validationStatus": "validated",
+                "token": "finger",
+                "selectedConceptURI": "http://dbpedia.org/resource/Finger"
+              },
+              {
+                "id": 1018,
+                "validationStatus": "validated",
+                "token": "grocery",
+                "selectedConceptURI": "http://dbpedia.org/resource/Grocery_store"
+              },
+              {
+                "id": 1019,
+                "validationStatus": "validated",
+                "token": "list",
+                "selectedConceptURI": "http://dbpedia.org/resource/SC_Germania_List"
+              }
+            ],
+            "id": 295
+          },
+          {
+            "description": "A out of the box door lock system along with inside the house locker system can be done with great uses for sure",
+            "conceptMentions": [
+              {
+                "id": 1412,
+                "validationStatus": "validated",
+                "token": "door",
+                "selectedConceptURI": "http://dbpedia.org/resource/Door"
+              },
+              {
+                "id": 1413,
+                "validationStatus": "validated",
+                "token": "lock system",
+                "selectedConceptURI": "http://dbpedia.org/resource/Lock_(security_device)"
+              },
+              {
+                "id": 1414,
+                "validationStatus": "validated",
+                "token": "house",
+                "selectedConceptURI": "http://dbpedia.org/resource/House"
+              },
+              {
+                "id": 1415,
+                "validationStatus": "validated",
+                "token": "locker",
+                "selectedConceptURI": "http://dbpedia.org/resource/Locker"
+              },
+              {
+                "id": 1416,
+                "validationStatus": "validated",
+                "token": "can done with uses",
+                "selectedConceptURI": "http://dbpedia.org/resource/Wikipedia_community"
+              }
+            ],
+            "id": 375
+          },
+          {
+            "description": "Great theatrical costume. You can even interact with the audience.",
+            "conceptMentions": [
+              {
+                "id": 1427,
+                "validationStatus": "validated",
+                "token": "costume",
+                "selectedConceptURI": "http://dbpedia.org/resource/Costume"
+              },
+              {
+                "id": 1428,
+                "validationStatus": "validated",
+                "token": "audience",
+                "selectedConceptURI": "http://dbpedia.org/resource/Audience"
+              }
+            ],
+            "id": 386
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 7
+      }
+    ]
+  }
+] 

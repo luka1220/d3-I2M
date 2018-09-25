@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import logo from './i2m_350.png';
 import './App.css';
 import Graph from "./components/idea_graph";
+import Session from "./components/session";
 
 
 class App extends Component {
@@ -12,7 +14,12 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to ideation session visualisation</h1>
         </header>
-        <Graph/>
+          <BrowserRouter>
+            <Switch>
+              <Route path='/session' component={Session}/>
+              <Route path='/' component={Graph}/>
+            </Switch>
+          </BrowserRouter>
       </div>
     );
   }

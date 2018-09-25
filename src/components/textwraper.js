@@ -24,3 +24,34 @@ export const wrap = (text, width) => {
     }
   });
 }
+
+export const textwrapReact = (text, width) => {
+    var words = text.split(/\s+/).reverse().filter(word => word.length > 0),
+        word,
+        line = [],
+        result = []
+    while (word = words.pop()) {
+      line.push(word);
+      if (line.join(" ").visualLength() > width && line.length > 1) {
+        line.pop();
+        result.push(line.join(" "));
+        line = [word];
+      }
+    }
+    if(line.length > 0){
+      result.push(line.join(" "))
+    }
+
+    return result
+}
+
+String.prototype.visualLength = function()
+{
+    var ruler = $("ruler");
+    ruler.innerHTML = this;
+    return ruler.offsetWidth;
+}
+function $(id)
+{
+    return document.getElementById(id);
+}

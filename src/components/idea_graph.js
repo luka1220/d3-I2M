@@ -1,7 +1,11 @@
 
 import Navigation from "./navigation";
 
-import JSON_DATA from '../CHI19S1-ideas.json';
+import CHI19S1_ideas from '../CHI19S1-ideas.json';
+import CHI19S2_ideas from '../CHI19S2-ideas.json';
+import CHI19S3_ideas from '../CHI19S3-ideas.json';
+
+
 import "./graph.css";
 import { textwrap } from 'd3-textwrap';
 import { wrap } from './textwraper'; 
@@ -9,12 +13,14 @@ const React = require('react');
 var d3 = require("d3");
 var colorDictionary = new Map(); 
 
+const DATA_Array = [CHI19S1_ideas, CHI19S2_ideas, CHI19S3_ideas]
 
 class Graph extends React.Component {
 
 	constructor(props) {
 		super(props);
 		this.state = {
+			JSON_DATA: CHI19S1_ideas,
 			startPoint: {x:parseInt(window.innerWidth*0.67/12, 10), y:200},
 			dataRange: {fromIndex: 0, toIndex:10},
 			circleRadius: "3%",
@@ -32,24 +38,24 @@ class Graph extends React.Component {
 
 	componentDidMount() {
 		
-		var data = this.dataHandler(this.state.dataRange)
+		var data = this.dataHandler(this.state.dataRange, this.state.JSON_DATA)
 		this.setgraph(data.nodes, data.links)
 		this.setgraph(data.conzeptNodes, [])
 	}
 
 	componentDidUpdate(prevProps, prevState, snapshot){
-		if(prevState.dataRange !== this.state.dataRange){
+		if(prevState.dataRange !== this.state.dataRange || prevState.JSON_DATA!==this.state.JSON_DATA){
 			d3.selectAll("g").remove(); 
 			d3.select("#r-link").remove(); //remove rect
 			d3.select("#t-link").remove(); //remove text link uri
 
-			var data = this.dataHandler(this.state.dataRange)
+			var data = this.dataHandler(this.state.dataRange, this.state.JSON_DATA)
 			this.setgraph(data.nodes, data.links)
 			this.setgraph(data.conzeptNodes, [])
 		}
 	}
 
-	dataHandler = (dataRange) => {
+	dataHandler = (dataRange, JSON_DATA) => {
 		const data = JSON_DATA.slice(dataRange.fromIndex,dataRange.toIndex); 
 		console.log(data)
 		var processedData = []
@@ -114,7 +120,7 @@ class Graph extends React.Component {
 
 		var rect = d3.select(node)
 		.append("rect")
-		.attr("x", d.x-100)
+		.attr("x", Math.max(d.x-100,0))
 		.attr("dy",  d.y-150)
 		.attr("width", 220)
 		.attr("height", 130)
@@ -123,7 +129,7 @@ class Graph extends React.Component {
 
 		var textnode = d3.select(node)
 		.append("text")
-		.attr("dx", d.x-90)
+		.attr("dx", Math.max(d.x-90,10))
 		.attr("dy",  d.y-180)
 		.attr("id", "t" + i + "-" + d.x + "-" + d.y)
 		.attr("text-anchor","start")
@@ -198,7 +204,8 @@ class Graph extends React.Component {
 
 	setNodes(nodes, place){
 
-		const { circleRadius } = this.state; 
+		const { circleRadius,
+				nodeSpace } = this.state; 
 
 		var elem = d3.select(place)
 	    	.selectAll('rect')
@@ -221,7 +228,7 @@ class Graph extends React.Component {
 			.attr("text-anchor","middle")
         	.text(function(d){return d.label})
 
-        wrap(text, 120)
+        wrap(text, nodeSpace.x)
 	}
 
 	setLinks(links, place){
@@ -258,23 +265,32 @@ class Graph extends React.Component {
 		}
 	}
 
+	handleDataSelect = (e) => {
+		console.log(e.target.value)
+		var index = e.target.value; 
+		this.setState({
+			JSON_DATA: DATA_Array[index],
+			dataRange: {fromIndex:0, toIndex:10}
+		})
+	}
+
 	render(){
 		console.log(this.state.dataRange)
 		const {conzept} = this.state; 
 	      	return (
 	      		<div className="">
-	      			<Navigation className="" updateDataRange={this.updateDataRange}/>
+	      			<Navigation className="" handleDataSelect={this.handleDataSelect} updateDataRange={this.updateDataRange}/>
 	      			<div className="row">
 		      			<div className="col-8">
 			      			<svg ref={node => this.node = node}
-							    width="100%" height={900}>
+							    width="100%" height={1000}>
 							</svg>
 		      			</div>
 					<div className="col-4">
 						<ConzeptIFrame uri = {conzept.uri}/>
 					</div>
 					</div>
-				</div>
+				</div> 
 				   )
 	}
 }

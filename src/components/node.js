@@ -9,18 +9,17 @@ class EventNode extends Component {
 		}
 	}
 
-	handleOnClick = (e) => {
-		console.log(e.target)
+	handleOnMouseEvent = (e) => {
 		this.setState((prevState)=>{
 			return {showEvent: !prevState.showEvent}
 		})
 	}
 
-	renderInfo = (node) => {
+	renderInfo = (node, color) => {
 		if(node.type==="idea-submit"){
-			return <Idea x={node.x} y={node.y} idea={node.idea}/>;
+			return <Idea x={Math.max(node.x-140, 10)} y={node.y} idea={node.idea} color={color}/>;
 		} else {
-			return <Inspiration x={node.x} y={node.y} ideas={node.ideas}/>
+			return <Inspiration x={node.x} y={node.y} ideas={node.ideas} color={color}/>
 		}
 	}
 
@@ -29,14 +28,18 @@ class EventNode extends Component {
 			x, y, type, idea, ideas, timerValue
 			} = this.props.node
 		var content = null
+		var color = "#35ba57"
+		if(type!=="idea-submit"){
+			color = "#f7dd18"
+		}
 		if(this.state.showEvent){
-			content = this.renderInfo(this.props.node)
+			content = this.renderInfo(this.props.node, color)
 		}
 
 		return(
-			<g onClick={this.handleOnClick}>
+			<g onMouseEnter={this.handleOnMouseEvent} onMouseLeave={this.handleOnMouseEvent}>
 				{content}
-				<circle cx={x} cy={y} r={30} stroke="#FFF099" strokeWidth="3" fill="#35ba57" />
+				<circle cx={x} cy={y} r={30} stroke="#FFF099" strokeWidth="3" fill={color} />
 				<text dx={x} dy={y} textAnchor="middle">{timerValue}</text>
 			</g>
 		)
@@ -44,16 +47,19 @@ class EventNode extends Component {
 }
 
 function Idea(props){ 
-	const { idea, x, y } = props
+	const { idea, x, y, color} = props
 	console.log(props)
-	const lines = textwrapReact(idea.description, 200)
-	const ideaBox = makeTextBox(lines, x-100)
+	const lines = textwrapReact(idea.description, 280)
+	const ideaBox = makeTextBox(lines, x+10)
 
-	return <text dx={x-100} dy={y-100} textAnchor="start">{ideaBox}</text>
+	return (<g>
+			<rect x={x} dy={y-150} width={300} height={150} fill={color} ></rect>
+			<text dx={x+10} dy={y-170} textAnchor="start">{ideaBox}</text>
+			</g>)
 }
 function Inspiration(props){
-	const {x, y, ideas} = props
-	const ideasBox = props.ideas.map((idea, i) => <Idea key={i} x={x+200*i} y={y} idea={idea}/>)
+	const {x, y, ideas, color} = props
+	const ideasBox = props.ideas.map((idea, i) => <Idea key={i} x={Math.max(x-440, 10)+(300*i)} y={y} idea={idea} color={color} />)
 	return <g>{ideasBox}</g>
 }
 

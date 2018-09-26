@@ -8,6 +8,7 @@ import Session_Data from "../session-data-37M28K1J0RKP5PMSMANDKTWN2G2AJM.json";
 
 import "./graph.css";
 import { wrap } from './textwraper'; 
+import { unique } from '../utils/unique'; 
 import { EventNode, ConzeptNode } from './node'; 
 
 var colorDictionary = new Map(); 
@@ -21,11 +22,13 @@ class Session extends Component {
 		this.state = {
 			JSON_DATA: CHI19S1_ideas,
 			data: null,
-			startPoint: {x:parseInt(window.innerWidth*0.67/12, 10), y:200},
+			startPoint: {x:parseInt(300, 10), y:200},
 			dataRange: {fromIndex: 0, toIndex:10},
 			circleRadius: "3%",
-			nodeSpace: {x: parseInt(window.innerWidth*0.67/12, 10), y:100},
+			nodeSpace: {x: parseInt(window.innerWidth*0.67/20, 10), y:100},
 			conzept: {uri: undefined},
+			windowWidth: "100%",
+			windowHeight: 900,
 			color: {
 				back: "#73c487",
 				text: "#210000",
@@ -36,23 +39,51 @@ class Session extends Component {
 	}
 
 	componentDidMount() {
-		var data = this.dataHandler(this.state.dataRange, this.state.JSON_DATA)
-		const session_Data = Session_Data[0].events.sort((a,b)=>{return a.timerValue - b.timerValue  })
+		const {startPoint, nodeSpace} = this.state
+		var conzeptLabels, eventNodes, conzeptMap;
+		const events = Session_Data[0].events.sort((a,b)=>{return a.timerValue - b.timerValue  })
 		
+		conzeptMap = this.conzeptDataMap(events)
+		var conzepts = [...conzeptMap.entries()]
+		conzepts = conzepts.sort((a,b)=>{return b[1]-a[1]})
+		conzeptMap = this.generateSortedMap(conzepts)
+
+		
+
 		this.setState({
-			data: data,
-			session_Data: session_Data
+			windowWidth: events.length * nodeSpace.x + startPoint.x * 2,
+			windowHeight: conzepts.length * 20 + startPoint.y + nodeSpace.y,
+			conzeptMap: conzeptMap,
+			events: events
 		})
 	}
 
-	componentDidUpdate(prevProps, prevState, snapshot){
-		if(prevState.dataRange !== this.state.dataRange || prevState.JSON_DATA!==this.state.JSON_DATA){
-
-			var data = this.dataHandler(this.state.dataRange, this.state.JSON_DATA)
-			this.setState({
-			data: data
-			})
-		}
+	conzeptDataMap = (events) => {
+		var conzeptMap = new Map()
+		events.forEach((event)=>{
+			if(event.type==="idea-submit"){
+				event.idea.validatedConcepts.forEach(conz=>{
+					var val = conzeptMap.get(conz.uri)
+					if(val){
+						conzeptMap.set(conz.uri, val+1)
+					} else {
+						conzeptMap.set(conz.uri, 1)
+					}
+				})
+			} else if(event.type==="inspiration"){
+				event.ideas.forEach(idea=>{
+					idea.conceptMentions.forEach(conz=>{
+						var val = conzeptMap.get(conz.selectedConceptURI)
+						if(val){
+							conzeptMap.set(conz.selectedConceptURI, val+1)
+						} else {
+							conzeptMap.set(conz.selectedConceptURI, 1)
+						}
+					})
+				})
+			}
+		})
+		return conzeptMap; 
 	}
 
 	dataHandler = (dataRange, JSON_DATA) => {
@@ -109,17 +140,42 @@ class Session extends Component {
 		return colorDictionary.get(uri)
 	}
 
-	renderConzeptNodes(nodes){
+	renderConzeptNodes(events){
 		const { 
 			circleRadius,
-			nodeSpace 
+			nodeSpace,
+			startPoint, 
+			conzeptMap
 			} = this.state; 
-
-		const conzeptNodes = nodes.map((node, i)=>{
-			return <ConzeptNode key={node.x+"-"+node.y} node={node} width={nodeSpace.x}/>
+		var conzeptNodes = []
+		events.forEach((event, i)=>{
+			var conzeptsOfEvent 
+			if(event.type==="idea-submit"){
+				conzeptsOfEvent = event.idea.validatedConcepts.map((conz, i)=>{
+					conz.position = conzeptMap.get(conz.uri).position
+					conz.color =  conzeptMap.get(conz.uri).color
+					return conz
+				}).sort((a,b)=>{return b.position-a.position})
+			} else if(event.type==="inspiration") {
+				var conzepts = []
+				event.ideas.forEach(idea=>{conzepts = conzepts.concat(idea.conceptMentions)})
+				conzepts = unique(conzepts); 
+				conzeptsOfEvent = conzepts.map((conz, i)=>{
+					conz.position = conzeptMap.get(conz.selectedConceptURI).position
+					conz.color =  conzeptMap.get(conz.selectedConceptURI).color
+					return conz
+				}).sort((a,b)=>{return b.position-a.position})
+			}
+			var nodes = conzeptsOfEvent.map((conz,j)=>{
+					conz.x = startPoint.x + (i*nodeSpace.x)
+					conz.y = startPoint.y + (j*nodeSpace.y)
+					return <ConzeptNode key={conz.x+"-"+conz.y} node={conz} width={nodeSpace.x}/>
+				})
+			conzeptNodes = conzeptNodes.concat(nodes)
 		})
 		return conzeptNodes; 
 	}
+					
 
 	renderEventNodes(nodes){
 		const { 
@@ -136,6 +192,22 @@ class Session extends Component {
 		return eventNodes; 
 	}
 
+	renderConzeptLabels(conzepts){
+		return conzepts.map((conzept,i)=>{
+			var label = conzept[0].split("/").pop()
+			return (
+				<text key={i} x={10} dy={this.state.startPoint.y + 30 + i*20}>{label + " " + conzept[1].frequency}</text>
+				)
+		})
+	}
+
+	generateSortedMap(conzepts){
+		var conzeptMap = new Map()
+		conzepts.forEach((entrie, i)=>{
+			conzeptMap.set(entrie[0], {frequency: entrie[1], position: i, color: this.getColorFromDic(entrie[0])})
+		})
+		return conzeptMap;
+	}
 	updateDataRange = (number) => {
 		console.log(number)
 		if(number>0 || this.state.dataRange.fromIndex+number>=0){
@@ -162,32 +234,28 @@ class Session extends Component {
 	render(){
 		console.log(this.state.dataRange)
 		const {conzept, 
-				data, session_Data } = this.state; 
-		var ideaNodes, conzeptNodes, eventNodes;
-
-		if(session_Data){
-			console.log(session_Data)
-			eventNodes = this.renderEventNodes(session_Data)
+				data, events, nodeSpace, startPoint, windowWidth, windowHeight, conzeptMap } = this.state; 
+		var conzeptLabels, conzeptNodes, eventNodes = null; 
+		if(events){
+			conzeptLabels = this.renderConzeptLabels([...conzeptMap.entries()])
+			eventNodes = this.renderEventNodes(events)
+			//conzeptNodes = this.renderConzeptNodes(events)
 		}
-		/*if(data){
-			conzeptNodes = this.renderConzeptNodes(data.conzeptNodes)
-			ideaNodes = this.renderIdeaNodes(data.ideaNodes)
-		} */
-	      	return (
-	      		<div className="">
-	      			<Navigation className="" handleDataSelect={this.handleDataSelect} updateDataRange={this.updateDataRange}/>
-	      			<div className="row">
-		      			<div className="col-8">
-			      			<svg ref={node => this.node = node}
-							    width="100%" height={1000}>
-							    {conzeptNodes}
-							    {ideaNodes}
-							    {eventNodes}
-							</svg>
-		      			</div>
-					</div>
-				</div> 
-				   )
+
+      	return (
+      		<div className="">
+      			<div className="row">
+	      			<div className="col-12">
+		      			<svg ref={node => this.node = node}
+						    width={windowWidth} height={windowHeight}>
+						    {conzeptLabels}
+						    {eventNodes}
+						    {conzeptNodes}
+						</svg>
+	      			</div>
+				</div>
+			</div> 
+			   )
 	}
 }
 

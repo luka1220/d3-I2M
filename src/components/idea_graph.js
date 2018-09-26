@@ -8,7 +8,7 @@ import CHI19S3_ideas from '../CHI19S3-ideas.json';
 
 import "./graph.css";
 import { textwrap } from 'd3-textwrap';
-import { wrap } from './textwraper'; 
+import { wrap } from '../utils/textwraper'; 
 const React = require('react');
 var d3 = require("d3");
 var colorDictionary = new Map(); 

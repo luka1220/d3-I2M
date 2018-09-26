@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { textwrapReact } from './textwraper';
+import { textwrapReact } from '../utils/textwraper';
 
 class EventNode extends Component {
 	constructor(props){

@@ -7,8 +7,7 @@ import CHI19S3_ideas from '../CHI19S3-ideas.json';
 import Session_Data from "../session-data-37M28K1J0RKP5PMSMANDKTWN2G2AJM.json";
 
 import "./graph.css";
-import { wrap } from './textwraper'; 
-import { unique } from '../utils/unique'; 
+import { uniqueUnion } from '../utils/unique'; 
 import { EventNode, ConzeptNode } from './node'; 
 
 var colorDictionary = new Map(); 
@@ -158,8 +157,7 @@ class Session extends Component {
 				}).sort((a,b)=>{return a.position-b.position})
 			} else if(event.type==="inspiration") {
 				var conzepts = []
-				event.ideas.forEach(idea=>{conzepts = conzepts.concat(idea.conceptMentions)})
-				conzepts = unique(conzepts); 
+				event.ideas.forEach(idea=>{conzepts = uniqueUnion(conzepts,idea.conceptMentions)})
 				conzeptsOfEvent = conzepts.map((conz, i)=>{
 					conz.position = conzeptMap.get(conz.selectedConceptURI).position
 					conz.color =  conzeptMap.get(conz.selectedConceptURI).color

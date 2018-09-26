@@ -25,7 +25,7 @@ class Session extends Component {
 			startPoint: {x:parseInt(300, 10), y:200},
 			dataRange: {fromIndex: 0, toIndex:10},
 			circleRadius: "3%",
-			nodeSpace: {x: parseInt(window.innerWidth*0.67/20, 10), y:100},
+			nodeSpace: {x: parseInt(window.innerWidth*0.67/20, 10), y:70},
 			conzept: {uri: undefined},
 			windowWidth: "100%",
 			windowHeight: 900,
@@ -41,7 +41,7 @@ class Session extends Component {
 	componentDidMount() {
 		const {startPoint, nodeSpace} = this.state
 		var conzeptLabels, eventNodes, conzeptMap;
-		const events = Session_Data[0].events.sort((a,b)=>{return a.timerValue - b.timerValue  })
+		const events = Session_Data[0].events.sort((a,b)=>{return b.timerValue - a.timerValue  })
 		
 		conzeptMap = this.conzeptDataMap(events)
 		var conzepts = [...conzeptMap.entries()]
@@ -155,7 +155,7 @@ class Session extends Component {
 					conz.position = conzeptMap.get(conz.uri).position
 					conz.color =  conzeptMap.get(conz.uri).color
 					return conz
-				}).sort((a,b)=>{return b.position-a.position})
+				}).sort((a,b)=>{return a.position-b.position})
 			} else if(event.type==="inspiration") {
 				var conzepts = []
 				event.ideas.forEach(idea=>{conzepts = conzepts.concat(idea.conceptMentions)})
@@ -164,11 +164,11 @@ class Session extends Component {
 					conz.position = conzeptMap.get(conz.selectedConceptURI).position
 					conz.color =  conzeptMap.get(conz.selectedConceptURI).color
 					return conz
-				}).sort((a,b)=>{return b.position-a.position})
+				}).sort((a,b)=>{return a.position-b.position})
 			}
 			var nodes = conzeptsOfEvent.map((conz,j)=>{
 					conz.x = startPoint.x + (i*nodeSpace.x)
-					conz.y = startPoint.y + (j*nodeSpace.y)
+					conz.y = startPoint.y + nodeSpace.y + (j*nodeSpace.y)
 					return <ConzeptNode key={conz.x+"-"+conz.y} node={conz} width={nodeSpace.x}/>
 				})
 			conzeptNodes = conzeptNodes.concat(nodes)
@@ -239,7 +239,7 @@ class Session extends Component {
 		if(events){
 			conzeptLabels = this.renderConzeptLabels([...conzeptMap.entries()])
 			eventNodes = this.renderEventNodes(events)
-			//conzeptNodes = this.renderConzeptNodes(events)
+			conzeptNodes = this.renderConzeptNodes(events)
 		}
 
       	return (

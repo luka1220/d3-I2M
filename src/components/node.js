@@ -65,10 +65,10 @@ function Inspiration(props){
 
 function ConzeptNode(props){
 	const {
-		x, y, label, uri, color
+		x, y, label, token, color
 	} = props.node; 
 
-	var lines = textwrapReact(label, props.width)
+	var lines = textwrapReact(token, props.width)
 	var labelResult = makeTextBox(lines, x)
 
 	return(

@@ -39,7 +39,7 @@ class EventNode extends Component {
 		return(
 			<g onMouseEnter={this.handleOnMouseEvent} onMouseLeave={this.handleOnMouseEvent}>
 				{content}
-				<circle cx={x} cy={y} r={30} stroke="#FFF099" strokeWidth="3" fill={color} />
+				<circle cx={x} cy={y} r={this.props.width/2} stroke="#FFF099" strokeWidth="3" fill={color} />
 				<text dx={x} dy={y} textAnchor="middle">{timerValue}</text>
 			</g>
 		)
@@ -65,10 +65,10 @@ function Inspiration(props){
 
 function ConzeptNode(props){
 	const {
-		x, y, label, token, color
+		x, y, label, name, token, color
 	} = props.node; 
 
-	var lines = textwrapReact(token, props.width)
+	var lines = textwrapReact(name, props.width)
 	var labelResult = makeTextBox(lines, x)
 
 	return(

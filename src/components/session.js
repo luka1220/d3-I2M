@@ -14,6 +14,8 @@ var colorDictionary = new Map();
 
 const DATA_Array = [CHI19S1_ideas, CHI19S2_ideas, CHI19S3_ideas]
 
+const nodeSpace = parseInt(window.innerWidth/20, 10); 
+
 class Session extends Component {
 
 	constructor(props) {
@@ -21,10 +23,9 @@ class Session extends Component {
 		this.state = {
 			JSON_DATA: CHI19S1_ideas,
 			data: null,
+			timerEndPoint: 0,
 			startPoint: {x:parseInt(300, 10), y:200},
-			dataRange: {fromIndex: 0, toIndex:10},
-			circleRadius: "3%",
-			nodeSpace: {x: parseInt(window.innerWidth*0.67/20, 10), y:70},
+			nodeSpace: {x: nodeSpace, y:nodeSpace},
 			conzept: {uri: undefined},
 			windowWidth: "100%",
 			windowHeight: 900,
@@ -50,10 +51,11 @@ class Session extends Component {
 		
 
 		this.setState({
-			windowWidth: events.length * nodeSpace.x + startPoint.x * 2,
+			windowWidth: events[0].timerValue * 3 + startPoint.x * 2,
 			windowHeight: conzepts.length * 20 + startPoint.y + nodeSpace.y,
 			conzeptMap: conzeptMap,
-			events: events
+			events: events,
+			timerEndPoint: events[0].timerValue * 3
 		})
 	}
 
@@ -84,51 +86,6 @@ class Session extends Component {
 		})
 		return conzeptMap; 
 	}
-
-	dataHandler = (dataRange, JSON_DATA) => {
-		const data = JSON_DATA.slice(dataRange.fromIndex,dataRange.toIndex); 
-		console.log(data)
-		var processedData = []
-		const {
-			startPoint,
-			color,
-			nodeSpace 
-			} = this.state
-
-		processedData = data.map((idea,i)=>{
-			return {
-				x: startPoint.x + (i*nodeSpace.x),
-				y: startPoint.y,
-				description: idea.description,
-				label: idea.id,
-				color: color.idea
-			}
-		})
-		var links = processedData.map((idea, i, arr)=>{
-			if(i<arr.length-1) return {source: idea, target: arr[i+1]}
-			else return {source: idea, target:idea}
-		})
-
-		var conzeptsData = []
-		data.forEach((idea, i)=>{
-			var conzepts = idea
-				.validatedConcepts
-				.sort((a,b)=>{return (a.uri<b.uri)? -1: (a.uri>b.uri)? 1:0})
-				.map((conz,i2)=>{
-				var colorDic = this.getColorFromDic(conz.uri) 
-				return {
-					x: startPoint.x+(i*nodeSpace.x),
-					y: startPoint.y+(i2*nodeSpace.y)+nodeSpace.y,
-					label:conz.token,
-					uri: conz.uri,
-					color:colorDic
-				}
-			})
-			conzeptsData = conzeptsData.concat(conzepts)
-		})
-		return {ideaNodes:processedData, links:links, conzeptNodes: conzeptsData}; 
-
-	}
 	getColorFromDic(uri){
 		if(colorDictionary.get(uri)){
 
@@ -144,7 +101,8 @@ class Session extends Component {
 			circleRadius,
 			nodeSpace,
 			startPoint, 
-			conzeptMap
+			conzeptMap,
+			timerEndPoint
 			} = this.state; 
 		var conzeptNodes = []
 		events.forEach((event, i)=>{
@@ -153,6 +111,7 @@ class Session extends Component {
 				conzeptsOfEvent = event.idea.validatedConcepts.map((conz, i)=>{
 					conz.position = conzeptMap.get(conz.uri).position
 					conz.color =  conzeptMap.get(conz.uri).color
+					conz.name = conz.uri.split("/").pop()
 					return conz
 				}).sort((a,b)=>{return a.position-b.position})
 			} else if(event.type==="inspiration") {
@@ -161,11 +120,12 @@ class Session extends Component {
 				conzeptsOfEvent = conzepts.map((conz, i)=>{
 					conz.position = conzeptMap.get(conz.selectedConceptURI).position
 					conz.color =  conzeptMap.get(conz.selectedConceptURI).color
+					conz.name = conz.selectedConceptURI.split("/").pop()
 					return conz
 				}).sort((a,b)=>{return a.position-b.position})
 			}
 			var nodes = conzeptsOfEvent.map((conz,j)=>{
-					conz.x = startPoint.x + (i*nodeSpace.x)
+					conz.x = startPoint.x + (timerEndPoint - event.timerValue*3)
 					conz.y = startPoint.y + nodeSpace.y + (j*nodeSpace.y)
 					return <ConzeptNode key={conz.x+"-"+conz.y} node={conz} width={nodeSpace.x}/>
 				})
@@ -180,10 +140,11 @@ class Session extends Component {
 			circleRadius,
 			nodeSpace, 
 			startPoint,
+			timerEndPoint
 			} = this.state; 
 
 		const eventNodes = nodes.map((node, i)=>{
-			node.x = startPoint.x + (i*nodeSpace.x)
+			node.x = startPoint.x + (timerEndPoint-node.timerValue*3)
 			node.y = startPoint.y
 			return <EventNode key={node.x+"-"+node.y} node={node} width={nodeSpace.x}/>
 		})
@@ -194,7 +155,7 @@ class Session extends Component {
 		return conzepts.map((conzept,i)=>{
 			var label = conzept[0].split("/").pop()
 			return (
-				<text key={i} x={10} dy={this.state.startPoint.y + 30 + i*20}>{label + " " + conzept[1].frequency}</text>
+				<text key={i} x={10} dy={this.state.startPoint.y + this.state.nodeSpace.y + i*20}>{label + " " + conzept[1].frequency}</text>
 				)
 		})
 	}
@@ -232,7 +193,9 @@ class Session extends Component {
 	render(){
 		console.log(this.state.dataRange)
 		const {conzept, 
-				data, events, nodeSpace, startPoint, windowWidth, windowHeight, conzeptMap } = this.state; 
+				data, events, nodeSpace,
+				startPoint, timerEndPoint, windowWidth,
+				windowHeight, conzeptMap } = this.state; 
 		var conzeptLabels, conzeptNodes, eventNodes = null; 
 		if(events){
 			conzeptLabels = this.renderConzeptLabels([...conzeptMap.entries()])
@@ -246,6 +209,14 @@ class Session extends Component {
 	      			<div className="col-12">
 		      			<svg ref={node => this.node = node}
 						    width={windowWidth} height={windowHeight}>
+						    <line x1={startPoint.x} y1={startPoint.y} 
+								x2={timerEndPoint+startPoint.x} y2={startPoint.y}
+								stroke="black" strokeWidth={5} />
+						    <g>
+							    <rect x={0} y={startPoint.y-20} width={150} height={40} fill={this.state.color.idea}></rect>
+								<text x={10} dy={startPoint.y}>Events:</text>
+
+						    </g>
 						    {conzeptLabels}
 						    {eventNodes}
 						    {conzeptNodes}

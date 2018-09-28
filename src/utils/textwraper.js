@@ -26,7 +26,7 @@ export const wrap = (text, width) => {
 }
 
 export const textwrapReact = (text, width) => {
-    var words = text.split(/\s+/).reverse().filter(word => word.length > 0),
+    var words = text.split(/\s+|_/).reverse().filter(word => word.length > 0),
         word,
         line = [],
         result = []

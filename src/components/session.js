@@ -6,9 +6,11 @@ import CHI19S2_ideas from '../CHI19S2-ideas.json';
 import CHI19S3_ideas from '../CHI19S3-ideas.json';
 import Session_Data from "../session-data-37M28K1J0RKP5PMSMANDKTWN2G2AJM.json";
 
-import "./graph.css";
+import "../css/graph.css";
 import { uniqueUnion } from '../utils/unique'; 
 import { EventNode, ConzeptNode } from './node'; 
+import { SideBar } from './sideBar'
+import { Axes } from './axes'
 
 var colorDictionary = new Map(); 
 
@@ -28,7 +30,7 @@ class Session extends Component {
 			nodeSpace: {x: nodeSpace, y:nodeSpace},
 			conzept: {uri: undefined},
 			windowWidth: "100%",
-			windowHeight: 900,
+			windowHeight: "100%",
 			color: {
 				back: "#73c487",
 				text: "#210000",
@@ -52,7 +54,7 @@ class Session extends Component {
 
 		this.setState({
 			windowWidth: events[0].timerValue * 3 + startPoint.x * 2,
-			windowHeight: conzepts.length * 20 + startPoint.y + nodeSpace.y,
+			windowHeight: conzepts.length * nodeSpace.y/2 + startPoint.y*2,
 			conzeptMap: conzeptMap,
 			events: events,
 			timerEndPoint: events[0].timerValue * 3
@@ -126,8 +128,8 @@ class Session extends Component {
 			}
 			var nodes = conzeptsOfEvent.map((conz,j)=>{
 					conz.x = startPoint.x + (timerEndPoint - event.timerValue*3)
-					conz.y = startPoint.y + nodeSpace.y + (j*nodeSpace.y)
-					return <ConzeptNode key={conz.x+"-"+conz.y} node={conz} width={nodeSpace.x}/>
+					conz.y = startPoint.y + nodeSpace.y + (conz.position*nodeSpace.y/2)
+					return <ConzeptNode key={conz.x+"-"+conz.y} node={conz} width={nodeSpace.x/2}/>
 				})
 			conzeptNodes = conzeptNodes.concat(nodes)
 		})
@@ -146,18 +148,9 @@ class Session extends Component {
 		const eventNodes = nodes.map((node, i)=>{
 			node.x = startPoint.x + (timerEndPoint-node.timerValue*3)
 			node.y = startPoint.y
-			return <EventNode key={node.x+"-"+node.y} node={node} width={nodeSpace.x}/>
+			return <EventNode key={node.x+"-"+node.y} node={node} width={nodeSpace.x} i={i}/>
 		})
 		return eventNodes; 
-	}
-
-	renderConzeptLabels(conzepts){
-		return conzepts.map((conzept,i)=>{
-			var label = conzept[0].split("/").pop()
-			return (
-				<text key={i} x={10} dy={this.state.startPoint.y + this.state.nodeSpace.y + i*20}>{label + " " + conzept[1].frequency}</text>
-				)
-		})
 	}
 
 	generateSortedMap(conzepts){
@@ -198,26 +191,22 @@ class Session extends Component {
 				windowHeight, conzeptMap } = this.state; 
 		var conzeptLabels, conzeptNodes, eventNodes = null; 
 		if(events){
-			conzeptLabels = this.renderConzeptLabels([...conzeptMap.entries()])
+			conzeptLabels = [...conzeptMap.entries()]
 			eventNodes = this.renderEventNodes(events)
 			conzeptNodes = this.renderConzeptNodes(events)
 		}
 
       	return (
       		<div className="">
-      			<div className="row">
-	      			<div className="col-12">
+      			<div className="row ">
+      				<div className="col-2 sidebar">
+	      				<SideBar conzepts={conzeptLabels} height={nodeSpace.y/2} />
+	      			</div>
+	      			<div className="col-12 visContainer">
 		      			<svg ref={node => this.node = node}
 						    width={windowWidth} height={windowHeight}>
-						    <line x1={startPoint.x} y1={startPoint.y} 
-								x2={timerEndPoint+startPoint.x} y2={startPoint.y}
-								stroke="black" strokeWidth={5} />
-						    <g>
-							    <rect x={0} y={startPoint.y-20} width={150} height={40} fill={this.state.color.idea}></rect>
-								<text x={10} dy={startPoint.y}>Events:</text>
-
-						    </g>
-						    {conzeptLabels}
+						    <Axes startPoint={startPoint} timerEndPoint={timerEndPoint} interval={50}/>
+							
 						    {eventNodes}
 						    {conzeptNodes}
 						</svg>

@@ -40,7 +40,7 @@ class EventNode extends Component {
 			<g onMouseEnter={this.handleOnMouseEvent} onMouseLeave={this.handleOnMouseEvent}>
 				{content}
 				<circle cx={x} cy={y} r={this.props.width/2} stroke="#FFF099" strokeWidth="3" fill={color} />
-				<text dx={x} dy={y} textAnchor="middle">{timerValue}</text>
+				<text dx={x} dy={y} textAnchor="middle">{'E'+this.props.i}</text>
 			</g>
 		)
 	}
@@ -68,13 +68,13 @@ function ConzeptNode(props){
 		x, y, label, name, token, color
 	} = props.node; 
 
-	var lines = textwrapReact(name, props.width)
-	var labelResult = makeTextBox(lines, x)
+	//var lines = textwrapReact(name, props.width)
+	//var labelResult = makeTextBox(lines, x)
 
 	return(
 		<g>
 			<circle cx={x} cy={y} r={props.width/2} stroke="#FFF099" strokeWidth="3" fill={color} />
-			<text dx={x} dy={y} textAnchor="middle">{labelResult}</text>
+			{/*<text dx={x} dy={y} textAnchor="middle">{labelResult}</text>*/}
 		</g>
 	)
 }

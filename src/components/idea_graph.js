@@ -6,7 +6,7 @@ import CHI19S2_ideas from '../CHI19S2-ideas.json';
 import CHI19S3_ideas from '../CHI19S3-ideas.json';
 
 
-import "./graph.css";
+import "../css/graph.css";
 import { textwrap } from 'd3-textwrap';
 import { wrap } from '../utils/textwraper'; 
 const React = require('react');

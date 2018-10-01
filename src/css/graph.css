@@ -1,0 +1,31 @@
+
+g:hover > circle {
+	fill: #91aa9a;
+}
+
+.sidebar {
+	position: absolute;
+	padding-top: 160px;
+	padding-right: 0; 
+	margin-bottom: 100px; 
+	z-index: 1; 
+	background-color: lightgray; 
+}
+
+#sidebarH6 {
+	font: bold 30px Georgia, Times, serif; 
+	background-color: green;  
+	height: 60px; 
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.visContainer {
+	overflow-x: scroll;
+}
+
+.conzeptLabel {
+	padding-left: 10px;
+	padding-right: 10px; 
+	margin: 0;
+}

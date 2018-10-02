@@ -1,0 +1,2525 @@
+[
+  {
+    "assignmentId": "37M28K1J0RKP5PMSMANDKTWN2G2AJM",
+    "events": [
+      {
+        "idea": {
+          "superclasses": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q1365365",
+              "token": "stimulant foodstuff"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q40050",
+              "token": "drink"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q14745",
+              "token": "furniture"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11755880",
+              "token": "residential building"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q8075",
+              "token": "television set"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11253473",
+              "token": "smart device"
+            }
+          ],
+          "description": "You could create a smart coffe table where you could aaccess al the smart features in your house and also have a key board too",
+          "id": 10602
+        },
+        "type": "idea-submit",
+        "timerValue": 1266
+      },
+      {
+        "idea": {
+          "superclasses": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q189539",
+              "token": "loan"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q3196867",
+              "token": "debt"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q1436963",
+              "token": "payment card"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q36253",
+              "token": "length"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q2091629",
+              "token": "magnitude"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q987767",
+              "token": "container"
+            }
+          ],
+          "description": "You could create credit card size tablets that you could carry in your wallet or purse ",
+          "id": 10604
+        },
+        "type": "idea-submit",
+        "timerValue": 1053
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2448108",
+                "token": "structural system"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11755880",
+                "token": "residential building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1439598",
+                "token": "photo equipment"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1751850",
+                "token": "optical instrument"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q18534278",
+                "token": "facial feature"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q24060765",
+                "token": "animal organ"
+              }
+            ],
+            "description": "You could coat every inch of your walls with it in your house and with a smart camera following your physical movements and eye movement you could have a display in front of them at all times that they could interact with.",
+            "id": 188
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q20937557",
+                "token": "series"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q838948",
+                "token": "work of art"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2431196",
+                "token": "audiovisual work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4936952",
+                "token": "anatomical structure"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q811979",
+                "token": "architectural structure"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1299240",
+                "token": "interior space"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q186081",
+                "token": "time interval"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1322005",
+                "token": "natural phenomenon"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q246672",
+                "token": "mathematical object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q937228",
+                "token": "property"
+              }
+            ],
+            "description": "a floor touch screen where you spray on the floor and it tells you how many foot steps there has been in that room on that day along with the weather and the amount of cleaning needed for the day on that floor.\n",
+            "id": 426
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q223557",
+                "token": "physical object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q837718",
+                "token": "energy storage"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q39546",
+                "token": "tool"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              }
+            ],
+            "description": "Touchscreen food machine that will personalize food options to create.",
+            "id": 81
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 992
+      },
+      {
+        "idea": {
+          "superclasses": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11755880",
+              "token": "residential building"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q846882",
+              "token": "sources of law"
+            }
+          ],
+          "description": "You could coat every inch of you walls and have a house that changes looks when even you want it to. A custom house everyday if you wanted",
+          "id": 10608
+        },
+        "type": "idea-submit",
+        "timerValue": 728
+      },
+      {
+        "idea": {
+          "superclasses": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q2091629",
+              "token": "magnitude"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q36253",
+              "token": "length"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q1756525",
+              "token": "storage tank"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q7973769",
+              "token": "water storage"
+            }
+          ],
+          "description": "spray on the walls and have a full size digital fish tank ",
+          "id": 10609
+        },
+        "type": "idea-submit",
+        "timerValue": 600
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11024",
+                "token": "communication"
+              }
+            ],
+            "description": "sync any device with analog controls to the screens input. ",
+            "id": 199
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q28935403",
+                "token": "costume component"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q42349020",
+                "token": "free limb"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11019",
+                "token": "machine"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q581105",
+                "token": "consumer electronics"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2425052",
+                "token": "electrical apparatus"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q735",
+                "token": "art"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11461",
+                "token": "sound"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q173799",
+                "token": "entertainment"
+              }
+            ],
+            "description": "sleeve on your arm that allows you to control your phone or music",
+            "id": 9
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q12269769",
+                "token": "major appliance"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1369832",
+                "token": "purchasing"
+              }
+            ],
+            "description": "A fridge with a touchscreen that tells you what groceries you currently have, along with allowing you to make a list for shopping. ",
+            "id": 13
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 590
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q5259487",
+                "token": "dentifrice"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q27098499",
+                "token": "dispenser"
+              }
+            ],
+            "description": "Automatic toothpaste dispenser. Holds your toothpaste, and keeps track of how much toothpaste is in the tube and you can set how much toothpaste to dispense.",
+            "id": 324
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q15078788",
+                "token": "broadcasting"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              }
+            ],
+            "description": "A television that can change channels by using touch display",
+            "id": 362
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2448108",
+                "token": "structural system"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q515",
+                "token": "city"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q177634",
+                "token": "community"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q486972",
+                "token": "human settlement"
+              }
+            ],
+            "description": "Be able to write on the wall and turn it into a window that can see everything in your town.",
+            "id": 110
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 577
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16338",
+                "token": "personal computer"
+              }
+            ],
+            "description": "your desktop could be a touchpad for your computer",
+            "id": 335
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q54050",
+                "token": "hill"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2710737",
+                "token": "slag heap"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q19816755",
+                "token": "artificial landform"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q34583",
+                "token": "digit"
+              }
+            ],
+            "description": "Coat is to the tips of your fingers and be able to interact in virtual reality",
+            "id": 108
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14745",
+                "token": "furniture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17538258",
+                "token": "recreative work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q173799",
+                "token": "entertainment"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q121916",
+                "token": "writing implement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16829513",
+                "token": "intermediate product"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11410",
+                "token": "game"
+              }
+            ],
+            "description": "Cpat the tops of a table and it could be used for different games. Like board games or pen and paper RPGs.",
+            "id": 193
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 563
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23497981",
+                "token": "layer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14748",
+                "token": "table"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q250",
+                "token": "computer keyboard"
+              }
+            ],
+            "description": "You could use the coating to put on your desk and use that instead of a keyboard.",
+            "id": 86
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q658018",
+                "token": "gesture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14745",
+                "token": "furniture"
+              }
+            ],
+            "description": "Some of the systems can turn the displays from that into touch display.",
+            "id": 434
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1365365",
+                "token": "stimulant foodstuff"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q40050",
+                "token": "drink"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3947",
+                "token": "house"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q41176",
+                "token": "building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1914636",
+                "token": "activity"
+              }
+            ],
+            "description": "coffee table that allows you to control your TV, music, home automation, etc",
+            "id": 7
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 552
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3947",
+                "token": "house"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q41176",
+                "token": "building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q451967",
+                "token": "human action"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q937228",
+                "token": "property"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2731419",
+                "token": "seat"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17334923",
+                "token": "location"
+              }
+            ],
+            "description": "Tables can have smart home functionality for taking actions from a couch or other sitting position. ",
+            "id": 74
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q121916",
+                "token": "writing implement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q222032",
+                "token": "two-dimensional space"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2721559",
+                "token": "topological manifold"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q658018",
+                "token": "gesture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q102205",
+                "token": "fluid"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1466064",
+                "token": "processor"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1466064",
+                "token": "processor"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3966",
+                "token": "computer hardware"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q286583",
+                "token": "manifestation"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q340169",
+                "token": "communication medium"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q8205328",
+                "token": "artificial physical object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q9158768",
+                "token": "storage"
+              }
+            ],
+            "description": "A tablet to go. Instead of carrying around a physical tablet, the coating could be carried instead to turn any surface into a touch tablet, like a liquid. It could even use microprocessor and RAM technology within the coating, as well as data storage. The coating would be in a small container.",
+            "id": 454
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11448873",
+                "token": "learner"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14748",
+                "token": "table"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q180516",
+                "token": "room"
+              }
+            ],
+            "description": "Place coating on student desks for study and notes.",
+            "id": 355
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 545
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23497981",
+                "token": "layer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q12269769",
+                "token": "major appliance"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              }
+            ],
+            "description": "put this coating on fridge door so that whenever touching I can see what is inside the fridge without opening it",
+            "id": 117
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11024",
+                "token": "communication"
+              }
+            ],
+            "description": "sync any device with analog controls to the screens input. ",
+            "id": 199
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14748",
+                "token": "table"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q222032",
+                "token": "two-dimensional space"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2721559",
+                "token": "topological manifold"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q47146",
+                "token": "user interface"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q178648",
+                "token": "peripheral equipment"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1339255",
+                "token": "receiver"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2384798",
+                "token": "input-output device"
+              }
+            ],
+            "description": "Apply on a desk and use its surface as a keyboard / input device",
+            "id": 411
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 531
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q180516",
+                "token": "room"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q181623",
+                "token": "depot"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              }
+            ],
+            "description": "A panel for your pantry door to keep track of the contents of your pantry.",
+            "id": 323
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q386724",
+                "token": "work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11035",
+                "token": "telephone"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q5082128",
+                "token": "mobile device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11016",
+                "token": "technology"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q39546",
+                "token": "tool"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q241317",
+                "token": "computing platform"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3395171",
+                "token": "electronic device"
+              }
+            ],
+            "description": "clothes can interact with your phone and computer",
+            "id": 399
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2731419",
+                "token": "seat"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11016",
+                "token": "technology"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q39546",
+                "token": "tool"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q241317",
+                "token": "computing platform"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3395171",
+                "token": "electronic device"
+              }
+            ],
+            "description": "You could put a touch screen on the arm of a chair and be able to use your computer without getting up. ",
+            "id": 305
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 526
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2731419",
+                "token": "seat"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11016",
+                "token": "technology"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q39546",
+                "token": "tool"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q241317",
+                "token": "computing platform"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3395171",
+                "token": "electronic device"
+              }
+            ],
+            "description": "You could put a touch screen on the arm of a chair and be able to use your computer without getting up. ",
+            "id": 305
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q186713",
+                "token": "simple machine"
+              }
+            ],
+            "description": "You could add it to your steering wheel so that you can control various parts of your car.",
+            "id": 34
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q605117",
+                "token": "widget"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q20937557",
+                "token": "series"
+              }
+            ],
+            "description": "a drop-down menu I can apply to any program at any time. The menu would contain frequently typed items missed or misunderstood by auto-fill",
+            "id": 167
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 517
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q5307737",
+                "token": "drinking establishment"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q15078788",
+                "token": "broadcasting"
+              }
+            ],
+            "description": "Sports bars tables could become individual televisions. ",
+            "id": 138
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q7569",
+                "token": "child"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q235356",
+                "token": "carriage"
+              }
+            ],
+            "description": "Apply to baby strollers so you can browse while working out. ",
+            "id": 301
+          },
+          {
+            "superclasses": [],
+            "description": "Glasses you could touch to adjust light blocking abilities.",
+            "id": 242
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 510
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1751850",
+                "token": "optical instrument"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11042",
+                "token": "culture"
+              }
+            ],
+            "description": "You can have a touch screen mirror that gives you recommended fashion styles ",
+            "id": 18
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16338",
+                "token": "personal computer"
+              }
+            ],
+            "description": "your desktop could be a touchpad for your computer",
+            "id": 335
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q207822",
+                "token": "packaging and labeling"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q987767",
+                "token": "container"
+              }
+            ],
+            "description": "You could add it to a box to keep try of the contents.",
+            "id": 37
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 500
+      },
+      {
+        "idea": {
+          "superclasses": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q81054",
+              "token": "storm"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q5915039",
+              "token": "inconstancy"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q3947",
+              "token": "house"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q41176",
+              "token": "building"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q24384",
+              "token": "season"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q24384",
+              "token": "season"
+            }
+          ],
+          "description": "Smart windows. You could block out bad weather or change when the sun rises or sets inside your home. Also, you could have spring or fall scenes whenever you wanted",
+          "id": 10616
+        },
+        "type": "idea-submit",
+        "timerValue": 169
+      },
+      {
+        "idea": {
+          "superclasses": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11019",
+              "token": "machine"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q581105",
+              "token": "consumer electronics"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q1183543",
+              "token": "device"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q2425052",
+              "token": "electrical apparatus"
+            },
+            {
+              "uri": "https://www.wikidata.org/wiki/Q6671777",
+              "token": "structure"
+            }
+          ],
+          "description": "create a digital phone system anywhere you would want. ",
+          "id": 10617
+        },
+        "type": "idea-submit",
+        "timerValue": 118
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1435365",
+                "token": "top"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q28935403",
+                "token": "costume component"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q52948",
+                "token": "interaction"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q24060765",
+                "token": "animal organ"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1383944",
+                "token": "excrement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2996394",
+                "token": "biological process"
+              }
+            ],
+            "description": "You can have an athletic shirt sleeve that gives you feedback on your heart rate, perspiration amounts, breathing rate, etc.",
+            "id": 133
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q12269769",
+                "token": "major appliance"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1921606",
+                "token": "keyboard"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1310239",
+                "token": "component"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              }
+            ],
+            "description": "refrigerator door could have keyboard for adding items to a grocery list",
+            "id": 336
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q752870",
+                "token": "motor vehicle"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q268378",
+                "token": "labour"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1914636",
+                "token": "activity"
+              }
+            ],
+            "description": "Use it on a car to make an easily changeable paint job",
+            "id": 53
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 115
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11386",
+                "token": "electromagnetic wave"
+              }
+            ],
+            "description": "A door handle that turns on your lights when you open the door at night. ",
+            "id": 126
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4936952",
+                "token": "anatomical structure"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17538258",
+                "token": "recreative work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q173799",
+                "token": "entertainment"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q747883",
+                "token": "physical activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14536140",
+                "token": "exertion"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q29051769",
+                "token": "exercise"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q56037271",
+                "token": "health-enhancing physical activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4303335",
+                "token": "program"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17537576",
+                "token": "creative work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17638537",
+                "token": "routine"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q336",
+                "token": "science"
+              }
+            ],
+            "description": "This could be applied to a floor. This would allow certain types of apps that could be operated with one's foot. Games, exercise programs, and things of that nature could be applied. ",
+            "id": 348
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q747883",
+                "token": "physical activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1914636",
+                "token": "activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q641226",
+                "token": "arena"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1076486",
+                "token": "sports venue"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q904206",
+                "token": "Dermatoglyphics"
+              }
+            ],
+            "description": "Turn the entrances of sports stadiums into fingerprint required areas.",
+            "id": 200
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 113
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q315630",
+                "token": "vivarium"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q56055115",
+                "token": "artificial animal shelter"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23497981",
+                "token": "layer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q181175",
+                "token": "scalar physical quantity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3387041",
+                "token": "intensive quantity"
+              }
+            ],
+            "description": "A fish tank with a coating on it that shows the touch display of the temperature so you can adjust it right on the tank.",
+            "id": 274
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q246672",
+                "token": "mathematical object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q937228",
+                "token": "property"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q6160",
+                "token": "vandalism"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17516",
+                "token": "street art"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q386724",
+                "token": "work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1792379",
+                "token": "art genre"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q177634",
+                "token": "community"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q486972",
+                "token": "human settlement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1385033",
+                "token": "exterior"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q811979",
+                "token": "architectural structure"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q811979",
+                "token": "architectural structure"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q170658",
+                "token": "creativity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q184872",
+                "token": "recreation"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1914636",
+                "token": "activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2018526",
+                "token": "the arts"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3249551",
+                "token": "process"
+              }
+            ],
+            "description": "To curb the amount of graffiti in cities, turn the facade of buildings into virtual art galleries.",
+            "id": 195
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q987767",
+                "token": "container"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q29169308",
+                "token": "bag"
+              }
+            ],
+            "description": "A touch display briefcase or backpack would be multifunctional.",
+            "id": 409
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 109
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14748",
+                "token": "table"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q121916",
+                "token": "writing implement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2578402",
+                "token": "hand tool"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2448108",
+                "token": "structural system"
+              }
+            ],
+            "description": "A kid's drawing board like on a wall so they can paint and play with it.",
+            "id": 153
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2448108",
+                "token": "structural system"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q43229",
+                "token": "organization"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2385804",
+                "token": "educational institution"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23757",
+                "token": "limestone"
+              }
+            ],
+            "description": "Put it on walls in schools to replace chalk boards and make learning more interactive.",
+            "id": 131
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q7857",
+                "token": "toilet"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q41176",
+                "token": "building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2448108",
+                "token": "structural system"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2024731",
+                "token": "plumbing fixture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1068715",
+                "token": "telecommunications network"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11862829",
+                "token": "academic discipline"
+              }
+            ],
+            "description": "A touch display in the restroom on the wall near the toilet so when you are using the toilet, you can browse the internet,",
+            "id": 62
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 102
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q180516",
+                "token": "room"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1751850",
+                "token": "optical instrument"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11024",
+                "token": "communication"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q20937557",
+                "token": "series"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1322005",
+                "token": "natural phenomenon"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q747883",
+                "token": "physical activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1914636",
+                "token": "activity"
+              }
+            ],
+            "description": "vanity or bathroom mirror that shows news, time, weather, sports",
+            "id": 8
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2024731",
+                "token": "plumbing fixture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16917685",
+                "token": "mobile computer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q40050",
+                "token": "drink"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q170494",
+                "token": "body"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q181175",
+                "token": "scalar physical quantity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3387041",
+                "token": "intensive quantity"
+              }
+            ],
+            "description": "Turn the handle in the shower into a tablet for water settings based on your body temperature.",
+            "id": 191
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1762457",
+                "token": "bedding"
+              }
+            ],
+            "description": "A touch display mattress that could control firmness.",
+            "id": 237
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 92
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q352222",
+                "token": "exercise equipment"
+              }
+            ],
+            "description": "Putting one on a treadmill so you can have something to do when exercising.",
+            "id": 156
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3947",
+                "token": "house"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q41176",
+                "token": "building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q811430",
+                "token": "construction"
+              }
+            ],
+            "description": "You could use it on all the windows in your home making every window in your home have a different scenery ",
+            "id": 41
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q47146",
+                "token": "user interface"
+              }
+            ],
+            "description": "I feel like it would be very useful to have all of you car buttons to be coated on to the dashboard.",
+            "id": 85
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 85
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2148077",
+                "token": "hemorrhage per rhexis"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2148077",
+                "token": "hemorrhage per rhexis"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q181175",
+                "token": "scalar physical quantity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3387041",
+                "token": "intensive quantity"
+              }
+            ],
+            "description": "a device where you can spray in side a car dashboard. the dashboard then tells you the mph you are going and other car related information such as temperature\n",
+            "id": 286
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2024731",
+                "token": "plumbing fixture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q40050",
+                "token": "drink"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11271324",
+                "token": "energy transformation"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q735",
+                "token": "art"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11461",
+                "token": "sound"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q173799",
+                "token": "entertainment"
+              }
+            ],
+            "description": "A touch display shower door, where one could turn on and adjust the water, change lighting, and even control music.",
+            "id": 229
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q207628",
+                "token": "musical composition"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q7725634",
+                "token": "literary work"
+              }
+            ],
+            "description": "On the steering wheel face, for things like song changing, gps",
+            "id": 219
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 79
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1751850",
+                "token": "optical instrument"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q7184903",
+                "token": "abstract object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q20937557",
+                "token": "series"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q573",
+                "token": "day"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1322005",
+                "token": "natural phenomenon"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q58778",
+                "token": "system"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q130788",
+                "token": "chronology"
+              }
+            ],
+            "description": "A mirror that can display information like time, date, weather, and calendar events while still showing your reflection.",
+            "id": 296
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q27077054",
+                "token": "catering company"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q655686",
+                "token": "commercial building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4830453",
+                "token": "business"
+              }
+            ],
+            "description": "A touch screen restaurant where you can order without having to interact with workers.",
+            "id": 71
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11386",
+                "token": "electromagnetic wave"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q12269769",
+                "token": "major appliance"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q223557",
+                "token": "physical object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q837718",
+                "token": "energy storage"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              }
+            ],
+            "description": "A microwave or fridge that will make what ever food you want by simply touching it.",
+            "id": 204
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 74
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q121916",
+                "token": "writing implement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q47461344",
+                "token": "written work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q340169",
+                "token": "communication medium"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1166770",
+                "token": "depiction"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              }
+            ],
+            "description": "Can turn a blackboard or a map into touch objects controlling them.",
+            "id": 159
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q874405",
+                "token": "social group"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16334295",
+                "token": "group of humans"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q747883",
+                "token": "physical activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14536140",
+                "token": "exertion"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q29051769",
+                "token": "exercise"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q56037271",
+                "token": "health-enhancing physical activity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q327065",
+                "token": "display device"
+              }
+            ],
+            "description": "You can people turn the floor in your workout spot into a display that foresees all the activities you are doing and calculate calories.",
+            "id": 220
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14745",
+                "token": "furniture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q655686",
+                "token": "commercial building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4830453",
+                "token": "business"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q27077054",
+                "token": "catering company"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q223557",
+                "token": "physical object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q837718",
+                "token": "energy storage"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              }
+            ],
+            "description": "Touch screen tables in a restaurant where you can order your food and pay.",
+            "id": 287
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 63
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11019",
+                "token": "machine"
+              }
+            ],
+            "description": "Toilet paper dispenser can have a touch screen alerting a robot to bring you more if the dispenser is empty. ",
+            "id": 76
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23497981",
+                "token": "layer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q180516",
+                "token": "room"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2448108",
+                "token": "structural system"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q40050",
+                "token": "drink"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q181175",
+                "token": "scalar physical quantity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3387041",
+                "token": "intensive quantity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q735",
+                "token": "art"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11461",
+                "token": "sound"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q173799",
+                "token": "entertainment"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1076968",
+                "token": "digital media"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11024",
+                "token": "communication"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q571",
+                "token": "book"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2431196",
+                "token": "audiovisual work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4650799",
+                "token": "audio signal"
+              }
+            ],
+            "description": "Spray the coating on the bathroom wall to adjust the water temperature and water pressure and to put music, podcast, news, or audiobooks to listen while you shower.",
+            "id": 207
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q121916",
+                "token": "writing implement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q47461344",
+                "token": "written work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q340169",
+                "token": "communication medium"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1166770",
+                "token": "depiction"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              }
+            ],
+            "description": "Can turn a blackboard or a map into touch objects controlling them.",
+            "id": 159
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 59
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2741056",
+                "token": "cabinet"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q35120",
+                "token": "entity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q386724",
+                "token": "work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              }
+            ],
+            "description": "Wardrobe that tells you how much space is left inside after putting in clothes.",
+            "id": 322
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23497981",
+                "token": "layer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14748",
+                "token": "table"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q250",
+                "token": "computer keyboard"
+              }
+            ],
+            "description": "You could use the coating to put on your desk and use that instead of a keyboard.",
+            "id": 86
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1063801",
+                "token": "tertiary source"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q6006020",
+                "token": "educational material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q20540385",
+                "token": "non-fiction book"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              }
+            ],
+            "description": "School books with a touchscreen built in, for notes and homework. ",
+            "id": 16
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 44
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1057179",
+                "token": "user guide"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2145290",
+                "token": "mental representation"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q151885",
+                "token": "concept"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q6460735",
+                "token": "meal"
+              }
+            ],
+            "description": "A touchscreen on my cabinet. I could use it to pull up recipes or search for ideas for dinner.",
+            "id": 109
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14745",
+                "token": "furniture"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q27077054",
+                "token": "catering company"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q655686",
+                "token": "commercial building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4830453",
+                "token": "business"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q223557",
+                "token": "physical object"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q837718",
+                "token": "energy storage"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              }
+            ],
+            "description": "Touch screen tables in a restaurant where you can order your food and pay.",
+            "id": 287
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14748",
+                "token": "table"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23497981",
+                "token": "layer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16338",
+                "token": "personal computer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1921606",
+                "token": "keyboard"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1310239",
+                "token": "component"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              }
+            ],
+            "description": "A desk with a coating on top with turns the desktop into a keyboard touch display.",
+            "id": 273
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 39
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q778637",
+                "token": "output device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q14748",
+                "token": "table"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q184824",
+                "token": "pointing device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q250",
+                "token": "computer keyboard"
+              }
+            ],
+            "description": "Touch display on a desk so the mouse and keyboard would be directly on the desk. ",
+            "id": 101
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q121916",
+                "token": "writing implement"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q47461344",
+                "token": "written work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q340169",
+                "token": "communication medium"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1166770",
+                "token": "depiction"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              }
+            ],
+            "description": "Can turn a blackboard or a map into touch objects controlling them.",
+            "id": 159
+          },
+          {
+            "superclasses": [],
+            "description": "A bathroom mirror would be great with a touch display, because as you're getting ready for work, you can catch up on the morning news or get a jumpstart on reading and returning emails.",
+            "id": 82
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 32
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q250",
+                "token": "computer keyboard"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1921606",
+                "token": "keyboard"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q864114",
+                "token": "input device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1310239",
+                "token": "component"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1348085",
+                "token": "human interface device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17781690",
+                "token": "anatomical region"
+              }
+            ],
+            "description": "an expandable keyboard so i can adjust the spacing of the keys to fit my own hands",
+            "id": 171
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q386724",
+                "token": "work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              }
+            ],
+            "description": "You could make clothing that can react to touch.",
+            "id": 141
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3962",
+                "token": "laptop"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1067263",
+                "token": "information appliance"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16917685",
+                "token": "mobile computer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q17517",
+                "token": "mobile phone"
+              }
+            ],
+            "description": "I have a new idea about designing a foldable smartphone with qled display and infinity edge to edge screen",
+            "id": 423
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 30
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q62687",
+                "token": "forestry agency"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q180516",
+                "token": "room"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q34583",
+                "token": "digit"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q213441",
+                "token": "shop"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4830453",
+                "token": "business"
+              }
+            ],
+            "description": "you could have a section of the countertop in the kitchen where you could just use your finger to write a grocery list\n",
+            "id": 290
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11500",
+                "token": "area"
+              }
+            ],
+            "description": "A white board that can be reset with a touch right off the surface.",
+            "id": 155
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q570",
+                "token": "loudspeaker"
+              }
+            ],
+            "description": "Touch displays can be added to the side of headphones in order to get more fine tuned selection of options as opposed to either physical buttons or being forced to use the host device. ",
+            "id": 374
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 28
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q340169",
+                "token": "communication medium"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1002697",
+                "token": "periodical literature"
+              }
+            ],
+            "description": "Use it on magazines to make article information clickable.",
+            "id": 380
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q15078788",
+                "token": "broadcasting"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16354711",
+                "token": "perception set"
+              }
+            ],
+            "description": "A television that can change channels by using touch display",
+            "id": 362
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11755880",
+                "token": "residential building"
+              }
+            ],
+            "description": "Put is on a turtle and be able to have it clean the house",
+            "id": 106
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 23
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q386724",
+                "token": "work"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              }
+            ],
+            "description": "You could make clothing that can react to touch.",
+            "id": 141
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q180516",
+                "token": "room"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1057179",
+                "token": "user guide"
+              }
+            ],
+            "description": "A kitchen counter that could display cooking recipes. You could flip through pages etc and add recipes of your own\n",
+            "id": 283
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q315630",
+                "token": "vivarium"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q56055115",
+                "token": "artificial animal shelter"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q214609",
+                "token": "material"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q23497981",
+                "token": "layer"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q181175",
+                "token": "scalar physical quantity"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q3387041",
+                "token": "intensive quantity"
+              }
+            ],
+            "description": "A fish tank with a coating on it that shows the touch display of the temperature so you can adjust it right on the tank.",
+            "id": 274
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 13
+      },
+      {
+        "ideas": [
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q62687",
+                "token": "forestry agency"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2424752",
+                "token": "product"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q180516",
+                "token": "room"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q34583",
+                "token": "digit"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q213441",
+                "token": "shop"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q4830453",
+                "token": "business"
+              }
+            ],
+            "description": "you could have a section of the countertop in the kitchen where you could just use your finger to write a grocery list\n",
+            "id": 295
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q391414",
+                "token": "architectural element"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q1183543",
+                "token": "device"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q517596",
+                "token": "mechanism"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q11755880",
+                "token": "residential building"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q2741056",
+                "token": "cabinet"
+              }
+            ],
+            "description": "A out of the box door lock system along with inside the house locker system can be done with great uses for sure",
+            "id": 375
+          },
+          {
+            "superclasses": [
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16798631",
+                "token": "equipment"
+              },
+              {
+                "uri": "https://www.wikidata.org/wiki/Q16334295",
+                "token": "group of humans"
+              }
+            ],
+            "description": "Great theatrical costume. You can even interact with the audience.",
+            "id": 386
+          }
+        ],
+        "type": "inspiration",
+        "timerValue": 7
+      }
+    ]
+  }
+] 

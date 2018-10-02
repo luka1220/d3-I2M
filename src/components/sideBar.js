@@ -11,7 +11,7 @@ export function SideBar(props){
 							height:height}
 			return (
 				<div key={i} className="conzeptLabel" style={labStyle}>
-					<div className="float-left">{label}</div>
+					<div className="float-left">{conzept[1].token}</div>
 					<div className="float-right">{conzept[1].frequency}</div>
 				</div>
 				)

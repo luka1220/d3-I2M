@@ -15,9 +15,9 @@ g:hover > circle {
 #sidebarH6 {
 	font: bold 30px Georgia, Times, serif; 
 	background-color: green;  
-	height: 60px; 
-	margin-top: 15px;
-	margin-bottom: 20px;
+	height: 40px; 
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 .visContainer {

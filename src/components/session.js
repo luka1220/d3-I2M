@@ -5,6 +5,7 @@ import CHI19S1_ideas from '../CHI19S1-ideas.json';
 import CHI19S2_ideas from '../CHI19S2-ideas.json';
 import CHI19S3_ideas from '../CHI19S3-ideas.json';
 import Session_Data from "../session-data-37M28K1J0RKP5PMSMANDKTWN2G2AJM.json";
+import SessionData_withSuperClasses from "../session-data-37M28K1J0RKP5PMSMANDKTWN2G2AJM-superclasses.json"
 
 import "../css/graph.css";
 import { uniqueUnion } from '../utils/unique'; 
@@ -13,10 +14,10 @@ import { SideBar } from './sideBar'
 import { Axes } from './axes'
 
 var colorDictionary = new Map(); 
-
 const DATA_Array = [CHI19S1_ideas, CHI19S2_ideas, CHI19S3_ideas]
+const nodeSpace = parseInt(window.innerWidth/50, 10); 
+const startP = parseInt(window.innerWidth/6+150, 10); 
 
-const nodeSpace = parseInt(window.innerWidth/20, 10); 
 
 class Session extends Component {
 
@@ -26,7 +27,7 @@ class Session extends Component {
 			JSON_DATA: CHI19S1_ideas,
 			data: null,
 			timerEndPoint: 0,
-			startPoint: {x:parseInt(300, 10), y:200},
+			startPoint: {x:parseInt(startP, 10), y:200},
 			nodeSpace: {x: nodeSpace, y:nodeSpace},
 			conzept: {uri: undefined},
 			windowWidth: "100%",
@@ -43,12 +44,13 @@ class Session extends Component {
 	componentDidMount() {
 		const {startPoint, nodeSpace} = this.state
 		var conzeptLabels, eventNodes, conzeptMap;
-		const events = Session_Data[0].events.sort((a,b)=>{return b.timerValue - a.timerValue  })
+		const events = SessionData_withSuperClasses[0].events.sort((a,b)=>{return b.timerValue - a.timerValue  })
 		
 		conzeptMap = this.conzeptDataMap(events)
 		var conzepts = [...conzeptMap.entries()]
-		conzepts = conzepts.sort((a,b)=>{return b[1]-a[1]})
+		conzepts = conzepts.sort((a,b)=>{return b[1].frequency-a[1].frequency})
 		conzeptMap = this.generateSortedMap(conzepts)
+
 
 		
 
@@ -63,24 +65,31 @@ class Session extends Component {
 
 	conzeptDataMap = (events) => {
 		var conzeptMap = new Map()
+		var uri, concepts 
 		events.forEach((event)=>{
 			if(event.type==="idea-submit"){
-				event.idea.validatedConcepts.forEach(conz=>{
-					var val = conzeptMap.get(conz.uri)
+				concepts = (event.idea.validatedConcepts)? "validatedConcepts" : "superclasses"
+				event.idea[concepts].forEach(conz=>{
+					uri = conz.uri
+					var val = conzeptMap.get(uri)
 					if(val){
-						conzeptMap.set(conz.uri, val+1)
+						val.frequency = val.frequency+1
+						conzeptMap.set(uri, val)
 					} else {
-						conzeptMap.set(conz.uri, 1)
+						conzeptMap.set(uri, {frequency:1, token: conz.token})
 					}
 				})
 			} else if(event.type==="inspiration"){
+				concepts = (event.ideas[0].conceptMentions)? "validatedConcepts" : "superclasses"
 				event.ideas.forEach(idea=>{
-					idea.conceptMentions.forEach(conz=>{
-						var val = conzeptMap.get(conz.selectedConceptURI)
+					idea[concepts].forEach(conz=>{
+						uri = (conz.selectedConceptURI)? conz.selectedConceptURI : conz.uri
+						var val = conzeptMap.get(uri)
 						if(val){
-							conzeptMap.set(conz.selectedConceptURI, val+1)
+							val.frequency = val.frequency+1
+							conzeptMap.set(uri, val)
 						} else {
-							conzeptMap.set(conz.selectedConceptURI, 1)
+							conzeptMap.set(uri, {frequency:1, token: conz.token})
 						}
 					})
 				})
@@ -106,30 +115,36 @@ class Session extends Component {
 			conzeptMap,
 			timerEndPoint
 			} = this.state; 
-		var conzeptNodes = []
+		var conzeptNodes = [],
+			concepts,
+			uri
 		events.forEach((event, i)=>{
 			var conzeptsOfEvent 
 			if(event.type==="idea-submit"){
-				conzeptsOfEvent = event.idea.validatedConcepts.map((conz, i)=>{
-					conz.position = conzeptMap.get(conz.uri).position
-					conz.color =  conzeptMap.get(conz.uri).color
-					conz.name = conz.uri.split("/").pop()
+				concepts = (event.idea.validatedConcepts)? "validatedConcepts" : "superclasses"
+				conzeptsOfEvent = event.idea[concepts].map((conz, i)=>{
+					uri = conz.uri
+					conz.position = conzeptMap.get(uri).position
+					conz.color =  conzeptMap.get(uri).color
+					conz.name = uri.split("/").pop()
 					return conz
 				}).sort((a,b)=>{return a.position-b.position})
 			} else if(event.type==="inspiration") {
+				concepts = (event.ideas[0].conceptMentions)? "validatedConcepts" : "superclasses"
 				var conzepts = []
-				event.ideas.forEach(idea=>{conzepts = uniqueUnion(conzepts,idea.conceptMentions)})
+				event.ideas.forEach(idea=>{conzepts = uniqueUnion(conzepts,idea[concepts])})
 				conzeptsOfEvent = conzepts.map((conz, i)=>{
-					conz.position = conzeptMap.get(conz.selectedConceptURI).position
-					conz.color =  conzeptMap.get(conz.selectedConceptURI).color
-					conz.name = conz.selectedConceptURI.split("/").pop()
+					uri = (conz.selectedConceptURI)? conz.selectedConceptURI : conz.uri
+					conz.position = conzeptMap.get(uri).position
+					conz.color =  conzeptMap.get(uri).color
+					conz.name = uri.split("/").pop()
 					return conz
 				}).sort((a,b)=>{return a.position-b.position})
 			}
 			var nodes = conzeptsOfEvent.map((conz,j)=>{
 					conz.x = startPoint.x + (timerEndPoint - event.timerValue*3)
-					conz.y = startPoint.y + nodeSpace.y + (conz.position*nodeSpace.y/2)
-					return <ConzeptNode key={conz.x+"-"+conz.y} node={conz} width={nodeSpace.x/2}/>
+					conz.y = startPoint.y + nodeSpace.y + (conz.position*nodeSpace.y)
+					return <ConzeptNode key={conz.x+"-"+conz.y} node={conz} width={nodeSpace.x}/>
 				})
 			conzeptNodes = conzeptNodes.concat(nodes)
 		})
@@ -156,7 +171,7 @@ class Session extends Component {
 	generateSortedMap(conzepts){
 		var conzeptMap = new Map()
 		conzepts.forEach((entrie, i)=>{
-			conzeptMap.set(entrie[0], {frequency: entrie[1], position: i, color: this.getColorFromDic(entrie[0])})
+			conzeptMap.set(entrie[0], {token: entrie[1].token ,frequency: entrie[1].frequency, position: i, color: this.getColorFromDic(entrie[0])})
 		})
 		return conzeptMap;
 	}
@@ -200,7 +215,7 @@ class Session extends Component {
       		<div className="">
       			<div className="row ">
       				<div className="col-2 sidebar">
-	      				<SideBar conzepts={conzeptLabels} height={nodeSpace.y/2} />
+	      				<SideBar conzepts={conzeptLabels} height={nodeSpace.y} />
 	      			</div>
 	      			<div className="col-12 visContainer">
 		      			<svg ref={node => this.node = node}
